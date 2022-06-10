@@ -1,45 +1,47 @@
-<script lang="ts">
-	import Header from '$lib/header/Header.svelte';
+<script>
 	import '../app.css';
 </script>
-
-<Header />
 
 <main>
 	<slot />
 </main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+<footer class="container has-text-grey is-size-7 mt-6">
+	Looking for my <a href="http://vis4.net/">rarely updated blog</a>?
 </footer>
 
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+<style lang="scss">
+	// Set your brand colors
+	$purple: #8a4d76;
+	$pink: #fa7c91;
+	$brown: #757763;
+	$beige-light: #d0d1cd;
+	$beige-lighter: #eff0eb;
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
+	$family-sans-serif: 'Roboto', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
-	footer a {
-		font-weight: bold;
-	}
+	$size-6: 0.8rem;
+	$title-weight: 300;
 
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
+	$link: #222;
+
+	:global {
+		// Import only what you need from Bulma
+		@import '../node_modules/bulma/sass/utilities/_all.sass';
+		@import '../node_modules/bulma/sass/base/_all.sass';
+		@import '../node_modules/bulma/sass/helpers/_all.sass';
+		@import '../node_modules/bulma/sass/grid/columns.sass';
+		@import '../node_modules/bulma/sass/elements/box.sass';
+		@import '../node_modules/bulma/sass/elements/container.sass';
+		@import '../node_modules/bulma/sass/elements/icon.sass';
+		@import '../node_modules/bulma/sass/elements/title.sass';
+		@import '../node_modules/bulma/sass/elements/image.sass';
+		@import '../node_modules/bulma/sass/elements/other.sass';
+		@import '../node_modules/bulma/sass/components/card.sass';
+		// @import "../node_modules/bulma/sass/form/_all.sass";
+		// @import "../node_modules/bulma/sass/components/navbar.sass";
+		// @import "../node_modules/bulma/sass/layout/hero.sass";
+		@import '../node_modules/bulma/sass/layout/section.sass';
 	}
 </style>
