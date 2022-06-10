@@ -3,12 +3,35 @@
 
 	export let title = '';
 	export let link = '';
+	export let summary = '';
+	export let image = '';
 	export let images = [];
 </script>
 
 <svelte:head>
 	<title>{title} - driven-by-data</title>
+	<link rel="icon" href="/images/{image}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@driven_by_daya" />
+	<meta name="twitter:title" content="{title} - driven-by-da" />
+	<meta name="twitter:description" content="{summary}" />
+	<meta name="twitter:image" content="https://driven-by-data.net/images/{images[0]}" />
 </svelte:head>
+
+
+<section class="section pb-2">
+	<div class="container">
+		<div class="columns">
+			
+				<div class="column">
+					<p class="subtitle has-text-grey is-5 mt-1">
+			<a class="has-text-weight-normal has-text-grey-light" href="/">driven-by-data.net</a>
+		</p></div>
+		</div>
+		
+		
+	</div>
+</section>
 
 <section class="section">
 	<div class="container">

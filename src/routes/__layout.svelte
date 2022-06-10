@@ -6,11 +6,13 @@
 	<slot />
 </main>
 
-<footer class="container has-text-grey is-size-7 mt-6">
-	Looking for my <a href="http://vis4.net/">rarely updated blog</a>?
+<footer class="container has-text-grey is-size-7 mt-6 mb-4">
+	Graphics portfolio of Gregor Aisch.
+	Looking for my <a class="has-text-grey" href="http://vis4.net/">rarely updated blog</a>?
 </footer>
 
 <style lang="scss">
+	a { font-weight: bold;}
 	// Set your brand colors
 	$purple: #8a4d76;
 	$pink: #fa7c91;

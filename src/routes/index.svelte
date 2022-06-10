@@ -27,6 +27,8 @@
 			date: string;
 			title: string;
 			image: string;
+			summary: string;
+			images: string[];
 			_with: string;
 			tags: string[];
 		};
@@ -69,6 +71,12 @@
 		name="description"
 		content="Graphics portfolio of Gregor Aisch, a former graphics editor at The New York Times, now Co-Founder/CTO at Datawrapper. Lives and works in Berlin, Germany."
 	/>
+	<link rel="icon" href="/images/{posts[0].meta.image}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@driven_by_daya" />
+	<meta name="twitter:title" content="driven-by-da" />
+	<meta name="twitter:description" content="Graphics portfolio of Gregor Aisch, a former graphics editor at The New York Times, now Co-Founder/CTO at Datawrapper." />
+	<meta name="twitter:image" content="https://driven-by-data.net/images/streetnames-big2.png" />
 </svelte:head>
 
 <section class="section">
