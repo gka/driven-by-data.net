@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon, { addIcon } from '@iconify/svelte/dist/OfflineIcon.svelte';
 
-	import chevUp from '@iconify-icons/mdi/chevron-up';
+	import chevUp from '@iconify-icons/mdi/chevron-up.js';
 	addIcon('chevron-up', chevUp);
 
 	export let icon: string;

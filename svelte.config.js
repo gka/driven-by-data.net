@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 
@@ -21,10 +21,18 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+		trailingSlash: 'never',
 
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
+		},
+		prerender: {
+			default: true,
+			onError: ({ status, path, referrer, referenceType }) => {
+				// if (path.startsWith('/blog')) throw new Error('Missing a blog page!');
+				console.warn(`${status} ${path}${referrer ? ` (${referenceType} from ${referrer})` : ''}`);
+			}
 		}
 	},
 

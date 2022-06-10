@@ -9,7 +9,7 @@
 
 <a href={path}>
 	<figure class="image is-square">
-		<img src="images/{meta.image}" alt={meta.title} />
+		<img src="/images/{meta.image}" alt={meta.title} />
 	</figure>
 
 	<div class="description mt-2">

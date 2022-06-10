@@ -19,7 +19,7 @@
 
 <script lang="ts">
 	import PostPreview from '$lib/PostPreview.svelte';
-	import { groupBy, uniq } from 'lodash';
+	import { groupBy, uniq } from 'underscore';
 
 	interface Post {
 		path: string;

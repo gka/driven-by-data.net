@@ -16,7 +16,7 @@ export const get = async () => {
 						.map((d: string) => d.trim())
 						.filter((d: string) => d)
 				},
-				path: postPath
+				path: postPath+'.html'
 			};
 		})
 	);
