@@ -149,6 +149,9 @@
 
 		&.active {
 			color: black !important;
+			@media (prefers-color-scheme: dark) { 
+				color: #fff !important;
+			}
 		}
 	}
 

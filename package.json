@@ -43,6 +43,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"bulma": "^0.9.4",
+		"bulma-prefers-dark": "0.1.0-beta.1",
 		"cookie": "^0.4.1",
 		"mdsvex": "^0.10.6",
 		"sass": "^1.52.3",

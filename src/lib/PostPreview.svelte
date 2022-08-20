@@ -13,7 +13,7 @@
 	</figure>
 
 	<div class="description mt-2">
-		<span class="is-size-6 has-text-black has-text-weight-bold"
+		<span class="is-size-6 has-text-weight-bold"
 			>{@html (meta.title || '').replaceAll('<br />', '')}</span
 		>
 		<span class="is-size-7 has-text-grey"

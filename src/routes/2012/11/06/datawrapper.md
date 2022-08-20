@@ -12,6 +12,8 @@ images:
 _with: Mirko Lorenz and Nicolas Kayser-Bril
 ---
 
-Datawrapper is a tool that lets users create charts and maps.
+Datawrapper is a tool that lets users create charts and maps they can embed into other websites. 
 
-I started working on Datawrapper in summer 2012. At that time, Nicolas Kayser-Bril and Mirko Lorenz had finished and launched a first public beta, and my task was to.
+I started working on Datawrapper in summer 2012. At that time, [Nicolas Kayser-Bril](https://blog.nkb.fr/) and [Mirko Lorenz](http://mirkolorenz.com/) had launched a first public beta, and my task was to build the version 1.0.
+
+One of my decisions at the time was to replace the [third-party charting library](https://www.highcharts.com/) we had used in the beta with hand-crafted visualization templates written in [Raphaël.js](https://github.com/DmitryBaranovskiy/raphael). This allowed me to divert from the "standard" look and feel of the typical off-the-shelv charts and build [best-practices into rendering code](https://www.vis4.net/blog/2012/06/doing-the-line-charts-right/).

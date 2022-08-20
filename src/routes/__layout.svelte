@@ -28,6 +28,8 @@
 
 	$link: #222;
 
+	
+
 	:global {
 		// Import only what you need from Bulma
 		@import '../node_modules/bulma/sass/utilities/_all.sass';
@@ -45,5 +47,13 @@
 		// @import "../node_modules/bulma/sass/components/navbar.sass";
 		// @import "../node_modules/bulma/sass/layout/hero.sass";
 		@import '../node_modules/bulma/sass/layout/section.sass';
+		@import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass";
+
+		a, b {
+			color: black !important;
+			@media (prefers-color-scheme: dark) { 
+				color: #f8f8f8 !important;
+			}
+		}
 	}
 </style>
