@@ -41,7 +41,7 @@
 					<Icon icon="chevron-up" height={36} />
 				</a>
 				<h3 class="title is-3">{title}</h3>
-				<div class="block">
+				<div class="block content">
 					<slot />
 				</div>
 

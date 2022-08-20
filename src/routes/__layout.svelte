@@ -55,5 +55,9 @@
 				color: #f8f8f8 !important;
 			}
 		}
+
+		.content p {
+			margin-bottom: 1em;
+		}
 	}
 </style>
