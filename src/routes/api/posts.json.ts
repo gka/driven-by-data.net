@@ -14,9 +14,10 @@ export const get = async () => {
 					tags: (metadata?.tags || '')
 						.split(',')
 						.map((d: string) => d.trim())
-						.filter((d: string) => d)
+						.filter((d: string) => d),
+					bylines: metadata._with
 				},
-				path: postPath+'.html'
+				path: postPath + '.html'
 			};
 		})
 	);

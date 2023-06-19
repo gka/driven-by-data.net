@@ -4,6 +4,7 @@
 	export let title = '';
 	export let link = '';
 	export let summary = '';
+	export let _with = '';
 	export let image = '';
 	export let images = [];
 </script>
@@ -44,6 +45,12 @@
 				<div class="block content">
 					<slot />
 				</div>
+
+				{#if _with}
+					<div class="block">
+						In collaboration with {@html _with}.
+					</div>
+				{/if}
 
 				{#if link}
 					<div class="block">

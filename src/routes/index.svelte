@@ -20,6 +20,7 @@
 <script lang="ts">
 	import PostPreview from '$lib/PostPreview.svelte';
 	import { groupBy, uniq } from 'underscore';
+	import { onMount } from 'svelte';
 
 	interface Post {
 		path: string;
@@ -60,9 +61,28 @@
 		'breaking news',
 		'business',
 		'crime/justice',
-		'code',
 		'sketches'
 	];
+
+	let mounted = false;
+	onMount(() => {
+		if (window.location.hash) {
+			tags.forEach(tag => {
+				if (tagToHash(tag) === window.location.hash) activeTag = tag;
+			});
+		}
+		mounted = true;
+	});
+
+	function tagToHash(tag:string) {
+		return `#/tag/${tag.replace(/\W+/g, '-')}`
+	}
+
+	$: {
+		if (mounted) {
+			window.location.hash = activeTag ? tagToHash(activeTag) : '';
+		}
+	}
 </script>
 
 <svelte:head>
@@ -84,9 +104,9 @@
 	<div class="container">
 		<h1 class="title is-1 mb-5">driven by data</h1>
 		<p class="subtitle is-5 mt-1">
-			Graphics portfolio of <b>Gregor Aisch</b>, a former graphics editor at
+			Portfolio of <b>Gregor Aisch</b>, a former graphics editor at
 			<b>The New York Times</b>
-			(2014-2017), now Co-Founder/CTO at <b>Datawrapper</b>. Lives and works in Berlin, Germany.
+			(2014-2017) and co-founder of <b>Datawrapper</b>. Lives and works in Berlin.
 		</p>
 		<div class="columns tagnav">
 			<div class="column is-3">
@@ -116,7 +136,7 @@
 						on:click|preventDefault={() => {
 							activeTag = tag;
 						}}
-						href="#{tag}">{tag}</a
+						href="#tag/{tag}">{tag}</a
 					>
 				{/each}
 			</div>
