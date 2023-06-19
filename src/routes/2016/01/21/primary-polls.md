@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2016/01/21/us/elections/iowa-new-hampsh
 image: primary-polls.png
 screenshot: primary-polls-1.png
 nytprint: January 24, 2016, on page A14
+publication: NYT
 images:
   - primary-polls-1.png
   - primary-polls-2.png

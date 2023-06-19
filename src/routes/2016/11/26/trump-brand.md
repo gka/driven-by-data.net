@@ -7,6 +7,7 @@ images:
   - trump-brand-1.png
 tags: international,us,politics
 classes:
+publication: NYT
 _with: Karen Yourish & K.K. Lai
 ---
 

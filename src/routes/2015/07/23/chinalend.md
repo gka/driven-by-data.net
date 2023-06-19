@@ -6,6 +6,7 @@ image: chinalend.png
 screenshot: chinalend-big.png
 classes: border shadow
 _with: <a href="http://joshmkeller.com/">Josh Keller</a> and <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
+publication: NYT
 tags: map, scrollytelling, interactive, economy, politics, environment, foreign
 images:
   - chinalend-1.png

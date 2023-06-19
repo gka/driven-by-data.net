@@ -6,6 +6,7 @@ image: reaction-time.png
 images:
   - reaction-time-1.png
 tags: sports
+publication: NYT
 classes:
 _with: <a href="http://larrybuch.com">Larry Buchanan</a> and Derek Watkins
 ---

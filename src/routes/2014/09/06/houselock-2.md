@@ -6,4 +6,5 @@ image: houselock-map.png
 screenshot: houselock-bigmap.png
 _with: Nate Cohn & Bill Marsh
 tags: elections,politics
+publication: NYT
 ---

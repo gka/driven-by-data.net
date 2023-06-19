@@ -6,6 +6,7 @@ image: mobility.png
 screenshot: mobility-big.png
 _with: <a href="https://twitter.com/amandacox">A. Cox</a>, <a href="http://kpq.github.io">K. Quealy</a>, <a href="http://maps.grammata.com/">M. Bloch</a> & <a href="https://twitter.com/ericbuth">E. Buth</a>
 tags: map, economy
+publication: NYT
 images:
   - mobility-1.png
   - mobility-2.png

@@ -10,6 +10,7 @@ images:
   - gop-dashboard-5.png
 screenshot: gop-dashboard-big.png
 classes:
+publication: NYT
 _with: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="http://thescoop.org/">Derek Willis</a> & David Leonhardt
 tags: interactive, elections, politics
 ---

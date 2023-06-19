@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2016/04/24/us/elections/trump-gop-deleg
 image: dem-delegates.png
 images:
   - dem-delegates-big.png
+publication: NYT
 tags: chart,politics,elections,d3
 _with: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://kkrebeccalai.com/">K.K. Lai</a>
 ---

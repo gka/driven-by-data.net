@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2016/02/15/us/supreme-court-nominations
 image: scotus-vacancies.png
 nytprint: February 16, 2016, on page A3
 screenshot: scotus-vacancies-1.png
+publication: NYT
 images:
   - scotus-vacancies-1.png
   - scotus-vacancies-2.png

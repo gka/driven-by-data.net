@@ -6,6 +6,7 @@ image: attacks-on-refugees.png
 screenshot: attacks-on-refugees-big.png
 
 tags: map,crime/justice,foreign,international
+publication: NYT
 _with: <a href="http://timwallace.net/">Tim Wallace</a>
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: What North Dakota Would Look Like if Its Oil Drilling Lines Were Aboveground
 link: http://www.nytimes.com/interactive/2014/11/24/upshot/nd-oil-well-illustration.html
 image: nd-aboveground.png
+publication: NYT
 screenshot: nd-aboveground-big.png
 images:
  - nd-aboveground-big.png

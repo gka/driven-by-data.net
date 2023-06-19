@@ -2,7 +2,7 @@
 	import dayjs from 'dayjs';
 
 	export let path: string;
-	export let meta: { title: string; image: string; date: string; _with: string; tags: string[] };
+	export let meta: { title: string; image: string; date: string; _with: string; tags: string[], publication?:string };
 
 	const format = (d: string) => dayjs(new Date(d)).format('MMM YYYY');
 </script>
@@ -17,7 +17,7 @@
 			>{@html (meta.title || '').replaceAll('<br />', '')}</span
 		>
 		<span class="is-size-7 has-text-grey"
-			>{#if meta._with}with {@html meta._with}, {/if}{format(meta.date)}</span
+			>{#if meta._with}with {@html meta._with}, {/if}{format(meta.date)}{#if meta.publication}&nbsp;[{meta.publication}]{/if}</span
 		>
 	</div>
 </a>

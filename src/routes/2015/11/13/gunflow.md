@@ -9,6 +9,7 @@ images:
   - gunflow-big.png
   - gunflow-2.png
   - gunflow-hp.png
+publication: NYT
 tags: map, edge bundling, guns, business, crime/justice, d3, ai2html
 _with: <a href="http://joshmkeller.com/">Josh Keller</a>
 ---

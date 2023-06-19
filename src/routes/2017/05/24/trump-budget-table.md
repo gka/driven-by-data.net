@@ -7,5 +7,6 @@ images:
   - trump-budget-big.png
 tags: us,politics
 classes:
+publication: NYT
 _with: Alicia Parlapiano
 ---

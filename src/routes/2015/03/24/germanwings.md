@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2015/03/24/world/europe/germanwings-pla
 image: germanwings.png
 screenshot: germanwings-big.png
 _with: <a href="http://joshmkeller.com/">J. Keller</a>, <a href="https://twitter.com/kkrebeccalai">KK Lai</a> & <a href="http://cargocollective.com/timwallace">T. Wallace</a>
+publication: NYT
 tags: breaking news, breaking
 ---
 

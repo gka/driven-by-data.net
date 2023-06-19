@@ -6,5 +6,6 @@ image: wc-hosts.png
 screenshot: wc-hosts-big.png
 _with:
 justgraphics: true
+publication: NYT
 tags: sports,soccer,static
 ---

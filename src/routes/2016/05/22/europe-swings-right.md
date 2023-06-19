@@ -9,6 +9,7 @@ images:
   - eu-swings-right-print.jpg
 tags: politics,elections,europe,right-wing,international
 classes:
+publication: NYT
 nytprint: May 24, 2016, on page A8
 _with: <a href="http://roadtolarissa.com/">Adam Pearce</a> & Bryant Rousseau
 ---

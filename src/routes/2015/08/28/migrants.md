@@ -8,6 +8,7 @@ images:
   - migrants-big.png
   - migrants-big-2.png
 classes:
+publication: NYT
 _with: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/haeyoun">Heayoun Park</a>
 tags: interactive, migration, refugee, foreign, europe
 ---

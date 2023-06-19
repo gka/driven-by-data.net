@@ -8,6 +8,7 @@ images:
 tags: elections, politics
 classes:
 _with: Josh Katz
+publication: NYT
 ---
 
 51 state pages showing Josh Katz's forecasts for the 2016 Presidential Election and the Senate Election.

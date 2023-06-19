@@ -6,6 +6,7 @@ image: approval-ratings.png
 images:
   - approval-ratings-big.png
 tags: elections
+publication: Datawrapper
 classes:
 ---
 

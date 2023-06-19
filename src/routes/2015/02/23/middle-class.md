@@ -7,6 +7,7 @@ image: middleclass.png
 screenshot: middleclass-big.png
 print: middleclass-print.png
 nytprint: February 23, 2015, on page A10
+publication: NYT
 tags: slopechart, static, small multiple, social, economy
 images:
   - middleclass-1.png

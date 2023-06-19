@@ -11,6 +11,7 @@ images:
   - migrant-scale-big.png
   - migrant-scale-archieml.png
 _with: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a>, <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
+publication: NYT
 tags: breaking news, migration, foreign, europe
 ---
 

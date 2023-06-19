@@ -6,5 +6,6 @@ image: pregnancies.png
 screenshot: pregnancies-full.png
 _with: Bill Marsh
 tags: static, small multiples, health
+publication: NYT
 ---
 

@@ -8,6 +8,7 @@ images:
   - dams-2.png
 tags: us
 published: false
+publication: NYT
 classes:
 _with: Larry Buchanan, Amanda Cox and Kevin Quealy
 ---

@@ -8,6 +8,7 @@ images:
   - dams-2.png
 tags: us,environment
 classes:
+publication: NYT
 _with: Troy Griggs and Sarah Almukhtar
 ---
 

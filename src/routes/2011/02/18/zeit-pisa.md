@@ -8,6 +8,7 @@ published: false
 tags: education
 link: http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php
 type: interactive
+publication: zon
 ---
 
 This interactive graphic shows the network of party donations in Germany. Every donation from individuals or companies over €50k is mapped as a line.

@@ -9,6 +9,7 @@ images:
   - how-britain-voted-3.png
 tags: europe,politics
 classes:
+publication: NYT
 _with: Matthew Bloch, Kenan Davis, Stephen Farrell, Troy Griggs, Rich Harris and Adam Pearce
 ---
 

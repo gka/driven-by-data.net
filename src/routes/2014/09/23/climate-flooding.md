@@ -6,4 +6,5 @@ image: climate-flooding.png
 screenshot: climate-flooding-big.png
 _with: <a href="http://kpq.github.io/">Kevin Quealy</a>
 tags: map,cartogram,environment,climate/weather
+publication: NYT
 ---

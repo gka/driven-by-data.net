@@ -9,6 +9,7 @@ images:
   - super-tuesday-delegates-hp.gif
   - super-tuesday-delegates-app.png
   - super-tuesday-delegates-print.jpg
+publication: NYT
 tags: chart,politics,elections,d3
 _with: <a href="http://dwtkns.com/portfolio/">D. Watkins</a>, <a href="http://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
 ---

@@ -19,7 +19,7 @@
 
 <script lang="ts">
 	import PostPreview from '$lib/PostPreview.svelte';
-	import { groupBy, uniq } from 'underscore';
+	import { groupBy, uniq, range } from 'underscore';
 	import { onMount } from 'svelte';
 
 	interface Post {
@@ -30,6 +30,7 @@
 			image: string;
 			summary: string;
 			images: string[];
+			publication?: string;
 			_with: string;
 			tags: string[];
 		};
@@ -38,17 +39,25 @@
 	export let posts: Post[];
 
 	let activeTag: string | null = null;
+	let activePublication: string | null = null;
 
 	$: filteredPosts = posts.filter((post) =>
 		typeof activeTag === 'string' ? post.meta.tags.includes(activeTag) : true
-	);
+	).filter((post) => typeof activePublication === 'string' ? 
+		activePublication === 'others' ? post.meta.publication && !publications.includes(post.meta.publication) :
+		post.meta.publication === activePublication : true);
 
-	$: allYears = uniq(posts.map((p) => p.meta.date.substring(0, 4))).slice(4);
+	$: allYears = [...range(2017, 2008, -1)];
 
 	$: groupedPosts =
-		typeof activeTag === 'string'
+		typeof activeTag === 'string' || typeof activePublication === 'string'
 			? [[activeTag, filteredPosts]]
-			: Object.entries(groupBy(filteredPosts, (d: Post) => { const year = +d.meta.date.substring(0, 4); if (year > 2017) return 'post 2018'; return String(year) })).reverse();
+			: Object.entries(groupBy(filteredPosts, (d: Post) => { 
+				const year = +d.meta.date.substring(0, 4); 
+				// if (year < 2010) return '2009-10';
+				if (year > 2017) return 'Since 2018'; 
+				return String(year) 
+			})).reverse();
 
 	const tags = [
 		'politics',
@@ -64,12 +73,18 @@
 		'sketches'
 	];
 
+	const publications = ['NYT', 'zon','WDR', 'taz', 'others'];
+	const nicePubNames = {NYT: 'New York Times', zon: 'ZEIT Online', DW: 'Deutsche Welle'}
+
 	let mounted = false;
 	onMount(() => {
 		if (window.location.hash) {
 			tags.forEach(tag => {
 				if (tagToHash(tag) === window.location.hash) activeTag = tag;
 			});
+			publications.forEach(pub => {
+				if (pubToHash(pub) === window.location.hash) activePublication = pub;
+			})
 		}
 		mounted = true;
 	});
@@ -77,10 +92,13 @@
 	function tagToHash(tag:string) {
 		return `#/tag/${tag.replace(/\W+/g, '-')}`
 	}
+	function pubToHash(pub:string) {
+		return `#/publication/${pub.toLowerCase().replace(/\W+/g, '-')}`
+	}
 
 	$: {
 		if (mounted) {
-			window.location.hash = activeTag ? tagToHash(activeTag) : '';
+			window.location.hash = activeTag ? tagToHash(activeTag) : activePublication ? pubToHash(activePublication) : '';
 		}
 	}
 </script>
@@ -109,18 +127,8 @@
 			(2014-2017) and co-founder of <b>Datawrapper</b>. Lives and works in Berlin.
 		</p>
 		<div class="columns tagnav">
-			<div class="column is-3">
-				{#each allYears.slice(1) as year}
-					<a
-						class="has-text-grey-light"
-						on:click={() => {
-							activeTag = null;
-						}}
-						href="#{year}">{year}</a
-					>
-				{/each}
-			</div>
-			<div class="column is-6">
+		
+			<div class="column is-4">
 				<a
 					class="has-text-grey-light"
 					class:active={activeTag === null}
@@ -135,8 +143,41 @@
 						class:active={activeTag === tag}
 						on:click|preventDefault={() => {
 							activeTag = tag;
+							activePublication = null;
 						}}
 						href="#tag/{tag}">{tag}</a
+					>
+				{/each}
+			</div>
+			<div class="column is-3">
+				<a
+					class="has-text-grey-light"
+					class:active={activePublication === null}
+					on:click|preventDefault={() => {
+						activePublication = null;
+					}}
+					href="#all">all publications</a>
+				{#each publications as pub}
+					<a
+						class="has-text-grey-light"
+						class:active={activePublication === pub}
+						on:click|preventDefault={() => {
+							activePublication = pub;
+							activeTag = null;
+						}}
+						href="#pub/{pub}">{nicePubNames[pub] ?? pub}</a
+					>
+				{/each}
+			</div>
+				<div class="column is-2">
+				{#each allYears as year,i}
+					<a
+						class="has-text-grey-light"
+						on:click={() => {
+							activeTag = null;
+							activePublication = null;
+						}}
+						href="#{String(year).toLowerCase().replace(/\W+/g, '-')}">{year}</a
 					>
 				{/each}
 			</div>
@@ -148,7 +189,7 @@
 	<section class="section">
 		<div class="container">
 			{#if i}
-				<h2 class="title is-3" id={year}>{year}</h2>
+				<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>{year}</h2>
 			{/if}
 			<div class="columns is-multiline is-variable is-8">
 				{#each posts as post}

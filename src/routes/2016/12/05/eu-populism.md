@@ -9,6 +9,7 @@ images:
   - europop-print.jpg
 tags: europe,international,politics
 classes:
+publication: NYT
 _with: Jeremy Ashkenas & Troy Griggs
 nytprint: Dec 6, 2016, on page A8
 ---

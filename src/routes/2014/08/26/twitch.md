@@ -6,6 +6,7 @@ image: twitch.png
 _with: Tom Giratikanon
 screenshot: twitch-big.png
 tags: entertainment,business,tv
+publication: NYT
 ---
 
 A few charts I made for Tom Giratikanon’s piece on Twitch.

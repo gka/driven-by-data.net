@@ -6,6 +6,7 @@ image: brexit-map.png
 images:
   - brexit-map-1.png
 tags: europe,politics,elections,britain,international
+publication: NYT
 classes:
 # nytprint: May 24, 2016, on page A8
 _with: <a href="http://roadtolarissa.com/">Adam Pearce</a> & Karl Russel

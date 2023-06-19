@@ -7,6 +7,7 @@ images:
   - pres-model-1.png
   - pres-model-2.png
 tags: us,politics,elections
+publication: NYT
 classes:
 _with: <a href="https://twitter.com/jshkatz">Josh Katz</a>, Amanda Cox, Josh Katz, Kevin Quealy, Mike Bostock and Shan Carter
 ---

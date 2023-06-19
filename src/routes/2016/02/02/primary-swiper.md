@@ -4,6 +4,7 @@ title: 'Explaining US Primary Election Results In Eight Swipes'
 link: http://www.nytimes.com/interactive/2016/02/02/us/iowa-results-analysis.html?smid=pl-share
 image: primary-swiper.png
 screenshot: primary-swiper-nh.png
+publication: NYT
 images:
   - primary-swiper-nh.png
   - primary-swiper-iowa.png

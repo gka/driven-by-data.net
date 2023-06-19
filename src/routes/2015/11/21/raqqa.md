@@ -9,6 +9,7 @@ images:
   - raqqa-big-2.jpg
   - raqqa-ai.png
 tags: map, interactive, stepper, terrorism, foreign, ai2html
+publication: NYT
 _with: <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>, <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a>, <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/giratikanon">Tom Giratikanon</a>
 ---
 

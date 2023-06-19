@@ -10,6 +10,7 @@ images:
   - bundeskabinett-4.png
   - bundeskabinett-6.png
 _with: Markus Horeld and Sascha Venohr
+publication: zon
 tags: politics,germany,elections
 ---
 

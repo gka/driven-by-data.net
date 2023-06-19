@@ -9,6 +9,7 @@ images:
   - euro2016-scenarios-2.png
   - euro2016-scenarios-3.png
 tags: sports,soccer,euro2016,europe,international
+publication: NYT
 classes:
 # nytprint: May 24, 2016, on page A8
 _with: <a href="http://roadtolarissa.com/">Adam Pearce</a> & Kevin Quealy

@@ -8,6 +8,7 @@ images:
   - egyptair-3.png
   - egyptair-2.png
 tags: politics,elections,europe,right-wing,breaking,international
+publication: NYT
 classes:
 _with: L. Buchanan, J. Burgess, S. Chan, N. Clark, J. Keller, K.K. Lai & D. Watkins
 ---

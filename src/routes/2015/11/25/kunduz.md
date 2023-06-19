@@ -9,6 +9,7 @@ images:
   - kunduz-bigmap.jpg
 tags: map, breaking, foreign, war, ai2html,international
 nytprint: April 30, 2016, on page A1
+publication: NYT
 _with: <a href="http://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
 ---
 

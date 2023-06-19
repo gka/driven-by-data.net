@@ -6,6 +6,7 @@ image: co2-emissions.png
 images:
   - co2-emissions-big.png
 tags: climate/weather
+publication: Datawrapper
 classes:
 ---
 

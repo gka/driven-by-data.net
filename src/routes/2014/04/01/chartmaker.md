@@ -6,4 +6,5 @@ link: http://vis4.net/blog/posts/seven-features-youll-wantin-your-next-charting-
 image: chartmaker.png
 tags: software
 screenshot: chartmaker-big.png
+publication: NYT
 ---

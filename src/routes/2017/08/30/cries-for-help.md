@@ -7,6 +7,7 @@ image: cries-for-help.png
 images:
   - cries-for-help-big.png
 tags: environment, climate/weather
+publication: NYT
 classes:
 ---
 

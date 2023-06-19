@@ -8,6 +8,7 @@ images:
   - pizzagate-1.png
 tags: us
 classes:
+publication: NYT
 _with: Jon Huang and Cecilia Kang
 ---
 

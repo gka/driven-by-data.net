@@ -8,6 +8,7 @@ images:
   - migrant-distribution-big.png
   - migrant-distribution-map.png
   - migrant-distribution-scatter.png
+publication: NYT
 _with: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="http://blueshirt.com/">Jeremy White</a>
 credits: Additional editing by Josh Keller, Hannah Fairfield and Archie Tse
 tags: refugees, migration, foreign, europe

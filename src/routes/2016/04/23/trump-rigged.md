@@ -7,6 +7,7 @@ images:
   - trump-rigged-big.png
   - trump-rigged-gdoc.png
 tags: chart,politics,elections,d3
+publication: NYT
 _with: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a> & <a href="http://larrybuch.com">Larry Buchanan</a>
 ---
 

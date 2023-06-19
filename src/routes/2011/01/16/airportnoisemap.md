@@ -11,6 +11,7 @@ type: interactive
 link: http://www.taz.de/Fluglaerm-BBI/!t195/#!bbi/
 image: taz-airportnoise.png
 tags: environment
+publication: taz
 screenshot: taz-airportnoise-big.png
 _with: <a href="http://datenjournalist.de">Lorenz Matzat</a>
 ---

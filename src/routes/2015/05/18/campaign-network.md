@@ -6,6 +6,7 @@ image: campaign-network.png
 screenshot: campaign-network-big.png
 _with: <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 tags: network, interactive, elections, politics
+publication: NYT
 images:
   - campaign-network-1.png
   - campaign-network-2a.png

@@ -8,6 +8,7 @@ images:
   - sports-i18n-1.png
   - sports-i18n-2.png
 tags: sports
+publication: NYT
 classes:
 ---
 

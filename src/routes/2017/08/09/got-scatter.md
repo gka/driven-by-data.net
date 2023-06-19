@@ -9,6 +9,7 @@ images:
   - got-scatter-2.png
   - got-scatter-3.png
 tags: tv
+publication: NYT
 classes:
 ---
 

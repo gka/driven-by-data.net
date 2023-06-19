@@ -8,6 +8,7 @@ screenshot: delegate-calc-1.png
 images:
   - delegate-calc-1.png
   - delegate-calc-2.png
+publication: NYT
 tags: chart,politics,elections,d3
 _with: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://larrybuch.com/">Larry Buchanan</a>
 ---

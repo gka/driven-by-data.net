@@ -9,6 +9,7 @@ images:
   - chicago-police-2.jpg
   - chicago-police-3.jpg
 tags: chart, police, criminal, crime/justice, d3
+publication: NYT
 _with: <a href="https://twitter.com/haeyoun">Haeyoun Park</a>
 ---
 

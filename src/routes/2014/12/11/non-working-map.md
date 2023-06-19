@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2014/12/12/upshot/where-men-arent-worki
 _with: David Leonhardt & Josh Katz
 image: nonworking.png
 tags: map, social, economy
+publication: NYT
 screenshot: nonworking-big.png
 info: My first self-made tile map, and it's not using spherical mercator!
 ---

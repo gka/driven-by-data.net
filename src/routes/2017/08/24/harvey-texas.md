@@ -7,6 +7,7 @@ image: harvey-sat-small.jpg
 images:
   - harvey-sat.jpg
 tags: environment, climate/weather
+publication: NYT
 classes:
 ---
 

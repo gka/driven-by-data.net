@@ -7,4 +7,5 @@ screenshot: migration-map-big.png
 _with: Robert Gebeloff
 justgraphics: false
 tags: migration, economy
+publication: NYT
 ---

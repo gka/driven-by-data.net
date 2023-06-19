@@ -8,6 +8,7 @@ type: nap
 image: plenty-fish.png
 screenshot: plenty-fish.gif
 _with: David McCandless
+publication: The Guardian
 tags: map
 ---
 

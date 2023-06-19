@@ -12,6 +12,7 @@ client: [okfn, Open Knowledge Foundation]
 type: interactive
 image: europeenergy.png
 tags: environment,climate/weather
+publication: OKFN
 screenshot: europeenergy-big.png
 _with: <a href="http://okfn.org">Open Knowledge Foundation</a>
 info: This graphic was showcased at a meeting of European Commission dedicated to climate change. Also this got me my first Malofiej medal in 2012 (silver, yay!)

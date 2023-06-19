@@ -6,6 +6,7 @@ image: trump-immig.png
 images:
   - trump-immig-2.png
   - trump-immig-1.png
+publication: NYT
 tags: us,politics,elections
 classes:
 _with: <a href="https://twitter.com/haeyoun">Haeyoun Park</a>

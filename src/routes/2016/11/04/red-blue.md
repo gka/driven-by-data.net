@@ -7,6 +7,7 @@ images:
   - redblue-1.png
   - redblue-2.png
 tags: us,politics,elections
+publication: NYT
 classes:
 _with: Karen Yourish & Adam Pearce
 ---

@@ -6,4 +6,5 @@ image: nc-elections.png
 screenshot: nc-elections-big.png
 _with: Haeyoun Park
 tags: static,elections,politics
+publication: NYT
 ---

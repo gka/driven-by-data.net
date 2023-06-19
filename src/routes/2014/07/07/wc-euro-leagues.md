@@ -5,4 +5,5 @@ link: http://www.nytimes.com/interactive/2014/07/07/upshot/how-england-italy-and
 image: euro-leagues.png
 _with: Kevin Quealy
 tags: sports,soccer
+publication: NYT
 ---

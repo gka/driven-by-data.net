@@ -7,6 +7,7 @@ images:
   - budget-charts-1.png
 tags: us,politics
 classes:
+publication: NYT
 _with: Alicia Parlapiano
 ---
 

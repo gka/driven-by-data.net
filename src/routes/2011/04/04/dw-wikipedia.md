@@ -10,6 +10,7 @@ height: 421
 link: http://visualdata.dw.de/en/wikipedia/
 type: interactive
 image: wikipedia.png
+publication: DW
 screenshot: wikipedia-big.png
 _with: Marcus Bösch and Steffen Leidel
 ---

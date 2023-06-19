@@ -7,6 +7,7 @@ images:
   - doping-1.png
   - doping-2.png
 tags: sports
+publication: NYT
 classes:
 _with: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
 ---

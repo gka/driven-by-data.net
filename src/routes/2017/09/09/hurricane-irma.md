@@ -8,6 +8,7 @@ images:
   - irma-records-big.png
   - irma-records-2.png
 tags: environment, climate/weather
+publication: NYT
 classes:
 ---
 

@@ -7,6 +7,7 @@ images:
   - trump-tone-1.png
 tags: us,politics
 classes:
+publication: NYT
 _with: Josh Katz
 ---
 

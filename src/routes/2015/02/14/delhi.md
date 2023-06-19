@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2015/02/05/world/asia/delhis-air-more-p
 _with: Hannah Fairfield
 image: delhi.png
 screenshot: delhi-large.png
+publication: NYT
 classes:
-tags: static, map, environment, pollution
+tags: static, map, environment, pollution, climate/weather
 ---

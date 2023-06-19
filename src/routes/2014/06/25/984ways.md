@@ -8,6 +8,7 @@ images:
   - 984ways-big.png
   - 984ways-print.jpg
 _with: Kevin Quealy
+publication: NYT
 tags: sports,soccer
 ---
 

@@ -9,6 +9,7 @@ images:
   - merkel-power-scatter.png
   - merkel-power-table.png
 tags: europe,politics
+publication: NYT
 classes:
 ---
 

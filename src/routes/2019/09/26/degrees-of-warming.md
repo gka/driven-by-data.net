@@ -4,4 +4,5 @@ link: https://blog.datawrapper.de/climate-crisis-global-warming/
 layout: link
 image: degrees-of-warming.png
 tags: climate/weather
+publication: Datawrapper
 ---

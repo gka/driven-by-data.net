@@ -7,6 +7,7 @@ nytprint: March 17, 2016, on page TK
 images:
   - march-15-delegate-calc-1.png
   - march-15-delegate-calc-2.png
+publication: NYT
 tags: chart,politics,elections,d3
 _with: <a href="http://joshmkeller.com/">Josh Keller</a>, <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://kkrebeccalai.com/">K.K. Lai</a>
 ---

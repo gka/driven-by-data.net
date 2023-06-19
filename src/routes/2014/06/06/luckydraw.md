@@ -6,6 +6,7 @@ image: luckydraw.png
 screenshot: luckydraw-big.png
 _with: David Leonhardt
 tags: sports,soccer,static,simulation
+publication: NYT
 ---
 
 We simulated tens of thousands of possible draws using the FIFA rules and compared how good or bad the actual draw for each country is.

@@ -6,6 +6,7 @@ image: syria-airstrike.png
 images:
   - syria-airstrike-big.png
 tags: international,breaking
+publication: NYT
 classes:
 _with: Yonette Joseph And Anjali Singhvi
 ---

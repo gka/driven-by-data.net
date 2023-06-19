@@ -10,6 +10,7 @@ images:
   - gop-debate-attacks.png
   - gop-debate-topics.png
 classes:
+publication: NYT
 _with: <a href="https://aparlapiano.wordpress.com/">A.&nbsp;Parlapiano</a>, J.&nbsp;Ashkenas, A.&nbsp;Tse, K.&nbsp;Soften, T.&nbsp;Giratikanon, Nicholas Fandos & K.K. Lai
 tags: live, politics, elections
 ---

@@ -9,6 +9,7 @@ images:
   - forecast-3.png
   - forecast-4.png
 tags: us,politics,elections
+publication: NYT
 classes:
 _with: Nate Cohn, Amanda Cox, Josh Katz, Adam Pearce and Kevin Quealy
 ---

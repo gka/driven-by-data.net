@@ -6,6 +6,7 @@ image: petersburg-metro-explosion.png
 images:
   - petersburg-metro-explosion-big.png
 tags: europe,terror
+publication: NYT
 classes:
 _with: Anjali Singhvi
 ---

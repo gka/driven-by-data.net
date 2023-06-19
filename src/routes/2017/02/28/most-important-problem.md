@@ -11,6 +11,7 @@ images:
   - gallup-4.png
 tags: us
 classes:
+publication: NYT
 _with: Alicia Parlapiano
 ---
 

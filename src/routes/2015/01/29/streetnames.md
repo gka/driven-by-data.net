@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2015/01/29/sunday-review/road-map-home-
 _with: Bill Marsh
 image: streetnames.png
 screenshot: streetnames-big.png
+publication: NYT
 classes:
 info: 'Yes, that’s a word cloud...'
 tags: static, business

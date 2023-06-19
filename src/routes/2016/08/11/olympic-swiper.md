@@ -6,6 +6,7 @@ image: biles.png
 images:
   - biles-swiper.png
 tags: sports
+publication: NYT
 classes:
 _with: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, <a href="<a href="https://twitter.com/haeyoun">Haeyoun Park</a> and Tom Giratikanon
 ---

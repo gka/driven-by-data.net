@@ -6,6 +6,7 @@ image: train188.png
 screenshot: train188-big.png
 _with: <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 tags: breaking, map
+publication: NYT
 images:
   - train188-big.png
   - train188-print.png

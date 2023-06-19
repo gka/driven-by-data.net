@@ -7,4 +7,6 @@ images:
   - eu-drought.png
 tags: climate/weather
 classes:
+publication: vis4.net
+
 ---

@@ -8,6 +8,7 @@ images:
   - income-and-death-3.png
   - income-and-death-4.png
   - income-and-death-5.png
+publication: NYT
 tags: chart,health,life expectancy,income,economy,d3
 _with: <a href="https://twitter.com/amandacox">A. Cox</a>, <a href="http://kpq.github.io">K. Quealy</a> and <a href="https://twitter.com/qdbui">Q. Bui</a>
 ---

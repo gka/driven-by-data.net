@@ -5,6 +5,7 @@ link: http://www.nytimes.com/interactive/2016/05/18/us/politics/trump-financial-
 image: trump-finances.png
 images:
   - trump-finances-big.png
+publication: NYT
 tags: politics,elections,breaking
 classes: shadow border
 _with: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>

@@ -7,6 +7,7 @@ images:
   - flynn-1.png
 tags: us
 classes:
+publication: NYT
 _with: K.K. Rebecca Lai
 ---
 

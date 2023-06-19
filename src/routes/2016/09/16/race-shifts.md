@@ -7,6 +7,7 @@ images:
   - shifts-1.png
   - shifts-2.png
 tags: us,politics,elections
+publication: NYT
 classes:
 _with: <a href="https://twitter.com/jshkatz">Josh Katz</a>
 ---

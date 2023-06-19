@@ -6,6 +6,7 @@ image: france-vote-2017-round1.png
 images:
   - france-vote-2017-round1-big.png
 tags: europe,politics
+publication: NYT
 classes:
 _with: Josh Keller, K.K. Lai, Sergio Peçanha and Benoît Morenne
 ---

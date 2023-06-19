@@ -9,5 +9,6 @@ images:
   - trump-jobs-2.png
   - trump-jobs-3.png
 tags: politics,us
+publication: NYT
 classes:
 ---
