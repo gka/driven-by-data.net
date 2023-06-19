@@ -72,6 +72,7 @@
 		content="Graphics portfolio of Gregor Aisch, a former graphics editor at The New York Times, now Co-Founder/CTO at Datawrapper. Lives and works in Berlin, Germany."
 	/>
 	<link rel="icon" href="/images/{posts[0].meta.image}" />
+	<link rel="me" href="https://vis.social/@gka">
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@driven_by_daya" />
 	<meta name="twitter:title" content="driven-by-da" />

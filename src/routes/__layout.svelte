@@ -28,8 +28,6 @@
 
 	$link: #222;
 
-	
-
 	:global {
 		// Import only what you need from Bulma
 		@import '../node_modules/bulma/sass/utilities/_all.sass';
