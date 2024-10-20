@@ -1,0 +1,41 @@
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+@use 'bulma/sass' with (
+	$family-primary: '"Roboto", sans-serif'
+);
+
+// @forward "bulma/sass/base";
+// @forward "bulma/sass/helpers";
+// @forward "bulma/sass/grid/columns";
+// @forward "bulma/sass/elements/box";
+// @forward "bulma/sass/layout/container";
+// @forward "bulma/sass/elements/icon";
+// @forward "bulma/sass/elements/title";
+// @forward "bulma/sass/helpers/other";
+// @forward "bulma/sass/components/card";
+// @forward "bulma/sass/layout/section";
+
+// @import '../node_modules/bulma/sass/helpers/_index.scss';
+// 	@import '../node_modules/bulma/sass/grid/columns.sass';
+// 	@import '../node_modules/bulma/sass/elements/box.sass';
+// 	@import '../node_modules/bulma/sass/elements/container.sass';
+// 	@import '../node_modules/bulma/sass/elements/icon.sass';
+// 	@import '../node_modules/bulma/sass/elements/title.sass';
+// 	@import '../node_modules/bulma/sass/elements/image.sass';
+// 	@import '../node_modules/bulma/sass/elements/other.sass';
+// 	@import '../node_modules/bulma/sass/components/card.sass';
+// 	// @import "../node_modules/bulma/sass/form/_index.scss";
+// 	// @import "../node_modules/bulma/sass/components/navbar.sass";
+// 	// @import "../node_modules/bulma/sass/layout/hero.sass";
+// 	@import '../node_modules/bulma/sass/layout/section.sass';
+// 	@import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass"; */
+
+@import '@fontsource/roboto';
+@import '@fontsource/roboto/100.css';
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
