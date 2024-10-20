@@ -4,12 +4,12 @@ title: Das neue Bundeskabinett
 link: http://interactive.zeit.de/bundeskabinett/
 image: bundeskabinett.png
 images:
-  - bundeskabinett-1.png
-  - bundeskabinett-5.png
-  - bundeskabinett-2.png
-  - bundeskabinett-4.png
-  - bundeskabinett-6.png
-_with: Markus Horeld and Sascha Venohr
+    - bundeskabinett-1.png
+    - bundeskabinett-5.png
+    - bundeskabinett-2.png
+    - bundeskabinett-4.png
+    - bundeskabinett-6.png
+coauthors: Markus Horeld and Sascha Venohr
 publication: zon
 tags: politics,germany,elections
 ---

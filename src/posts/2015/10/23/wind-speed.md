@@ -6,8 +6,8 @@ image: windmap.png
 classes:
 screenshot: windmap-1.png
 images:
-  - windmap-1.png
-  - windmap-2.png
+    - windmap-1.png
+    - windmap-2.png
 publication: NYT
 tags: interactive map, breaking, environment, climate/weather
 ---

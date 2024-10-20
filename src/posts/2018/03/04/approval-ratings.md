@@ -4,7 +4,7 @@ title: 'Presidential Approval Ratings Since Kennedy'
 link: https://datawrapper.dwcdn.net/Wa2Ci/16/
 image: approval-ratings.png
 images:
-  - approval-ratings-big.png
+    - approval-ratings-big.png
 tags: elections
 publication: Datawrapper
 classes:

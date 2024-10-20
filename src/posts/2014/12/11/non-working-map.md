@@ -2,7 +2,7 @@
 layout: post
 title: Where Men Aren’t Working
 link: http://www.nytimes.com/interactive/2014/12/12/upshot/where-men-arent-working-map.html
-_with: David Leonhardt & Josh Katz
+coauthors: David Leonhardt & Josh Katz
 image: nonworking.png
 tags: map, social, economy
 publication: NYT

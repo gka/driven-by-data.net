@@ -1,9 +1,12 @@
 <script lang="ts">
+	import { endsWith, includes } from 'es-toolkit/compat';
+import CoAuthors from './CoAuthors.svelte';
+
 	type Meta = {
 		title: string;
 		image: string;
 		date: string;
-		_with: string;
+		coauthors: string;
 		tags: string[];
 		publication?: string;
 	};
@@ -20,7 +23,12 @@
 <div class="post">
 	<a href={url}
 		><figure class="image is-square">
+			{#if meta.image?.endsWith('-light.png')}
+			<img src="/images/{meta.image}" class="hide-in-dark" alt={meta.title} />
+			<img src="/images/{meta.image.replace('-light.png', '-dark.png')}" class="hide-in-light" alt={meta.title} />
+			{:else}
 			<img src="/images/{meta.image}" alt={meta.title} />
+			{/if}
 		</figure>
 	</a>
 	<div class="description mt-2">
@@ -30,8 +38,9 @@
 			></a
 		>
 		<span class="is-size-7 has-text-grey"
-			>{#if meta._with}with {@html meta._with},
-			{/if}{format(pubDate)}{#if meta.publication}&nbsp;[{meta.publication === 'zon'
+			>{#if meta.coauthors}with <CoAuthors coauthors={meta.coauthors} />,
+			{/if}
+			{format(pubDate)}{#if meta.publication}&nbsp;[{meta.publication === 'zon'
 					? 'ZEIT ONLINE'
 					: meta.publication}]{/if}</span
 		>

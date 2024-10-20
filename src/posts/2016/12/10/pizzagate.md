@@ -4,12 +4,12 @@ title: 'Dissecting the #PizzaGate Conspiracy Theories'
 link: http://www.nytimes.com/interactive/2016/12/10/business/media/pizzagate.html
 image: pizzagate.png
 images:
-  - pizzagate-promo.gif
-  - pizzagate-1.png
+    - pizzagate-promo.gif
+    - pizzagate-1.png
 tags: us
 classes:
 publication: NYT
-_with: Jon Huang and Cecilia Kang
+coauthors: Jon Huang and Cecilia Kang
 ---
 
 In the span of a few weeks, a false rumor that Hillary Clinton and her top aides were involved in various crimes snowballed into a wild conspiracy theory that they were running a child-trafficking ring out of a Washington pizza parlor.

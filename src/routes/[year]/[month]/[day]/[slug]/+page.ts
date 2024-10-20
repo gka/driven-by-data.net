@@ -5,7 +5,7 @@ export async function load({ fetch, params: { year, month, day, slug } }) {
 	// find slug for permalink
 	const response = await fetch('/api/posts/all');
 	const posts: Post[] = await response.json();
-    // console.log({error})
+	// console.log({error})
 
 	if (!Array.isArray(posts)) error(500, { message: posts.message });
 

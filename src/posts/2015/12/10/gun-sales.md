@@ -6,12 +6,12 @@ image: gun-sales.png
 screenshot: gun-sales-big.png
 nytprint: December 12, 2015, on page A28
 images:
-  - gun-sales-big.png
-  - gun-sales-2.png
-  - gunsales-print.jpg
+    - gun-sales-big.png
+    - gun-sales-2.png
+    - gunsales-print.jpg
 publication: NYT
 tags: chart, economy, guns, business, d3
-_with: <a href="http://joshmkeller.com/">Josh Keller</a>
+coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>
 ---
 
 Seasonal adjustment FTW!

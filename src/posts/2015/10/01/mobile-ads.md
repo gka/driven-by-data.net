@@ -6,9 +6,9 @@ image: mobile-ads.png
 classes:
 screenshot: mobile-ads-1.png
 images:
-  - mobile-ads-1.png
-  - mobile-ads-2.png
-_with: <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
+    - mobile-ads-1.png
+    - mobile-ads-2.png
+coauthors: <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
 tags: investigation, business
 publication: NYT
 ---

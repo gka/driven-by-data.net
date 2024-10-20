@@ -1,0 +1,38 @@
+// Variables
+@import 'variables';
+
+/*! Devices.css v#{$version} | MIT License | github.com/picturepan2/devices.css */
+@import 'reset';
+
+// Phones
+@import 'iphone-14-pro';
+@import 'iphone-14';
+@import 'iphone-x';
+@import 'iphone-8';
+@import 'iphone';
+@import 'google-pixel-6-pro';
+@import 'google-pixel-2-xl';
+@import 'google-pixel';
+@import 'galaxy-s8';
+
+// Computers
+@import 'macbook-pro';
+@import 'macbook-pro-2018';
+@import 'macbook';
+@import 'imac';
+@import 'imac-pro';
+@import 'surface-book';
+@import 'surface-studio';
+
+// Tablets
+@import 'ipad-pro';
+@import 'ipad-pro-2017';
+@import 'surface-pro-2017';
+
+// Watches
+@import 'apple-watch-ultra';
+@import 'apple-watch-s8';
+
+// Accessories
+@import 'homepod';
+@import 'pro-display-xdr';

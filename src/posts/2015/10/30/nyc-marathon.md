@@ -7,10 +7,10 @@ classes:
 nytprint: October 31, 2015, on page D7
 screenshot: marathon-1.png
 images:
-  - marathon-1.png
-  - marathon-2.png
-  - marathon-print.png
+    - marathon-1.png
+    - marathon-2.png
+    - marathon-print.png
 publication: NYT
 tags: animated, sports, d3, ai2html
-_with: <a href="http://schwanksta.com/">Ken Schwencke</a>
+coauthors: <a href="http://schwanksta.com/">Ken Schwencke</a>
 ---

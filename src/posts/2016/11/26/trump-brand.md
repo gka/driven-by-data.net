@@ -4,11 +4,11 @@ title: 'The Trump Brand Around the World'
 link: http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html
 image: trump-brand.png
 images:
-  - trump-brand-1.png
+    - trump-brand-1.png
 tags: international,us,politics
 classes:
 publication: NYT
-_with: Karen Yourish & K.K. Lai
+coauthors: Karen Yourish & K.K. Lai
 ---
 
 Donald J. Trump has business interests in at least 20 countries, in addition to extensive

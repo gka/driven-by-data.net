@@ -6,12 +6,12 @@ image: gunflow.png
 classes:
 screenshot: gunflow-big.png
 images:
-  - gunflow-big.png
-  - gunflow-2.png
-  - gunflow-hp.png
+    - gunflow-big.png
+    - gunflow-2.png
+    - gunflow-hp.png
 publication: NYT
 tags: map, edge bundling, guns, business, crime/justice, d3, ai2html
-_with: <a href="http://joshmkeller.com/">Josh Keller</a>
+coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>
 ---
 
 [Force directed edge bundling!](http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)

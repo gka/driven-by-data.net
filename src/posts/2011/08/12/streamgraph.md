@@ -3,8 +3,8 @@ layout: link
 title: as3-streamgraphs
 info: ActionScript3 fork of the streamgraph generator by Lee Byron and Martin Wattenberg.
 gallery:
-  - streamgraph-1.png
-  - streamgraph-2.png
+    - streamgraph-1.png
+    - streamgraph-2.png
 height: 500
 type: code
 image: streamgraph.png

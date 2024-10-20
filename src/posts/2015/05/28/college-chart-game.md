@@ -4,13 +4,13 @@ title: 'You Draw It: How Family Income Affects Children’s College Chances'
 link: http://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html
 image: college-game.png
 screenshot: college-game-big.png
-_with: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="http://kpq.github.io/">Kevin Quealy</a>
+coauthors: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="http://kpq.github.io/">Kevin Quealy</a>
 publication: NYT
 tags: interactive, game, education, social
 images:
-  - college-chart-game-1.png
-  - college-chart-game-2.png
-  - college-chart-game-3.png
+    - college-chart-game-1.png
+    - college-chart-game-2.png
+    - college-chart-game-3.png
 ---
 
 After obtaining a unique dataset that gave new insights on how the likelyhood of college attendance correlates to parental income, my colleages Amanda Cox and Kevin Quealy had the idea that the surprising nature of this correlation is more compelling after one has been forced to think about it first.

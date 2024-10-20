@@ -4,10 +4,10 @@ title: 'State-by-state Election Forecast'
 link: http://www.nytimes.com/interactive/2016/upshot/florida-election-forecast.html
 image: state-forecast.png
 images:
-  - state-forecast-1.png
+    - state-forecast-1.png
 tags: elections, politics
 classes:
-_with: Josh Katz
+coauthors: Josh Katz
 publication: NYT
 ---
 

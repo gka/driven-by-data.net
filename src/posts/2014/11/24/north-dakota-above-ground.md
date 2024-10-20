@@ -6,8 +6,8 @@ image: nd-aboveground.png
 publication: NYT
 screenshot: nd-aboveground-big.png
 images:
-  - nd-aboveground-big.png
-  - nd-aboveground-big2.png
+    - nd-aboveground-big.png
+    - nd-aboveground-big2.png
 tags: map, 3d, static, environment, us
 credits: Kevin Q helped writing the words quite a bit.
 ---

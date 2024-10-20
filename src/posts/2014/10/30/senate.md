@@ -5,9 +5,9 @@ link: http://www.nytimes.com/interactive/2014/10/30/upshot/senate-forecast-compa
 image: 11senate.png
 publication: NYT
 images:
-  - 11senate-big.png
+    - 11senate-big.png
 screenshot: 11senate-big.png
-_with: Josh Katz
+coauthors: Josh Katz
 tags: static, small multiple,elections,politics
 ---
 

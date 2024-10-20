@@ -4,12 +4,12 @@ title: 'Investigating the Philadelphia Amtrak Train Derailment'
 link: http://www.nytimes.com/interactive/2015/05/13/us/investigating-the-philadelphia-amtrak-train-crash.html#speed-top
 image: train188.png
 screenshot: train188-big.png
-_with: <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
+coauthors: <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 tags: breaking, map
 publication: NYT
 images:
-  - train188-big.png
-  - train188-print.png
+    - train188-big.png
+    - train188-print.png
 ---
 
 On May 12 the Amtrak train Northeast Regional 188 [derailed in Philadelphia](http://www.nytimes.com/2015/05/13/us/amtrak-train-derails-in-philadelphia-injuring-more-than-50.html) after apparantly driving too fast into a curve.

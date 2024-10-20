@@ -3,16 +3,16 @@ layout: link
 title: Bubble Tree Library
 info: Open Source library for visualizing hierarchical data using interactive radial bubble trees.
 gallery:
-  - bubbletree-1.png
-  - bubbletree-2.png
-  - bubbletree-3.png
+    - bubbletree-1.png
+    - bubbletree-2.png
+    - bubbletree-3.png
 height: 510
 link: http://okfnlabs.org/bubbletree/demos/random/
 linktext: demo on random data
 type: code interactive
 image: bubbletree.png
 screenshot: bubbletree-big.png
-_with: David McCandless
+coauthors: David McCandless
 tags: software
 ---
 

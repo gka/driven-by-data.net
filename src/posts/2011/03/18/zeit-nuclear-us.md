@@ -7,7 +7,7 @@ link: http://opendata.zeit.de/atomreaktoren/#/en/
 type: interactive
 image: nuclear-zeit-us.png
 screenshot: nuclear-zeit-us-big.png
-_with: Sascha Venohr
+coauthors: Sascha Venohr
 published: false
 tags: environment,usa
 ---

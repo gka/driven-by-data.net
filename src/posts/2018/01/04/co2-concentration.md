@@ -4,7 +4,7 @@ title: 'Carbon Dioxide Concentrations'
 link: https://blog.datawrapper.de/weekly-chart-carbon-dioxide/
 image: co2-concentration.png
 images:
-  - co2-concentration-big.png
+    - co2-concentration-big.png
 tags: climate/weather
 classes:
 ---

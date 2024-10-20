@@ -6,10 +6,10 @@ image: datawrapper.png
 tags: software
 screenshot: datawrapper-big.png
 images:
-  - datawrapper-big.png
-  - datawrapper-data.png
-  - datawrapper-visualize.png
-_with: Mirko Lorenz and Nicolas Kayser-Bril
+    - datawrapper-big.png
+    - datawrapper-data.png
+    - datawrapper-visualize.png
+coauthors: Mirko Lorenz and Nicolas Kayser-Bril
 ---
 
 Datawrapper is a tool that lets users create charts and maps they can embed into other websites.

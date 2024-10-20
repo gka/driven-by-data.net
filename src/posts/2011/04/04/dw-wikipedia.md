@@ -3,16 +3,16 @@ layout: link
 title: 10 Years of Wikipedia
 info: 'Go spirals! Had to find something *amazing* for Wikipedia’s ten year anniversary. Ended up in a book.'
 gallery:
-  - dw-wikipedia-1.png
-  - dw-wikipedia-2.png
-  - dw-wikipedia-3.png
+    - dw-wikipedia-1.png
+    - dw-wikipedia-2.png
+    - dw-wikipedia-3.png
 height: 421
 link: http://visualdata.dw.de/en/wikipedia/
 type: interactive
 image: wikipedia.png
 publication: DW
 screenshot: wikipedia-big.png
-_with: Marcus Bösch and Steffen Leidel
+coauthors: Marcus Bösch and Steffen Leidel
 ---
 
 [Deutsche Welle](http://dw.de) asked me to create a visualisation around the 10th aniversary of the Wikipedia.

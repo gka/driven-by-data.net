@@ -3,10 +3,10 @@ layout: link
 title: Wikileaks Mirror Network
 info: 'Animated map of the appearance of new mirror servers after blocking of wikileaks.org. Showcase for a flash-based mapping framework I was working on, I probably called it OpenFlashMaps.. #learnedmylesson'
 gallery:
-  - wikileaks0.png
-  - wikileaks1.png
-  - wikileaks2.png
-  - wikileaks3.png
+    - wikileaks0.png
+    - wikileaks1.png
+    - wikileaks2.png
+    - wikileaks3.png
 height: 461
 link: http://vis4.net/labs/wikileaks/mirrors/
 image: mirrors.png

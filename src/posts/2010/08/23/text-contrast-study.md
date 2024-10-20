@@ -5,8 +5,8 @@ info: Network of party donations in Germany. Donations are represented as lines 
 link: http://vis4.net/labs/textcontrast/TextContrast.swf
 image: text-contrast.png
 images:
-  - text-contrast-white.png
-  - text-contrast-black.png
+    - text-contrast-white.png
+    - text-contrast-black.png
 tags: infovis, sketches
 ---
 

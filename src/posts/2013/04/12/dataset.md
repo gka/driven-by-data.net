@@ -5,5 +5,5 @@ info: A Python library I co-wrote with Friedrich Lindenberg and Stefan Wehrmeyer
 link: https://dataset.readthedocs.org/en/latest/
 image: dataset.png
 tags: software
-_with: Friedrich Lindenberg
+coauthors: Friedrich Lindenberg
 ---

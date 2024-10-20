@@ -2,10 +2,10 @@
 layout: post
 title: 'Thousands Cried for Help as Houston Flooded'
 link: https://www.nytimes.com/interactive/2017/08/30/us/houston-flood-rescue-cries-for-help.html
-_with: Adam Pearce & many others
+coauthors: Adam Pearce & many others
 image: cries-for-help.png
 images:
-  - cries-for-help-big.png
+    - cries-for-help-big.png
 tags: environment, climate/weather
 publication: NYT
 classes:

@@ -4,11 +4,11 @@ title: 'Can You Beat Usain Bolt Out of the Blocks?'
 link: http://www.nytimes.com/interactive/2016/08/13/sports/olympics/can-you-beat-usain-bolt-out-of-the-blocks.html
 image: reaction-time.png
 images:
-  - reaction-time-1.png
+    - reaction-time-1.png
 tags: sports
 publication: NYT
 classes:
-_with: <a href="http://larrybuch.com">Larry Buchanan</a> and Derek Watkins
+coauthors: <a href="http://larrybuch.com">Larry Buchanan</a> and Derek Watkins
 ---
 
 A little HTML5 audio stop-watch game to illustrate reaction times.

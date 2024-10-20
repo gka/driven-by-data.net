@@ -7,8 +7,8 @@ link: https://web.archive.org/web/20110728021451/http://opendata.zeit.de/atomrea
 type: interactive
 image: nuclear-zeit.png
 images:
-  - zon-atomkraftwerke.png
-_with: Sascha Venohr
+    - zon-atomkraftwerke.png
+coauthors: Sascha Venohr
 tags: environment,germany,climate/weather
 publication: zon
 ---

@@ -4,13 +4,13 @@ title: 'European Populism in the Age of Donald Trump'
 link: http://www.nytimes.com/interactive/2016/12/05/world/europe/populism-in-age-of-trump.html
 image: europop.png
 images:
-  - europop-1.png
-  - europop-2.png
-  - europop-print.jpg
+    - europop-1.png
+    - europop-2.png
+    - europop-print.jpg
 tags: europe,international,politics
 classes:
 publication: NYT
-_with: Jeremy Ashkenas & Troy Griggs
+coauthors: Jeremy Ashkenas & Troy Griggs
 nytprint: Dec 6, 2016, on page A8
 ---
 

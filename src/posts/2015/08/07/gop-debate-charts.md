@@ -5,13 +5,13 @@ link: http://www.nytimes.com/live/republican-debate-election-2016-cleveland/?typ
 image: gop-debate.png
 screenshot: gop-dashboard-big.png
 images:
-  - gop-debate-speaking-time.png
-  - gop-debate-speaking.png
-  - gop-debate-attacks.png
-  - gop-debate-topics.png
+    - gop-debate-speaking-time.png
+    - gop-debate-speaking.png
+    - gop-debate-attacks.png
+    - gop-debate-topics.png
 classes:
 publication: NYT
-_with: <a href="https://aparlapiano.wordpress.com/">A.&nbsp;Parlapiano</a>, J.&nbsp;Ashkenas, A.&nbsp;Tse, K.&nbsp;Soften, T.&nbsp;Giratikanon, Nicholas Fandos & K.K. Lai
+coauthors: <a href="https://aparlapiano.wordpress.com/">A.&nbsp;Parlapiano</a>, J.&nbsp;Ashkenas, A.&nbsp;Tse, K.&nbsp;Soften, T.&nbsp;Giratikanon, Nicholas Fandos & K.K. Lai
 tags: live, politics, elections
 ---
 

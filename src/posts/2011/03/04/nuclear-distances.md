@@ -3,10 +3,10 @@ layout: link
 title: Distances To Nuclear Reactors
 info: 'After Fukoshima, everybody was talking about evacuation radii. This series of maps show different countries regions within 100km of a nuclear reactor (pro tip: you want to live in the green zone).'
 gallery:
-  - nuclear-1.png
-  - nuclear-0.png
-  - nuclear-2.png
-  - nuclear-3.png
+    - nuclear-1.png
+    - nuclear-0.png
+    - nuclear-2.png
+    - nuclear-3.png
 type: static
 link: http://vis4.net/blog/posts/shortest-distances-to-nuclear-reactors/
 image: nuclear-distance.png

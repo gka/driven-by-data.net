@@ -7,9 +7,9 @@ nytprint: February 16, 2016, on page A3
 screenshot: scotus-vacancies-1.png
 publication: NYT
 images:
-  - scotus-vacancies-1.png
-  - scotus-vacancies-2.png
-  - scotus-vacancies-print.png
+    - scotus-vacancies-1.png
+    - scotus-vacancies-2.png
+    - scotus-vacancies-print.png
 tags: chart,scotus,politics,crime/justice,breaking,d3
-_with: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, <a href="http://joshmkeller.com/">Josh Keller</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
+coauthors: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, <a href="http://joshmkeller.com/">Josh Keller</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 ---

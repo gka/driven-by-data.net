@@ -5,7 +5,7 @@ info: Charts on literacy rates, enrolment rates and a comparison of expenditures
 link: http://visualdata.dw.de/specials/bildung/en/index.html
 image: education.png
 screenshot: education-big.png
-_with: Sabine Damaschke
+coauthors: Sabine Damaschke
 tags: education
 publication: DW
 ---

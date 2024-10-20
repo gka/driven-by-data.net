@@ -4,14 +4,14 @@ title: 'Live Election Forecast'
 link: http://www.nytimes.com/elections/forecast/president
 image: forecast.png
 images:
-  - forecast-1.png
-  - forecast-2.png
-  - forecast-3.png
-  - forecast-4.png
+    - forecast-1.png
+    - forecast-2.png
+    - forecast-3.png
+    - forecast-4.png
 tags: us,politics,elections
 publication: NYT
 classes:
-_with: Nate Cohn, Amanda Cox, Josh Katz, Adam Pearce and Kevin Quealy
+coauthors: Nate Cohn, Amanda Cox, Josh Katz, Adam Pearce and Kevin Quealy
 ---
 
 Live forecast for the 2016 Presidential, Senate and House election.

@@ -1,12 +1,10 @@
-$purple: #8a4d76;
-$pink: #fa7c91;
-$brown: #757763;
-$beige-light: #d0d1cd;
-$beige-lighter: #eff0eb;
+$title-color-dark: #ccc;
 
 @use 'bulma/sass' with (
 	$family-primary: '"Roboto", sans-serif'
+	
 );
+
 
 // @forward "bulma/sass/base";
 // @forward "bulma/sass/helpers";
@@ -39,3 +37,14 @@ $beige-lighter: #eff0eb;
 @import '@fontsource/roboto/300.css';
 @import '@fontsource/roboto/500.css';
 @import '@fontsource/roboto/700.css';
+
+@media (prefers-color-scheme: light) {
+	.hide-in-light {
+		display: none;
+	}
+}
+	@media (prefers-color-scheme: dark) {
+		.hide-in-dark {
+			display: none
+		}
+	}

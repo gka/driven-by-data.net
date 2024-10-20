@@ -2,7 +2,7 @@
 layout: post
 title: The Changing Nature of Middle-Class Jobs
 link: http://www.nytimes.com/interactive/2015/02/23/business/economy/the-changing-nature-of-middle-class-jobs.html
-_with: <a href="http://www.geb.net/robert_gebeloff">Robert Gebeloff</a>
+coauthors: <a href="http://www.geb.net/robert_gebeloff">Robert Gebeloff</a>
 image: middleclass.png
 screenshot: middleclass-big.png
 print: middleclass-print.png
@@ -10,9 +10,9 @@ nytprint: February 23, 2015, on page A10
 publication: NYT
 tags: slopechart, static, small multiple, social, economy
 images:
-  - middleclass-1.png
-  - middleclass-print.png
-  - middleclass-2.png
+    - middleclass-1.png
+    - middleclass-print.png
+    - middleclass-2.png
 ---
 
 As part of a longer series about the American middle class, a group of New York Times reporters and data journalists analized employment statistics ranging of over a span of 30 years, which revealed that it are [mostly women who benefited](http://www.nytimes.com/2015/02/23/business/economy/health-care-opens-middle-class-path-taken-mainly-by-women.html?ref=topics) from the shifts in middle class jobs.

@@ -11,6 +11,6 @@ My now discontinued mapping-framework, based on jQuery and Raphael.js. I worked 
 
 Kartograph used SVG as map container format, but preserved the projection in a special `<proj>` tag under `<defs>`.
 
-- [blog post](http://vis4.net/blog/posts/introducing-kartograph/)
-- [examples](http://kartograph.org/showcase/)
-- [github repo ](https://github.com/kartograph)
+-   [blog post](http://vis4.net/blog/posts/introducing-kartograph/)
+-   [examples](http://kartograph.org/showcase/)
+-   [github repo ](https://github.com/kartograph)

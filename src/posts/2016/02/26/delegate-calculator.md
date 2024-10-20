@@ -6,11 +6,11 @@ image: delegate-calc.png
 # nytprint: February 16, 2016, on page A3
 screenshot: delegate-calc-1.png
 images:
-  - delegate-calc-1.png
-  - delegate-calc-2.png
+    - delegate-calc-1.png
+    - delegate-calc-2.png
 publication: NYT
 tags: chart,politics,elections,d3
-_with: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://larrybuch.com/">Larry Buchanan</a>
+coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://larrybuch.com/">Larry Buchanan</a>
 ---
 
 A week before Super Tuesday, Donald Trump wins his third primary state and invokes questions about if and when it will be to late to stop his nomination.

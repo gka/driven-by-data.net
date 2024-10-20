@@ -5,11 +5,11 @@ link: http://www.nytimes.com/interactive/2015/08/28/world/europe/countries-under
 image: migrants.png
 screenshot: migrants-big.png
 images:
-  - migrants-big.png
-  - migrants-big-2.png
+    - migrants-big.png
+    - migrants-big-2.png
 classes:
 publication: NYT
-_with: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/haeyoun">Heayoun Park</a>
+coauthors: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/haeyoun">Heayoun Park</a>
 tags: interactive, migration, refugee, foreign, europe
 ---
 

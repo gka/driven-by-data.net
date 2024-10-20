@@ -5,6 +5,6 @@ link: http://www.nytimes.com/interactive/2014/11/23/us/north-dakota-oil-boom-dow
 image: nd-spills.png
 publication: NYT
 screenshot: nd-spills-big.png
-_with: Robert Gebeloff & Hannah Fairfield
+coauthors: Robert Gebeloff & Hannah Fairfield
 tags: map, animated, environment, climate/weather
 ---

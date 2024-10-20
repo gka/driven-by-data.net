@@ -4,12 +4,12 @@ title: 'The Athletes at the Rio Olympics That Have Previously Been Suspended for
 link: http://www.nytimes.com/interactive/2016/08/18/sports/olympics/athletes-at-the-rio-olympics-who-were-previously-suspended-for-doping-.html?smid=tw-share
 image: doping.png
 images:
-  - doping-1.png
-  - doping-2.png
+    - doping-1.png
+    - doping-2.png
 tags: sports
 publication: NYT
 classes:
-_with: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
+coauthors: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
 ---
 
 Classic data journalism!

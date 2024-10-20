@@ -7,7 +7,7 @@ export type Post = {
 		shortTitle?: string;
 		description: string;
 		image: string;
-		_with: string;
+		coauthors: string;
 		published?: boolean;
 		featured?: boolean;
 		tags?: string[];

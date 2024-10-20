@@ -1,8 +1,14 @@
 <script>
+	import CoAuthors from '$lib/CoAuthors.svelte';
 	import Icon from '$lib/Icon.svelte';
+	import Phone from '$lib/Phone.svelte';
+	import { includes } from 'es-toolkit/compat';
 	let { data } = $props();
 
-	const { title, link, summary, _with, image, images, layout } = $derived(data.meta);
+	let innerWidth = $state(500);
+	const isMobile = $derived(innerWidth < 500);
+
+	const { title, link, summary, coauthors, image, images, layout } = $derived(data.meta);
 </script>
 
 <svelte:head>
@@ -10,20 +16,21 @@
 	<link rel="icon" href="/images/{image}" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@driven_by_daya" />
-	<meta name="twitter:title" content="{title} - driven-by-da" />
+	<meta name="twitter:title" content="{title} - driven-by-data.net" />
 	<meta name="twitter:description" content={summary} />
-	{#if images}<meta
-			name="twitter:image"
-			content="https://driven-by-data.net/images/{images[0]}"
-		/>{/if}
+	<meta name="twitter:image" content="https://driven-by-data.net/images/{images[0]}" />
 </svelte:head>
+
+<svelte:window bind:innerWidth />
 
 <section class="section pb-2">
 	<div class="container">
 		<div class="columns">
 			<div class="column">
 				<p class="subtitle has-text-grey is-5 mt-1">
-					<a class="has-text-weight-normal has-text-grey-light" href="/">driven-by-data.net</a>
+					<a class="has-text-weight-normal has-text-grey-light" href="/"
+						>driven-by-data.net</a
+					>
 				</p>
 			</div>
 		</div>
@@ -43,9 +50,10 @@
 					<svelte:component this={data.content} />
 				</div>
 
-				{#if _with}
+				{#if coauthors}
 					<div class="block">
-						In collaboration with {@html _with}.
+						In collaboration with
+						<CoAuthors {coauthors} />.
 					</div>
 				{/if}
 
@@ -55,19 +63,36 @@
 					</div>
 				{/if}
 			</div>
-			<div class="column">
+			<div class="column images">
 				{#each images as src}
-					<div class="block">
-						<img class="box" src="/images/{src}" alt={title} />
-					</div>
+					{#if src.includes('-mobile') && !isMobile}
+						<Phone url={link}>
+							<img width="100%" src="/images/{src}" alt={title} />
+						</Phone>
+					{:else}
+						<div class="block">
+							{#if src?.endsWith('-light.png')}
+								<img src="/images/{src}" class="hide-in-dark" alt={title} />
+								<img src="/images/{src.replace('-light.png', '-dark.png')}" class="hide-in-light" alt={title} />
+							{:else}
+								<img src="/images/{src}" alt={title} />
+							{/if}
+						</div>
+					{/if}
 				{/each}
 			</div>
 		</div>
 	</div>
-
-	<style>
-		a {
-			font-weight: bold;
-		}
-	</style>
 </section>
+
+<style lang="scss">
+	section :global(a) {
+		font-weight: bold;
+	}
+	.images {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		align-items: center;
+	}
+</style>

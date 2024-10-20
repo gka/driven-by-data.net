@@ -6,11 +6,11 @@ image: migrant-scale.png
 screenshot: migrant-scale-big.png
 classes: shadow border
 images:
-  - migrant-scale-photo.jpg
-  - migrant-scale-1.png
-  - migrant-scale-big.png
-  - migrant-scale-archieml.png
-_with: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a>, <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
+    - migrant-scale-photo.jpg
+    - migrant-scale-1.png
+    - migrant-scale-big.png
+    - migrant-scale-archieml.png
+coauthors: <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a>, <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
 publication: NYT
 tags: breaking news, migration, foreign, europe
 ---

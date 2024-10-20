@@ -12,7 +12,9 @@
 
 	const filteredPosts = $derived(
 		data.posts
-			.filter((post) => (typeof activeTag === 'string' ? post.meta.tags.includes(activeTag) : true))
+			.filter((post) =>
+				typeof activeTag === 'string' ? post.meta.tags.includes(activeTag) : true
+			)
 			.filter((post) =>
 				typeof activePublication === 'string'
 					? activePublication === 'others'
@@ -43,8 +45,6 @@
 					})
 				).sort((a, b) => (b[0] > a[0] ? 1 : -1))
 	);
-
-	$inspect({ groupedPosts });
 </script>
 
 <svelte:head>
@@ -68,7 +68,8 @@
 		<p class="subtitle is-5 mt-1">
 			Portfolio of <b>Gregor Aisch</b>, a visual data journalist at <b>ZEIT Online</b>, former
 			graphics editor at
-			<b>The New York Times</b> and co-founder of <b>Datawrapper</b>. Lives and works in Berlin.
+			<b>The New York Times</b> and co-founder of <b>Datawrapper</b>. Lives and works in
+			Berlin.
 		</p>
 		<div class="columns tagnav">
 			<!-- filter by tags -->
@@ -140,11 +141,13 @@
 	<section class="section">
 		<div class="container">
 			{#if i}
-				<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>{year}</h2>
+				<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>
+					{year}
+				</h2>
 			{/if}
-			<div class="columns is-multiline is-variable is-8">
+			<div class="columns is-mobile is-multiline is-variable is-8-desktop is-4-mobile">
 				{#each posts as post}
-					<div class="column is-one-fifth">
+					<div class="column is-one-fifth-tablet is-half-mobile">
 						<PostPreview path={post.permalink} meta={post.meta} />
 					</div>
 				{/each}

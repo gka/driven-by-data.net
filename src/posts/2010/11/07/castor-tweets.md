@@ -7,5 +7,5 @@ image: castor-twitter.png
 screenshot: castor-twitter-big.png
 link: http://live-map.de/
 tags: environment
-_with: <a href="http://datenjournalist.de">Lorenz Matzat</a>
+coauthors: <a href="http://datenjournalist.de">Lorenz Matzat</a>
 ---

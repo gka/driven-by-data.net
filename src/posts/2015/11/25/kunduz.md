@@ -5,12 +5,12 @@ link: http://www.nytimes.com/interactive/2015/11/25/world/asia/errors-us-airstri
 image: kunduz.png
 screenshot: kunduz-big.jpg
 images:
-  - kunduz-big.jpg
-  - kunduz-bigmap.jpg
+    - kunduz-big.jpg
+    - kunduz-bigmap.jpg
 tags: map, breaking, foreign, war, ai2html,international
 nytprint: April 30, 2016, on page A1
 publication: NYT
-_with: <a href="http://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
+coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
 ---
 
 The Pentagon released results of its internal investigation into the Oct. 3 U.S. bombing of a Doctors Without Borders hospital in Kunduz (see [video of press briefing](http://www.c-span.org/video/?401255-1/defense-department-briefing-kunduz-hospital-airstrike-investigation#)).

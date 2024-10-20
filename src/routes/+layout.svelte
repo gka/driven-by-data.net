@@ -45,11 +45,20 @@
 
 	$link: #222;
 
+	:root {
+		@media (prefers-color-scheme: dark) {
+			color: #bfbfbf;
+
+			--bulma-title-color: #cccccc;
+		}
+	}
+
 	:global {
+		
 		a {
 			color: black !important;
 			@media (prefers-color-scheme: dark) {
-				color: #f8f8f8 !important;
+				color: #dfdfdf !important;
 			}
 		}
 

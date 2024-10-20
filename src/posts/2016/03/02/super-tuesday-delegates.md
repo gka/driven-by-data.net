@@ -5,13 +5,13 @@ link: http://www.nytimes.com/interactive/2016/03/02/us/super-tuesday-results-del
 image: super-tuesday-delegates.png
 nytprint: March 3, 2016, on page A12
 images:
-  - super-tuesday-delegates-big.png
-  - super-tuesday-delegates-hp.gif
-  - super-tuesday-delegates-app.png
-  - super-tuesday-delegates-print.jpg
+    - super-tuesday-delegates-big.png
+    - super-tuesday-delegates-hp.gif
+    - super-tuesday-delegates-app.png
+    - super-tuesday-delegates-print.jpg
 publication: NYT
 tags: chart,politics,elections,d3
-_with: <a href="http://dwtkns.com/portfolio/">D. Watkins</a>, <a href="http://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
+coauthors: <a href="http://dwtkns.com/portfolio/">D. Watkins</a>, <a href="http://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
 ---
 
 This morning-after-Super-Tuesday update on our [delegate calculator](/2016/02/26/delegate-calculator) explores different scenarios of how the nomination race can unfold from March 1 on.

@@ -3,10 +3,10 @@ layout: link
 title: Europe’s Energy
 tagline: Putting Europe's 2020 energy targets into context.
 gallery:
-  - europes-energy-1.png
-  - http://vimeo.com/19555259
-  - europes-energy-2.png
-  - europes-energy-3.png
+    - europes-energy-1.png
+    - http://vimeo.com/19555259
+    - europes-energy-2.png
+    - europes-energy-3.png
 link: http://energy.publicdata.eu/ee/vis.html?lang=en
 client: [okfn, Open Knowledge Foundation]
 type: interactive
@@ -14,7 +14,7 @@ image: europeenergy.png
 tags: environment,climate/weather
 publication: OKFN
 screenshot: europeenergy-big.png
-_with: <a href="http://okfn.org">Open Knowledge Foundation</a>
+coauthors: <a href="http://okfn.org">Open Knowledge Foundation</a>
 info: This graphic was showcased at a meeting of European Commission dedicated to climate change. Also this got me my first Malofiej medal in 2012 (silver, yay!)
 ---
 

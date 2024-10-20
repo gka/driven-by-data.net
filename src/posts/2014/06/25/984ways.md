@@ -5,9 +5,9 @@ link: http://www.nytimes.com/interactive/2014/06/25/upshot/984-ways-the-united-s
 image: 984ways.png
 nytprint: June 26, 2014, on page B11
 images:
-  - 984ways-big.png
-  - 984ways-print.jpg
-_with: Kevin Quealy
+    - 984ways-big.png
+    - 984ways-print.jpg
+coauthors: Kevin Quealy
 publication: NYT
 tags: sports,soccer
 ---

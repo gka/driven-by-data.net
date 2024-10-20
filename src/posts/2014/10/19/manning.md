@@ -6,9 +6,9 @@ image: manning.png
 tags: sports,football
 publication: NYT
 images:
-  - manning-big.png
-  - manning-2.png
-  - manning-3.png
+    - manning-big.png
+    - manning-2.png
+    - manning-3.png
 screenshot: manning-big.png
-_with: <a href="http://kpq.github.io/">Kevin Quealy</a>
+coauthors: <a href="http://kpq.github.io/">Kevin Quealy</a>
 ---

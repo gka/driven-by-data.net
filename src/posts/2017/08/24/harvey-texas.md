@@ -2,10 +2,10 @@
 layout: post
 title: 'Tracking Harvey’s Destructive Path Through Texas and Louisiana'
 link: https://www.nytimes.com/interactive/2017/08/24/us/hurricane-harvey-texas.html
-_with: many others
+coauthors: many others
 image: harvey-sat-small.jpg
 images:
-  - harvey-sat.jpg
+    - harvey-sat.jpg
 tags: environment, climate/weather
 publication: NYT
 classes:

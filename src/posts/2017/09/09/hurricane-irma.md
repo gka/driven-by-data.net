@@ -2,11 +2,11 @@
 layout: post
 title: 'Hurricane Irma Is One of the Strongest Storms In History'
 link: https://www.nytimes.com/interactive/2017/09/09/us/hurricane-irma-records.html
-_with: Karen Yourish & Adam Pearce
+coauthors: Karen Yourish & Adam Pearce
 image: irma-records.png
 images:
-  - irma-records-big.png
-  - irma-records-2.png
+    - irma-records-big.png
+    - irma-records-2.png
 tags: environment, climate/weather
 publication: NYT
 classes:

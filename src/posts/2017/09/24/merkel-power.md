@@ -4,10 +4,10 @@ title: 'How Angela Merkel Compares to Three Decades of European Leaders'
 link: https://www.nytimes.com/interactive/2017/09/24/world/europe/merkel-germany-election-twelve-years.html
 image: merkel-power.png
 images:
-  - merkel-power-history.png
-  - merkel-power-map.png
-  - merkel-power-scatter.png
-  - merkel-power-table.png
+    - merkel-power-history.png
+    - merkel-power-map.png
+    - merkel-power-scatter.png
+    - merkel-power-table.png
 tags: europe,politics
 publication: NYT
 classes:

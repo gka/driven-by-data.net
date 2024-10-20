@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"compress-images": "cd static/images/2024 && pngquant --ext .png --force *.png"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -23,7 +24,7 @@
 		"globals": "^15.0.0",
 		"mdsvex": "^0.12.3",
 		"prettier": "^3.1.1",
-		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-svelte": "^3.2.7",
 		"sass-embedded": "^1.80.3",
 		"svelte": "^5.0.0-next.1",
 		"svelte-check": "^4.0.0",
@@ -35,6 +36,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/roboto": "^5.1.0",
+		"@iconify-icons/ion": "^1.2.10",
 		"@iconify-icons/mdi": "^1.2.48",
 		"@iconify/svelte": "^4.0.2",
 		"es-toolkit": "^1.25.2"

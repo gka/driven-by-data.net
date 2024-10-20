@@ -6,8 +6,8 @@ tags: politics
 publication: zon
 image: thuringia-election-teaser.png
 images:
-  - thuringia-election-1.png
-  - thuringia-election.png
+    - thuringia-election-1.png
+    - thuringia-election.png
 ---
 
 I helped to cover the Thuringia local elections on May 26, 2024. For the article, we only used Datawrapper graphics.

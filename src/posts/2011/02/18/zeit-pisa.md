@@ -3,7 +3,7 @@ layout: post
 title: Country Comparison of PISA results
 tagline: Visualization of the network of parties, party donors and donations.
 images:
-  - pisa-1.png
+    - pisa-1.png
 published: false
 tags: education
 link: http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php

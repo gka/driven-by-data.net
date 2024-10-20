@@ -4,7 +4,7 @@ title: Australia, the World Cup’s Unluckiest Country
 link: http://www.nytimes.com/2014/06/06/upshot/australia-finds-itself-in-bad-spot-in-world-cup.html
 image: luckydraw.png
 screenshot: luckydraw-big.png
-_with: David Leonhardt
+coauthors: David Leonhardt
 tags: sports,soccer,static,simulation
 publication: NYT
 ---

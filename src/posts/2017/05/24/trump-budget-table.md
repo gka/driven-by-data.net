@@ -4,9 +4,9 @@ title: 'How Trump’s Budget Would Affect Every Part of Government'
 link: https://www.nytimes.com/interactive/2017/05/23/us/politics/trump-budget-details.html
 image: trump-budget.png
 images:
-  - trump-budget-big.png
+    - trump-budget-big.png
 tags: us,politics
 classes:
 publication: NYT
-_with: Alicia Parlapiano
+coauthors: Alicia Parlapiano
 ---

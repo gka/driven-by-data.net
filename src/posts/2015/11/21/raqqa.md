@@ -5,12 +5,12 @@ link: http://www.nytimes.com/interactive/2015/11/21/world/middleeast/inside-raqq
 image: raqqa.png
 screenshot: raqqa-big.jpg
 images:
-  - raqqa-big.jpg
-  - raqqa-big-2.jpg
-  - raqqa-ai.png
+    - raqqa-big.jpg
+    - raqqa-big-2.jpg
+    - raqqa-ai.png
 tags: map, interactive, stepper, terrorism, foreign, ai2html
 publication: NYT
-_with: <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>, <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a>, <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/giratikanon">Tom Giratikanon</a>
+coauthors: <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>, <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a>, <a href="http://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/giratikanon">Tom Giratikanon</a>
 ---
 
 This [interactive tour]({{ link }}) through the city of Raqqa in Syria was also an experiment for a new way of creating pan & zoom slideshows in Illustrator.

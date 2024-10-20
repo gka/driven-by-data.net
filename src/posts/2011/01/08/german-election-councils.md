@@ -8,8 +8,8 @@ tags: politics,germany,elections,sketches
 link: http://vis4.net/blog/posts/wahlkreise/
 image: de-election-districts.png
 images:
-  - de-election-districts-01.png
-  - de-election-districts-big.png
+    - de-election-districts-01.png
+    - de-election-districts-big.png
 ---
 
 Simple form study of German election districts. Natural reaction of me discovering the beautiful shapes of U.S. gerrymandering for the first time.

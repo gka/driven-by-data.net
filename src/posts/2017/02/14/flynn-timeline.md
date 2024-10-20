@@ -4,11 +4,11 @@ title: 'The Timeline of Michael Flynn’s Phone Call With Russia: Who Knew What,
 link: https://www.nytimes.com/interactive/2017/02/14/us/politics/flynn-call-russia-timeline.html
 image: flynn.png
 images:
-  - flynn-1.png
+    - flynn-1.png
 tags: us
 classes:
 publication: NYT
-_with: K.K. Rebecca Lai
+coauthors: K.K. Rebecca Lai
 ---
 
 Visual representation of the events leading up to Michael Flynn's resignation as Trump's National Security Advisor.
