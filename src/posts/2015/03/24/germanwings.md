@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'What Happened on the Germanwings Flight'
-link: http://www.nytimes.com/interactive/2015/03/24/world/europe/germanwings-plane-crash-map.html#descent
+link: https://www.nytimes.com/interactive/2015/03/24/world/europe/germanwings-plane-crash-map.html#descent
 image: germanwings.png
-screenshot: germanwings-big.png
+images: 
+  - germanwings-big.png
 coauthors: <a href="http://joshmkeller.com/">J. Keller</a>, <a href="https://twitter.com/kkrebeccalai">KK Lai</a> & <a href="http://cargocollective.com/timwallace">T. Wallace</a>
 publication: NYT
 tags: breaking news, breaking

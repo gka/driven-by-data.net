@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who Is Leading the Iowa and New Hampshire Polls'
-link: http://www.nytimes.com/interactive/2016/01/21/us/elections/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz.html
+link: https://www.nytimes.com/interactive/2016/01/21/us/elections/iowa-new-hampshire-presidential-election-polls-clinton-trump-sanders-cruz.html
 image: primary-polls.png
 screenshot: primary-polls-1.png
 nytprint: January 24, 2016, on page A14

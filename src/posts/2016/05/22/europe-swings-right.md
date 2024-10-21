@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How Far Is Europe Swinging to the Right?'
-link: http://www.nytimes.com/interactive/2016/05/22/world/europe/europe-right-wing-austria-hungary.html
+link: https://www.nytimes.com/interactive/2016/05/22/world/europe/europe-right-wing-austria-hungary.html
 image: eu-swings-right.png
 images:
     - eu-swings-right-big.png

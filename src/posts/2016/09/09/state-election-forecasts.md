@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'State-by-state Election Forecast'
-link: http://www.nytimes.com/interactive/2016/upshot/florida-election-forecast.html
+link: https://www.nytimes.com/interactive/2016/upshot/florida-election-forecast.html
 image: state-forecast.png
 images:
     - state-forecast-1.png

@@ -5,5 +5,5 @@ info: I generated some color blindness test images for kids who can name animals
 type: code
 image: colorblind.png
 tags: blog
-link: http://vis4.net/blog/posts/color-blindness/
+link: https://vis4.net/blog/posts/color-blindness/
 ---

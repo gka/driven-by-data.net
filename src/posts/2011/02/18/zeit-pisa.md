@@ -6,7 +6,7 @@ images:
     - pisa-1.png
 published: false
 tags: education
-link: http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php
+link: https://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php
 type: interactive
 publication: zon
 ---
@@ -15,6 +15,6 @@ This interactive graphic shows the network of party donations in Germany. Every 
 
 _Update_
 
-![img](/img/gallery/visual-storytelling-.gif)
+![Appeared in Visual Storytelling](/images/visual-storytelling.gif)
 
 The graphic is now featured in the book [Visual Storytelling](http://shop.gestalten.com/visual-storytelling.html) in Gestalten Verlag.

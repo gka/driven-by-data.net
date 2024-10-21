@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Dissecting the #PizzaGate Conspiracy Theories'
-link: http://www.nytimes.com/interactive/2016/12/10/business/media/pizzagate.html
+link: https://www.nytimes.com/interactive/2016/12/10/business/media/pizzagate.html
 image: pizzagate.png
 images:
     - pizzagate-promo.gif

@@ -1,13 +1,12 @@
 ---
 layout: post
 title: 'Can You Beat Usain Bolt Out of the Blocks?'
-link: http://www.nytimes.com/interactive/2016/08/13/sports/olympics/can-you-beat-usain-bolt-out-of-the-blocks.html
+link: https://www.nytimes.com/interactive/2016/08/13/sports/olympics/can-you-beat-usain-bolt-out-of-the-blocks.html
 image: reaction-time.png
 images:
     - reaction-time-1.png
 tags: sports
-publication: NYT
-classes:
+publication: NYTs
 coauthors: <a href="http://larrybuch.com">Larry Buchanan</a> and Derek Watkins
 ---
 

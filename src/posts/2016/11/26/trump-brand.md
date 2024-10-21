@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Trump Brand Around the World'
-link: http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html
+link: https://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html
 image: trump-brand.png
 images:
     - trump-brand-1.png

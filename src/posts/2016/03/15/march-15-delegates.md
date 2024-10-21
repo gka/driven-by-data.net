@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rubio’s Exit Leaves Trump With an Open Path to 1,237 Delegates'
-link: http://www.nytimes.com/interactive/2016/03/16/upshot/trump-cruz-kasich-republican-delegate-lead.html
+link: https://www.nytimes.com/interactive/2016/03/16/upshot/trump-cruz-kasich-republican-delegate-lead.html
 image: march-15-delegate-calc.png
 nytprint: March 17, 2016, on page TK
 images:

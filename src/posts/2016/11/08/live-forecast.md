@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Live Election Forecast'
-link: http://www.nytimes.com/elections/forecast/president
+link: https://www.nytimes.com/elections/forecast/president
 image: forecast.png
 images:
     - forecast-1.png

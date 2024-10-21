@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Where Men Aren’t Working
-link: http://www.nytimes.com/interactive/2014/12/12/upshot/where-men-arent-working-map.html
+link: https://www.nytimes.com/interactive/2014/12/12/upshot/where-men-arent-working-map.html
 coauthors: David Leonhardt & Josh Katz
 image: nonworking.png
 tags: map, social, economy
 publication: NYT
-screenshot: nonworking-big.png
+images: 
+  - nonworking-big.png
 info: My first self-made tile map, and it's not using spherical mercator!
 ---
 

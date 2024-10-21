@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How the Rest of the Delegate Race Could Unfold'
-link: http://www.nytimes.com/interactive/2016/03/30/upshot/trump-clinton-delegate-calculator.html
+link: https://www.nytimes.com/interactive/2016/03/30/upshot/trump-clinton-delegate-calculator.html
 image: delegate-lead.png
 # nytprint: February 16, 2016, on page A3
 screenshot: delegate-lead-1.png

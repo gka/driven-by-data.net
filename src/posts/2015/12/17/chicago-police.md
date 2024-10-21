@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'For Chicago Police, Many Complaints but Few Consequences<br>'
-link: http://www.nytimes.com/interactive/2015/12/15/us/chicago-police-officers-rarely-punished-for-civilian-complaints.html
+link: https://www.nytimes.com/interactive/2015/12/15/us/chicago-police-officers-rarely-punished-for-civilian-complaints.html
 image: chicago-police.png
-screenshot: chicago-police.jpg
 images:
     - chicago-police.jpg
     - chicago-police-2.jpg

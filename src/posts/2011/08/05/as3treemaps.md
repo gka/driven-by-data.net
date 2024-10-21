@@ -6,5 +6,5 @@ type: code
 image: as3treemaps.png
 screenshot: as3treemaps-big.png
 tags: software
-link: http://vis4.net/labs/as3treemap/
+link: https://vis4.net/labs/as3treemap/
 ---

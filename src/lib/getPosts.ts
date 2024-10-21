@@ -25,7 +25,7 @@ export default async function ({ tag, limit, dev }: { tag: string; limit: number
 				},
 				meta: { ...metadata, tags: metadata.tags?.split(',').map((s) => s.trim()) }
 			} satisfies Post;
-			if (post.published !== false && (!tag || post.meta.tags?.includes(tag))) {
+			if (post.meta.published != false && (!tag || post.meta.tags?.includes(tag))) {
 				posts.push(post);
 			}
 		}

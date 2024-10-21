@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'G.O.P. Debate Live Charts'
-link: http://www.nytimes.com/live/republican-debate-election-2016-cleveland/?type=charts
+link: https://www.nytimes.com/live/republican-debate-election-2016-cleveland/?type=charts
 image: gop-debate.png
-screenshot: gop-dashboard-big.png
 images:
+    - gop-dashboard-big.png
     - gop-debate-speaking-time.png
     - gop-debate-speaking.png
     - gop-debate-attacks.png

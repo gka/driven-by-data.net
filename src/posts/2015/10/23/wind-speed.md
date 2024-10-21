@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Wind Speed Map of Hurricane Patricia
-link: http://www.nytimes.com/interactive/2015/10/23/world/americas/hurricane-patricia.html#wind-speed
+link: https://www.nytimes.com/interactive/2015/10/23/world/americas/hurricane-patricia.html#wind-speed
 image: windmap.png
 classes:
-screenshot: windmap-1.png
 images:
     - windmap-1.png
     - windmap-2.png

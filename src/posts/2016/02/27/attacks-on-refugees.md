@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'Attacks on Refugees in Germany'
-link: http://www.nytimes.com/2016/02/27/world/europe/germany-migrant-arson-trial.html#attacks-on-refugees-in-germany
+link: 'https://www.nytimes.com/2016/02/27/world/europe/germany-migrant-arson-trial.html#attacks-on-refugees-in-germany'
 image: attacks-on-refugees.png
-screenshot: attacks-on-refugees-big.png
-
+images: 
+    - attacks-on-refugees-big.png
 tags: map,crime/justice,foreign,international
 publication: NYT
 coauthors: <a href="http://timwallace.net/">Tim Wallace</a>

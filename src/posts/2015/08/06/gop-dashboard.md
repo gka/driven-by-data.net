@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 'Who’s Winning the G.O.P. Campaign?'
-link: http://www.nytimes.com/interactive/2015/08/06/upshot/2016-republican-presidential-candidates-dashboard.html
+link: https://www.nytimes.com/interactive/2015/08/06/upshot/2016-republican-presidential-candidates-dashboard.html
 image: gop-dashboard.png
 images:
+    - gop-dashboard-big.png
     - gop-dashboard-new.png
     - gop-dashboard-1.png
     - gop-dashboard-3.png
     - gop-dashboard-5.png
-screenshot: gop-dashboard-big.png
 classes:
 publication: NYT
 coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="http://thescoop.org/">Derek Willis</a> & David Leonhardt

@@ -3,7 +3,7 @@ layout: link
 title: Fraktion vs. Gewissen
 info: Closeness of coalition parties at roll-call votes in the German Bundestag
 gallery: ['fraction-vs-conscience-1.png', 'fraction-vs-conscience-2.png']
-link: http://vis4.net/labs/fraktion-vs-gewissen
+link: https://vis4.net/labs/fraktion-vs-gewissen
 height: 631
 type: interactive
 image: fraktion.png

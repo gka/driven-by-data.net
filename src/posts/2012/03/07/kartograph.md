@@ -2,8 +2,9 @@
 layout: post
 title: Kartograph mapping framework
 image: kartograph.png
-link: http://kartograph.org
-screenshot: kartograph-big.jpg
+link: https://kartograph.org
+images: 
+  - kartograph-big.jpg
 tags: software
 ---
 

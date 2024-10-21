@@ -5,7 +5,7 @@ info: Live map of all tweets send around the nuclear waste transport in November
 type: code
 image: castor-twitter.png
 screenshot: castor-twitter-big.png
-link: http://live-map.de/
+link: https://live-map.de/
 tags: environment
 coauthors: <a href="http://datenjournalist.de">Lorenz Matzat</a>
 ---

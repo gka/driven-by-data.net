@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Steph Curry’s 3-Point Record in Context: Off the Charts'
-link: http://www.nytimes.com/interactive/2016/04/16/upshot/stephen-curry-golden-state-warriors-3-pointers.html
+link: https://www.nytimes.com/interactive/2016/04/16/upshot/stephen-curry-golden-state-warriors-3-pointers.html
 image: curry-chart.png
 images:
     - curry-chart-2.png

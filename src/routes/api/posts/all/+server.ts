@@ -5,3 +5,5 @@ export async function GET() {
 	const posts = await getPosts({ tag: '', limit: 0, dev: false });
 	return json(posts);
 }
+
+export const prerender = true;

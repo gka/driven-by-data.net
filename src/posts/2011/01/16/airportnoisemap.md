@@ -2,13 +2,13 @@
 layout: link
 title: Mapping Airport Noise
 info: My first graphic published on a news website! Showed estimated sound levels of planned flight routes at the new airport in Berlin Schoenefeld. Took a long time too make this!
-gallery:
+images:
     - airportnoise-1.png
     - airportnoise-2.png
     - airportnoise-3.png
 height: 451
 type: interactive
-link: http://www.taz.de/Fluglaerm-BBI/!t195/#!bbi/
+link: https://www.taz.de/Fluglaerm-BBI/!t195/#!bbi/
 image: taz-airportnoise.png
 tags: environment
 publication: taz

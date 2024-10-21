@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Manuel Neuer’s Wanderlust
-link: http://www.nytimes.com/interactive/2014/07/12/sports/worldcup/manuel-neuer-goalkeeper.html
+link: https://www.nytimes.com/interactive/2014/07/12/sports/worldcup/manuel-neuer-goalkeeper.html
 image: neuer.png
 images:
     - neuer-big.png

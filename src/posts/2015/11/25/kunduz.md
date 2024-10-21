@@ -1,9 +1,8 @@
 ---
 layout: post
 title: The Cascade of Errors That Led to the U.S. Airstrike on an Afghan Hospital
-link: http://www.nytimes.com/interactive/2015/11/25/world/asia/errors-us-airstrike-afghan-kunduz-msf-hospital.html
+link: https://www.nytimes.com/interactive/2015/11/25/world/asia/errors-us-airstrike-afghan-kunduz-msf-hospital.html
 image: kunduz.png
-screenshot: kunduz-big.jpg
 images:
     - kunduz-big.jpg
     - kunduz-bigmap.jpg

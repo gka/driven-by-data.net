@@ -8,7 +8,7 @@ gallery:
     - wikileaks2.png
     - wikileaks3.png
 height: 461
-link: http://vis4.net/labs/wikileaks/mirrors/
+link: https://vis4.net/labs/wikileaks/mirrors/
 image: mirrors.png
 published: true
 tags: activism

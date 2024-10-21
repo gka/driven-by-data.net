@@ -2,7 +2,7 @@
 layout: post
 title: Study of text contrasts
 info: Network of party donations in Germany. Donations are represented as lines linking donors and parties, arranged around a circle.
-link: http://vis4.net/labs/textcontrast/TextContrast.swf
+link: https://vis4.net/labs/textcontrast/TextContrast.swf
 image: text-contrast.png
 images:
     - text-contrast-white.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How Britain Voted in the E.U. Referendum'
-link: http://www.nytimes.com/interactive/2016/06/24/world/europe/how-britain-voted-brexit-referendum.html
+link: https://www.nytimes.com/interactive/2016/06/24/world/europe/how-britain-voted-brexit-referendum.html
 image: brexit-map.png
 images:
     - brexit-map-1.png

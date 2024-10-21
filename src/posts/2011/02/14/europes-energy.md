@@ -2,12 +2,12 @@
 layout: link
 title: Europe’s Energy
 tagline: Putting Europe's 2020 energy targets into context.
-gallery:
+images:
     - europes-energy-1.png
-    - http://vimeo.com/19555259
+    - https://vimeo.com/24818630
     - europes-energy-2.png
     - europes-energy-3.png
-link: http://energy.publicdata.eu/ee/vis.html?lang=en
+link: https://energy.publicdata.eu/ee/vis.html?lang=en
 client: [okfn, Open Knowledge Foundation]
 type: interactive
 image: europeenergy.png

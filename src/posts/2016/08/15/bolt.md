@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How Usain Bolt Came From Behind Again to Win Gold'
-link: http://www.nytimes.com/interactive/2016/08/15/sports/olympics/usain-bolt-mens-100-meters-final.html
+link: https://www.nytimes.com/interactive/2016/08/15/sports/olympics/usain-bolt-mens-100-meters-final.html
 image: bolt.jpg
 images:
     - bolt-3.jpg

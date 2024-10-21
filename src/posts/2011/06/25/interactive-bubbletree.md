@@ -7,7 +7,7 @@ gallery:
     - bubbletree-2.png
     - bubbletree-3.png
 height: 510
-link: http://okfnlabs.org/bubbletree/demos/random/
+link: https://okfnlabs.org/bubbletree/demos/random/
 linktext: demo on random data
 type: code interactive
 image: bubbletree.png

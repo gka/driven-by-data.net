@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Voting Blocs of Arkansas
-link: http://www.nytimes.com/2014/10/01/us/politics/loss-of-a-democratic-power-leaves-arkansas-in-doubt-.html#arkansas-voting-blocs
+link: https://www.nytimes.com/2014/10/01/us/politics/loss-of-a-democratic-power-leaves-arkansas-in-doubt-.html#arkansas-voting-blocs
 image: arkansas.png
 screenshot: arkansas-big.png
 coauthors: Haeyoun Park

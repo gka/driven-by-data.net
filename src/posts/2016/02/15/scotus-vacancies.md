@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'History of Supreme Court Nominees and Vacancies'
-link: http://www.nytimes.com/interactive/2016/02/15/us/supreme-court-nominations-election-year-scalia.html
+link: https://www.nytimes.com/interactive/2016/02/15/us/supreme-court-nominations-election-year-scalia.html
 image: scotus-vacancies.png
 nytprint: February 16, 2016, on page A3
 screenshot: scotus-vacancies-1.png

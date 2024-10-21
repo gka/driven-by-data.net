@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Inside Raqqa, the Capital of ISIS
-link: http://www.nytimes.com/interactive/2015/11/21/world/middleeast/inside-raqqa-capital-of-isis.html
+link: https://www.nytimes.com/interactive/2015/11/21/world/middleeast/inside-raqqa-capital-of-isis.html
 image: raqqa.png
-screenshot: raqqa-big.jpg
 images:
     - raqqa-big.jpg
     - raqqa-big-2.jpg

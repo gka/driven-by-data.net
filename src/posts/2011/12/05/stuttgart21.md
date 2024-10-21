@@ -6,5 +6,5 @@ type: code
 image: stuttgart21.png
 tags: politics,germany,elections
 screenshot: stuttgart21-big.png
-link: http://vis4.net/labs/stuttgart21/
+link: https://vis4.net/labs/stuttgart21/
 ---

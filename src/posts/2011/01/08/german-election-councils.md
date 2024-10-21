@@ -5,7 +5,7 @@ published: true
 tagline: Comparing the shapes of election districts
 type: stuff
 tags: politics,germany,elections,sketches
-link: http://vis4.net/blog/posts/wahlkreise/
+link: https://vis4.net/blog/posts/wahlkreise/
 image: de-election-districts.png
 images:
     - de-election-districts-01.png

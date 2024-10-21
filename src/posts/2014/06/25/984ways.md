@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 984 Ways the United States Can Advance to the Next Round of the World Cup
-link: http://www.nytimes.com/interactive/2014/06/25/upshot/984-ways-the-united-states-can-advance-to-the-next-round-of-the-world-cup.html
+link: https://www.nytimes.com/interactive/2014/06/25/upshot/984-ways-the-united-states-can-advance-to-the-next-round-of-the-world-cup.html
 image: 984ways.png
 nytprint: June 26, 2014, on page B11
 images:

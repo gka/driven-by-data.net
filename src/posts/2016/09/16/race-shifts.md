@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Where the Race Has Shifted'
-link: http://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html#recent-state-changes
+link: https://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html#recent-state-changes
 image: shifts.png
 images:
     - shifts-1.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Interactive G.O.P. Nomination Delegate Calculator'
-link: http://www.nytimes.com/interactive/2016/02/27/upshot/republican-delegate-calculator-how-trump-can-win.html
+link: https://www.nytimes.com/interactive/2016/02/27/upshot/republican-delegate-calculator-how-trump-can-win.html
 image: delegate-calc.png
 # nytprint: February 16, 2016, on page A3
 screenshot: delegate-calc-1.png

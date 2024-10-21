@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Conflicts Along 1,172 Miles of the Dakota Access Pipeline'
-link: http://www.nytimes.com/interactive/2016/11/23/us/dakota-access-pipeline-protest-map.html
+link: https://www.nytimes.com/interactive/2016/11/23/us/dakota-access-pipeline-protest-map.html
 image: dapl.jpg
 images:
     - dapl-1.jpg

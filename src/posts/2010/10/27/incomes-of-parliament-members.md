@@ -7,7 +7,7 @@ images:
     - nebeneinkuenfte-2.png
 height: 700
 type: interactive
-link: http://vis4.net/labs/nebeneinkuenfte/
+link: https://vis4.net/labs/nebeneinkuenfte/
 image: nebeneinkuenfte.png
 tags: politics,germany
 ---

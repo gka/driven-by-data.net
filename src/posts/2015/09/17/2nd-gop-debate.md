@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Trump Remains Center Stage at 2nd G.O.P. Debate
-link: http://www.nytimes.com/interactive/2015/09/17/us/politics/gop-debate-trump-attacks-speaking-time.html
+link: https://www.nytimes.com/interactive/2015/09/17/us/politics/gop-debate-trump-attacks-speaking-time.html
 image: 2nd-gop-debate.png
-screenshot: 2nd-gop-debate-1.png
 classes:
 images:
     - 2nd-gop-debate-0.png

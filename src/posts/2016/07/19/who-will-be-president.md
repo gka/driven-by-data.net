@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Who Will Be President?'
-link: http://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html
+link: https://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html
 image: pres-model.png
 images:
     - pres-model-1.png

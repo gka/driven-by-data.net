@@ -40,11 +40,11 @@ $title-color-dark: #ccc;
 
 @media (prefers-color-scheme: light) {
 	.hide-in-light {
-		display: none;
+		display: none!important;
 	}
 }
 	@media (prefers-color-scheme: dark) {
 		.hide-in-dark {
-			display: none
+			display: none!important;
 		}
 	}

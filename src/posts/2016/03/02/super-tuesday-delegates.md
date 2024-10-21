@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'After Dominating Super Tuesday, Can Trump and Clinton Be Stopped?'
-link: http://www.nytimes.com/interactive/2016/03/02/us/super-tuesday-results-delegates.html
+link: https://www.nytimes.com/interactive/2016/03/02/us/super-tuesday-results-delegates.html
 image: super-tuesday-delegates.png
 nytprint: March 3, 2016, on page A12
 images:

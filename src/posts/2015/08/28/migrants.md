@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'A Surge in Asylum Applications'
-link: http://www.nytimes.com/interactive/2015/08/28/world/europe/countries-under-strain-from-european-migration-crisis.html#charts
+link: https://www.nytimes.com/interactive/2015/08/28/world/europe/countries-under-strain-from-european-migration-crisis.html#charts
 image: migrants.png
-screenshot: migrants-big.png
 images:
     - migrants-big.png
     - migrants-big-2.png

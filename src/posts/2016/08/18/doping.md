@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Athletes at the Rio Olympics That Have Previously Been Suspended for Doping'
-link: http://www.nytimes.com/interactive/2016/08/18/sports/olympics/athletes-at-the-rio-olympics-who-were-previously-suspended-for-doping-.html?smid=tw-share
+link: https://www.nytimes.com/interactive/2016/08/18/sports/olympics/athletes-at-the-rio-olympics-who-were-previously-suspended-for-doping-.html
 image: doping.png
 images:
     - doping-1.png

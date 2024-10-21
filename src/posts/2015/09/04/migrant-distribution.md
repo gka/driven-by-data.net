@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Seeking a Fair Distribution of Refugees in Europe
-link: http://www.nytimes.com/interactive/2015/09/04/world/europe/europe-refugee-distribution.html
+link: https://www.nytimes.com/interactive/2015/09/04/world/europe/europe-refugee-distribution.html
 image: migrant-distribution.png
-screenshot: migrant-distribution-big.png
 images:
     - migrant-distribution-big.png
     - migrant-distribution-map.png

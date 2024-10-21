@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { endsWith, includes } from 'es-toolkit/compat';
-import CoAuthors from './CoAuthors.svelte';
+	import { lazyLoad } from './lazyLoad';
+	import CoAuthors from './CoAuthors.svelte';
 
 	type Meta = {
 		title: string;
@@ -13,7 +13,7 @@ import CoAuthors from './CoAuthors.svelte';
 
 	let { path, meta }: { path: string; meta: Meta } = $props();
 
-	const url = $derived(meta.layout === 'link' ? meta.link : path);
+	const url = $derived(meta.layout === 'link' && meta.link.startsWith('http') ? meta.link : path);
 
 	const pubDate = $derived(new Date(path.split('/').slice(0, 3).join('-')));
 	const format = (d: Date) =>
@@ -24,10 +24,10 @@ import CoAuthors from './CoAuthors.svelte';
 	<a href={url}
 		><figure class="image is-square">
 			{#if meta.image?.endsWith('-light.png')}
-			<img src="/images/{meta.image}" class="hide-in-dark" alt={meta.title} />
-			<img src="/images/{meta.image.replace('-light.png', '-dark.png')}" class="hide-in-light" alt={meta.title} />
+			<img use:lazyLoad={`/images/${meta.image}`} class="hide-in-dark" alt={meta.title} />
+			<img use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`} class="hide-in-light" alt={meta.title} />
 			{:else}
-			<img src="/images/{meta.image}" alt={meta.title} />
+			<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
 			{/if}
 		</figure>
 	</a>

@@ -13,7 +13,7 @@
 	const filteredPosts = $derived(
 		data.posts
 			.filter((post) =>
-				typeof activeTag === 'string' ? post.meta.tags.includes(activeTag) : true
+				typeof activeTag === 'string' ? post.meta.tags?.includes(activeTag) : true
 			)
 			.filter((post) =>
 				typeof activePublication === 'string'
@@ -45,6 +45,8 @@
 					})
 				).sort((a, b) => (b[0] > a[0] ? 1 : -1))
 	);
+
+	$inspect({activeTag})
 </script>
 
 <svelte:head>
@@ -57,34 +59,36 @@
 	<meta name="twitter:title" content="driven-by-da" />
 	<meta
 		name="twitter:description"
-		content="Graphics portfolio of Gregor Aisch, a former graphics editor at The New York Times, now Co-Founder/CTO at Datawrapper."
+		content={description}
 	/>
 	<meta name="twitter:image" content="https://driven-by-data.net/images/streetnames-big2.png" />
 </svelte:head>
 
+
+
 <section class="section">
 	<div class="container">
 		<h1 class="title is-1 mb-5">driven by data</h1>
-		<p class="subtitle is-5 mt-1">
-			Portfolio of <b>Gregor Aisch</b>, a visual data journalist at <b>ZEIT Online</b>, former
-			graphics editor at
-			<b>The New York Times</b> and co-founder of <b>Datawrapper</b>. Lives and works in
+		<h2 class="subtitle is-5 mt-1">
+			Portfolio of <b>Gregor Aisch</b>, a visual data journalist at <a href="https://www.zeit.de/autoren/A/Gregor_Aisch" target="_blank">ZEIT ONLINE</a>, former
+			graphics editor at 
+			<a target="_blank" href="https://www.nytimes.com/by/gregor-aisch">The New York Times</a> and co-founder and former CTO of <a target="_blank" href="https://www.datawrapper.de/about-us">Datawrapper</a>. Lives and works in
 			Berlin.
-		</p>
+		</h2>
+
 		<div class="columns tagnav">
 			<!-- filter by tags -->
 			<div class="column is-4">
-				<a
+				<button
 					class="has-text-grey-light"
 					class:active={activeTag === null}
 					onclick={(e) => {
 						e.preventDefault();
 						activeTag = null;
-					}}
-					href="#all">all projects</a
+					}}>all projects</button
 				>
 				{#each tags as tag}
-					<a
+					<button
 						class="has-text-grey-light"
 						class:active={activeTag === tag}
 						onclick={(e) => {
@@ -92,23 +96,23 @@
 							activeTag = tag;
 							activePublication = null;
 						}}
-						href="#tag/{tag}">{tag}</a
+					>{tag}</button
 					>
 				{/each}
 			</div>
 			<!-- filter by publication -->
 			<div class="column is-3">
-				<a
+				<button
 					class="has-text-grey-light"
 					class:active={activePublication === null}
 					onclick={(e) => {
 						e.preventDefault();
 						activePublication = null;
 					}}
-					href="#all">all publications</a
+					>all publications</button
 				>
 				{#each publications as pub}
-					<a
+					<button
 						class="has-text-grey-light"
 						class:active={activePublication === pub}
 						onclick={(e) => {
@@ -116,7 +120,7 @@
 							activePublication = pub;
 							activeTag = null;
 						}}
-						href="#pub/{pub}">{nicePubNames[pub] ?? pub}</a
+						>{nicePubNames[pub] ?? pub}</button
 					>
 				{/each}
 			</div>
@@ -129,7 +133,7 @@
 							activeTag = null;
 							activePublication = null;
 						}}
-						href="#{String(year).toLowerCase().replace(/\W+/g, '-')}">{year}</a
+						href="#{String(year).toLowerCase().replace(/W+/g, '-')}">{year}</a
 					>
 				{/each}
 			</div>
@@ -140,11 +144,9 @@
 {#each groupedPosts as [year, posts], i}
 	<section class="section">
 		<div class="container">
-			{#if i}
-				<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>
-					{year}
-				</h2>
-			{/if}
+			<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>
+				{year}
+			</h2>
 			<div class="columns is-mobile is-multiline is-variable is-8-desktop is-4-mobile">
 				{#each posts as post}
 					<div class="column is-one-fifth-tablet is-half-mobile">
@@ -157,7 +159,8 @@
 {/each}
 
 <style lang="scss">
-	.tagnav a {
+	h2.title[id='2024'] { display: none;}
+	.tagnav button, .tagnav a {
 		display: inline-block;
 		margin-right: 1ex;
 		margin-bottom: 0ex;
@@ -178,5 +181,8 @@
 	}
 	.subtitle {
 		max-width: 40em;
+		a {
+			font-weight: bold;
+		}
 	}
 </style>

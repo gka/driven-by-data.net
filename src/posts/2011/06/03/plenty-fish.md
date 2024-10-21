@@ -3,7 +3,7 @@ layout: post
 title: Plenty More Fish In The Sea?
 images:
     - plenty-fish.gif
-link: http://www.theguardian.com/news/datablog/2011/jun/03/fish-stocks-information-beautiful
+link: https://www.theguardian.com/news/datablog/2011/jun/03/fish-stocks-information-beautiful
 type: nap
 image: plenty-fish.png
 screenshot: plenty-fish.gif

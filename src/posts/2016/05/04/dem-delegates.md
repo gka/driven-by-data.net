@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How the Rest of the Democratic Delegate Race Could Unfold'
-link: http://www.nytimes.com/interactive/2016/04/24/us/elections/trump-gop-delegate-system-rigged.html
+link: https://www.nytimes.com/interactive/2016/04/24/us/elections/trump-gop-delegate-system-rigged.html
 image: dem-delegates.png
 images:
     - dem-delegates-big.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Which Countries Have Dominated the Summer Olympics?'
-link: http://www.nytimes.com/interactive/2016/08/08/sports/olympics/history-olympic-dominance-charts.html
+link: https://www.nytimes.com/interactive/2016/08/08/sports/olympics/history-olympic-dominance-charts.html
 image: olympic-dominance.png
 images:
     - olympic-dominance-1.png

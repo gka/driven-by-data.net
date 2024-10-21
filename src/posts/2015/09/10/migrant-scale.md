@@ -1,9 +1,8 @@
 ---
 layout: post
 title: The Scale of the Migrant Crisis, From 160 to Millions
-link: http://www.nytimes.com/interactive/2015/09/10/world/europe/scale-of-migrant-crisis-in-europe.html
+link: https://www.nytimes.com/interactive/2015/09/10/world/europe/scale-of-migrant-crisis-in-europe.html
 image: migrant-scale.png
-screenshot: migrant-scale-big.png
 classes: shadow border
 images:
     - migrant-scale-photo.jpg

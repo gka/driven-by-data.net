@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 'You Draw It: How Family Income Affects Children’s College Chances'
-link: http://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html
+link: https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html
 image: college-game.png
-screenshot: college-game-big.png
 coauthors: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="http://kpq.github.io/">Kevin Quealy</a>
 publication: NYT
 tags: interactive, game, education, social
 images:
+    - college-game-big.png
     - college-chart-game-1.png
     - college-chart-game-2.png
     - college-chart-game-3.png

@@ -7,7 +7,7 @@ gallery:
     - dw-wikipedia-2.png
     - dw-wikipedia-3.png
 height: 421
-link: http://visualdata.dw.de/en/wikipedia/
+link: https://visualdata.dw.de/en/wikipedia/
 type: interactive
 image: wikipedia.png
 publication: DW

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: The Cost of Mobile Ads on 50 News Websites
-link: http://www.nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html
+link: https://www.nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html
 image: mobile-ads.png
 classes:
-screenshot: mobile-ads-1.png
 images:
     - mobile-ads-1.png
     - mobile-ads-2.png

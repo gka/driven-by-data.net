@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where Working Women <br>Are Most Common
-link: http://www.nytimes.com/interactive/2015/01/06/upshot/where-working-women-are-most-common.html
+link: https://www.nytimes.com/interactive/2015/01/06/upshot/where-working-women-are-most-common.html
 coauthors: D. Leonhardt & Josh Katz
 image: working-women.png
 images:

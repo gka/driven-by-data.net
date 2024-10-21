@@ -1,15 +1,15 @@
 ---
 layout: post
 title: The Changing Nature of Middle-Class Jobs
-link: http://www.nytimes.com/interactive/2015/02/23/business/economy/the-changing-nature-of-middle-class-jobs.html
+link: https://www.nytimes.com/interactive/2015/02/23/business/economy/the-changing-nature-of-middle-class-jobs.html
 coauthors: <a href="http://www.geb.net/robert_gebeloff">Robert Gebeloff</a>
 image: middleclass.png
-screenshot: middleclass-big.png
 print: middleclass-print.png
 nytprint: February 23, 2015, on page A10
 publication: NYT
 tags: slopechart, static, small multiple, social, economy
 images:
+    - middleclass-big.png
     - middleclass-1.png
     - middleclass-print.png
     - middleclass-2.png

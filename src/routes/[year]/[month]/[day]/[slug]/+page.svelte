@@ -1,5 +1,6 @@
 <script>
 	import CoAuthors from '$lib/CoAuthors.svelte';
+	import { nicePubNames } from '$lib/config';
 	import Icon from '$lib/Icon.svelte';
 	import Phone from '$lib/Phone.svelte';
 	import { includes } from 'es-toolkit/compat';
@@ -8,7 +9,7 @@
 	let innerWidth = $state(500);
 	const isMobile = $derived(innerWidth < 500);
 
-	const { title, link, summary, coauthors, image, images, layout } = $derived(data.meta);
+	const { title, link, summary, coauthors, image, images, layout, publication } = $derived(data.meta);
 </script>
 
 <svelte:head>
@@ -53,13 +54,17 @@
 				{#if coauthors}
 					<div class="block">
 						In collaboration with
-						<CoAuthors {coauthors} />.
+						<CoAuthors {coauthors} shortNames={false} />.
 					</div>
+				{/if}
+
+				{#if publication}
+					<div class="block">Appeared on {nicePubNames[publication] ?? publication}</div>
 				{/if}
 
 				{#if link}
 					<div class="block">
-						<a href={link}>visit</a>
+						<a target="_blank" href={link}>visit</a>
 					</div>
 				{/if}
 			</div>

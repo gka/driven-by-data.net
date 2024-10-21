@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Datawrapper
-link: http://www.datawrapper.de
+link: https://www.datawrapper.de
 image: datawrapper.png
 tags: software
 screenshot: datawrapper-big.png

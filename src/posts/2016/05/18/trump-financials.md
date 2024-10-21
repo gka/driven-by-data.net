@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'What’s in Donald Trump’s 104-Page Financial Disclosure?'
-link: http://www.nytimes.com/interactive/2016/05/18/us/politics/trump-financial-disclosure.html
+link: https://www.nytimes.com/interactive/2016/05/18/us/politics/trump-financial-disclosure.html
 image: trump-finances.png
 images:
     - trump-finances-big.png

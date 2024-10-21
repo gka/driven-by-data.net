@@ -1,10 +1,11 @@
 ---
-layout: link
+layout: post
 title: Education Around the World
 info: Charts on literacy rates, enrolment rates and a comparison of expenditures on education and military across different countries.
-link: http://visualdata.dw.de/specials/bildung/en/index.html
+link: https://visualdata.dw.de/specials/bildung/en/index.html
 image: education.png
-screenshot: education-big.png
+images: 
+  - education-big.png
 coauthors: Sabine Damaschke
 tags: education
 publication: DW
