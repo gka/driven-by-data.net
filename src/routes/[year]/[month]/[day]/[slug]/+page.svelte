@@ -3,11 +3,16 @@
 	import { nicePubNames } from '$lib/config';
 	import Icon from '$lib/Icon.svelte';
 	import Phone from '$lib/Phone.svelte';
+	import VideoPlayer from '$lib/VideoPlayer.svelte';
 	import { includes } from 'es-toolkit/compat';
 	let { data } = $props();
 
 	let innerWidth = $state(500);
 	const isMobile = $derived(innerWidth < 500);
+
+	function isVideo(src) {
+		return src.endsWith('.mov') || src.endsWith('.mp4');
+	}
 
 	const { title, link, summary, coauthors, image, images, layout, publication } = $derived(data.meta);
 </script>
@@ -70,7 +75,10 @@
 			</div>
 			<div class="column images">
 				{#each images as src}
-					{#if src.includes('-mobile') && !isMobile}
+		
+					{#if isVideo(src)}
+						<VideoPlayer src="/images/{src}" />
+					{:else if src.includes('-mobile') && !isMobile}
 						<Phone url={link}>
 							<img width="100%" src="/images/{src}" alt={title} />
 						</Phone>

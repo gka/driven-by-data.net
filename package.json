@@ -41,6 +41,7 @@
 		"@iconify-icons/ion": "^1.2.10",
 		"@iconify-icons/mdi": "^1.2.48",
 		"@iconify/svelte": "^4.0.2",
-		"es-toolkit": "^1.25.2"
+		"es-toolkit": "^1.25.2",
+		"vidstack": "^1.12.11"
 	}
 }

@@ -78,7 +78,7 @@
 
 		<div class="columns tagnav">
 			<!-- filter by tags -->
-			<div class="column is-4">
+			<div class="column is-5-tablet is-4-desktop">
 				<button
 					class="has-text-grey-light"
 					class:active={activeTag === null}
@@ -125,7 +125,7 @@
 				{/each}
 			</div>
 			<!-- filter by year -->
-			<div class="column is-2">
+			<div class="column is-3-tablet is-2-desktop ">
 				{#each allYears as year, i}
 					<a
 						class="has-text-grey-light"
@@ -147,9 +147,9 @@
 			<h2 class="title is-3" id={String(year).toLowerCase().replace(/W+/g, '-')}>
 				{year}
 			</h2>
-			<div class="columns is-mobile is-multiline is-variable is-8-desktop is-4-mobile">
+			<div class="columns is-mobile is-multiline is-variable is-4-mobile is-5-desktop is-8-fullhd  ">
 				{#each posts as post}
-					<div class="column is-one-fifth-tablet is-half-mobile">
+					<div class="column is-one-quarter-tablet is-one-fifth-widescreen is-half-mobile">
 						<PostPreview path={post.permalink} meta={post.meta} />
 					</div>
 				{/each}
