@@ -5,7 +5,8 @@ link: https://blog.datawrapper.de/weekly-chart-greenhouse-gas-emissions-climate-
 image: co2-emissions.png
 images:
     - co2-emissions-big.png
-tags: climate/weather,static,chart,areachart,linechart
+tags: climate/weather
+type: static,chart,areachart,linechart
 publication: Datawrapper
 classes:
 ---

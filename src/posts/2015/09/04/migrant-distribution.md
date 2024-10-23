@@ -10,7 +10,8 @@ images:
 publication: NYT
 coauthors: <a href="https://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://blueshirt.com/">Jeremy White</a>
 credits: Additional editing by Josh Keller, Hannah Fairfield and Archie Tse
-tags: refugees, migration, foreign, europe, bulletbars, chart, static, map, scatter, bubbles, barchart
+tags: refugees, migration, foreign, europe
+type: bulletbars, chart, static, map, scatter, bubbles, barchart
 classes:
 ---
 

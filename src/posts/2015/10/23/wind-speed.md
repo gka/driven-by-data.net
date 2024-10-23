@@ -8,7 +8,8 @@ images:
     - windmap-1.png
     - windmap-2.png
 publication: NYT
-tags: animated,map, breaking, environment, climate/weather
+tags: breaking news, environment, climate/weather
+type: map, animated, flowmap
 ---
 
 In light of the strongest hurricane in the history of North America I used the open source code of Cameron Beccario's [EarthWindMap](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-98.67,16.82,2048) (a project inspired by the famous [U.S. wind map](https://hint.fm/wind/) made by Fernanda Viegas and Martin Wattenberg) to create a fixed-view version that shows the [Hurricane Patricia]({{ link }}) at the time it entered Mexico.

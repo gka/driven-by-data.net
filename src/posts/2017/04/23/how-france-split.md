@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2017/04/23/world/europe/french-electio
 image: france-vote-2017-round1.png
 images:
     - france-vote-2017-round1-big.png
-tags: europe,politics,static,map,elections,choropleth,stackedbars,chart
+tags: europe,politics
+type: static,map,elections,choropleth,stackedbars,chart
 publication: NYT
 classes:
 coauthors: Josh Keller, K.K. Lai, Sergio Peçanha and Benoît Morenne

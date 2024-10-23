@@ -6,6 +6,7 @@ image: houselock.png
 images: 
   - houselock-big.png
 coauthors: Nate Cohn & Bill Marsh
-tags: elections,politics,map,small-multiple,static,choropleth
+tags: elections,politics,
+type: map,static,small-multiple,static,choropleth
 publication: NYT
 ---

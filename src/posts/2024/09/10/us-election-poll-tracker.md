@@ -12,7 +12,8 @@ images:
     - 2024/10-us-election-polls-5.png
     - 2024/10-us-election-polls-6.png
     - 2024/10-us-election-polls-7.png
-tags: elections,static,chart,stackedbars,linechart,dashboard,scatter,map,cartogram,table,interactive,heatmap,rangeplot
+tags: elections
+type: static,chart,stackedbars,linechart,dashboard,scatter,map,cartogram,table,interactive,heatmap,rangeplot
 publication: zon
 coauthors:
     - name: C. Endt

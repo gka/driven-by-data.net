@@ -9,7 +9,8 @@ images:
     - gun-sales-2.png
     - gunsales-print.jpg
 publication: NYT
-tags: chart, economy, guns, business, d3, linechart, static
+tags: economy, guns, business
+type: chart,d3, linechart, static
 coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>
 ---
 

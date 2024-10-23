@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2017/02/14/us/politics/flynn-call-russ
 image: flynn.png
 images:
     - flynn-1.png
-tags: us,static,chart,timeline
+tags: us
+type: static,chart,timeline
 classes:
 publication: NYT
 coauthors: K.K. Rebecca Lai

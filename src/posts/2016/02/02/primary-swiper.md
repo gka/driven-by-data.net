@@ -8,7 +8,8 @@ publication: NYT
 images:
     - primary-swiper-nh.png
     - primary-swiper-iowa.png
-tags: chart,politics,elections,d3,swiper,barchart,map,circles,linechart
+tags: politics,elections
+type: chart,d3,swiper,barchart,map,circles,linechart
 coauthors: <a href="https://twitter.com/aliciadesantis">Alicia DeSantis</a>, <a href="https://aparlapiano.wordpress.com/">Alica Parlapiano</a>, <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a> & <a href="https://www.larrybuch.com/">Larry Buchanan</a>
 ---
 

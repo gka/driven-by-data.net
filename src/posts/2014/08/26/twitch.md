@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2014/08/26/technology/charting-the-ris
 image: twitch.png
 coauthors: Tom Giratikanon
 screenshot: twitch-big.png
-tags: entertainment,business,tv,static,linechart,areachart
+tags: entertainment,business,tv
+type: static,chart,linechart,areachart
 publication: NYT
 ---
 

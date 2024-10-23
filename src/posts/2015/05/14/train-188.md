@@ -4,7 +4,8 @@ title: 'Investigating the Philadelphia Amtrak Train Derailment'
 link: https://www.nytimes.com/interactive/2015/05/13/us/investigating-the-philadelphia-amtrak-train-crash.html#speed-top
 image: train188.png
 coauthors: <a href="https://twitter.com/wallacetim">Tim Wallace</a>, <a href="https://twitter.com/archietse">Archie Tse</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
-tags: breaking, map, static
+tags: breaking news
+type: map, static, locatormap
 publication: NYT
 images:
     - train188-big.png

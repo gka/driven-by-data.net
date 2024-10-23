@@ -9,5 +9,6 @@ images:
 publication: NYT
 classes:
 info: 'Yes, that’s a word cloud...'
-tags: static, business, chart, wordcloud, interactive, text
+tags: business
+type: chart, wordcloud, interactive, text
 ---

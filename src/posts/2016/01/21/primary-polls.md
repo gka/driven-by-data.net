@@ -11,7 +11,8 @@ images:
     - primary-polls-2.png
     - primary-polls-3.png
     - primary-polling-print.jpg
-tags: chart,politics,elections,polling,d3,live-data,dashboard,linechart,static
+tags: politics,elections,polling
+type: chart,d3,live-data,dashboard,linechart,static
 coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>
 ---
 

@@ -6,6 +6,7 @@ image: houselock-map.png
 images: 
   - houselock-bigmap.png
 coauthors: Nate Cohn & Bill Marsh
-tags: elections,politics,static,columnchart,arrowplot
+tags: elections,politics
+type: static,chart,columnchart,arrowplot
 publication: NYT
 ---

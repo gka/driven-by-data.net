@@ -8,6 +8,7 @@ images:
     - doping-2.png
 tags: sports
 publication: NYT
+type: static,table,map,choropleth,rangeplot
 classes:
 coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
 ---

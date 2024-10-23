@@ -8,7 +8,8 @@ screenshot: nd-aboveground-big.png
 images:
     - nd-aboveground-big.png
     - nd-aboveground-big2.png
-tags: map, 3d, static, environment, us
+tags: environment, us
+type: map, 3d, satellite, static, blender
 credits: Kevin Q helped writing the words quite a bit.
 ---
 

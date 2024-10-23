@@ -12,7 +12,8 @@ images:
 classes:
 publication: NYT
 coauthors: <a href="https://aparlapiano.wordpress.com/">A.&nbsp;Parlapiano</a>, J.&nbsp;Ashkenas, A.&nbsp;Tse, K.&nbsp;Soften, T.&nbsp;Giratikanon, Nicholas Fandos & K.K. Lai
-tags: live, politics, elections, heatmap, table, network, static, barchart
+tags: live, politics, elections
+type: heatmap, table, network, static, barchart
 ---
 
 During the first TV debate of Republican presidential candidates on August 7, we measured the speaking times and topics for each candidate, as well as who they attacked in their speeches.

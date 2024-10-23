@@ -6,7 +6,8 @@ image: dem-delegates.png
 images:
     - dem-delegates-big.png
 publication: NYT
-tags: chart,politics,elections,d3,interactive,simulations,linechart,barchart
+tags: politics,elections
+type: chart,interactive,simulations,linechart,barchart
 coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="https://kkrebeccalai.com/">K.K. Lai</a>
 ---
 

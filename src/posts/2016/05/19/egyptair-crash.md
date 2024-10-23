@@ -7,7 +7,8 @@ images:
     - egyptair-1.png
     - egyptair-3.png
     - egyptair-2.png
-tags: politics,elections,europe,breaking,international,static,map,linechart
+tags: politics,elections,europe,breaking news,international
+type: static,map,chart,locatormap,linechart
 publication: NYT
 classes:
 coauthors: L. Buchanan, J. Burgess, S. Chan, N. Clark, J. Keller, K.K. Lai & D. Watkins

@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2017/05/23/us/politics/trump-budget-de
 image: trump-budget.png
 images:
     - trump-budget-big.png
-tags: us,politics,table,linechart,sparklines,interactive
+tags: us,politics
+type: table,linechart,sparklines,interactive
 classes:
 publication: NYT
 coauthors: Alicia Parlapiano

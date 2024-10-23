@@ -8,6 +8,7 @@ images:
     - trump-immig-1.png
 publication: NYT
 tags: us,politics,elections
+type: static,map,cartogram
 classes:
 coauthors: <a href="https://twitter.com/haeyoun">Haeyoun Park</a>
 ---

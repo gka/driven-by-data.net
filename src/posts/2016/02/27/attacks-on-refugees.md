@@ -5,7 +5,8 @@ link: 'https://www.nytimes.com/2016/02/27/world/europe/germany-migrant-arson-tri
 image: attacks-on-refugees.png
 images: 
     - attacks-on-refugees-big.png
-tags: map,crime/justice,foreign,international,chart,linechart,static,symbolmap
+tags: crime/justice,foreign,international
+type: map,chart,linechart,static,symbolmap
 publication: NYT
 coauthors: <a href="https://timwallace.net/">Tim Wallace</a>
 ---

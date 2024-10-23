@@ -5,6 +5,7 @@ link: https://www.nytimes.com/2014/09/24/upshot/flooding-risk-from-climate-chang
 image: climate-flooding.png
 screenshot: climate-flooding-big.png
 coauthors: <a href="https://kpq.github.io/">Kevin Quealy</a>
-tags: map,cartogram,environment,climate/weather,static
+tags: environment,climate/weather
+type: static,map,cartogram,choropleth
 publication: NYT
 ---

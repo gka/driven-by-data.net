@@ -6,7 +6,8 @@ image: pres-model.png
 images:
     - pres-model-1.png
     - pres-model-2.png
-tags: us,politics,elections,live-data,dashboard,polls,chart,linechart,small-multiple,sparklines,table,heatmap
+tags: us,politics,elections
+type: live-data,dashboard,polls,chart,linechart,small-multiple,sparklines,table,heatmap
 publication: NYT
 classes:
 coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a>, Amanda Cox, Josh Katz, Kevin Quealy, Mike Bostock and Shan Carter

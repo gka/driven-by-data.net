@@ -7,7 +7,8 @@ images:
   - yield-curve-big.png
 coauthors: Amanda Cox
 publication: NYT
-tags: interactive, 3d, slideshow, economy, chart, areachart, threejs
+tags: economy
+type: interactive, 3d, slider, chart, areachart, threejs
 ---
 
 _Update:_ This piece won Silver for Online Features at [Malofjie 24](https://www.malofiejgraphics.com/wp-content/uploads/2016/03/M24_-AWARDS-LIST_OK.pdf).

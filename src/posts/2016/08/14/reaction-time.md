@@ -6,6 +6,7 @@ image: reaction-time.png
 images:
     - reaction-time-1.png
 tags: sports
+type: interactive,game,static,chart,histogram,table
 publication: NYTs
 coauthors: <a href="https://larrybuch.com">Larry Buchanan</a> and Derek Watkins
 ---

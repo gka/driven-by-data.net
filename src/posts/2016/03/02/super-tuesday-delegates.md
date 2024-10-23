@@ -10,7 +10,8 @@ images:
     - super-tuesday-delegates-app.png
     - super-tuesday-delegates-print.jpg
 publication: NYT
-tags: chart,politics,elections,d3,simulations,linechart,interactive
+tags: politics,elections
+type: chart,d3,simulations,linechart,interactive
 coauthors: <a href="https://dwtkns.com/portfolio/">D. Watkins</a>, <a href="https://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
 ---
 

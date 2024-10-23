@@ -6,7 +6,8 @@ image: trump-rigged.png
 images:
     - trump-rigged-big.png
     - trump-rigged-gdoc.png
-tags: chart,politics,elections,d3,isotope,static
+tags: politics,elections,us
+type: chart,d3,isotope,static
 publication: NYT
 coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a> & <a href="https://larrybuch.com">Larry Buchanan</a>
 ---

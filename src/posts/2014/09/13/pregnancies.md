@@ -5,6 +5,7 @@ link: https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pre
 image: pregnancies.png
 screenshot: pregnancies-full.png
 coauthors: Bill Marsh
-tags: static, small-multiple, linechart, health
+tags: health
+type: static, small-multiple, chart, linechart
 publication: NYT
 ---

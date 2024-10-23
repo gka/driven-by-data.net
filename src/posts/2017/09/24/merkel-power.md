@@ -8,7 +8,8 @@ images:
     - merkel-power-map.png
     - merkel-power-scatter.png
     - merkel-power-table.png
-tags: europe,politics,map,static,choropleth,linechart
+tags: europe,politics
+type: map,static,chart,choropleth,linechart
 publication: NYT
 classes:
 ---

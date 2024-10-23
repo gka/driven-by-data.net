@@ -9,7 +9,8 @@ images:
 classes:
 publication: NYT
 coauthors: <a href="https://www.sarahalmukhtar.com/">Sarah Almukhtar</a> & <a href="https://twitter.com/haeyoun">Heayoun Park</a>
-tags: interactive, migration, refugee, foreign, europe, areachart, small-multiple
+tags: migration, refugee, foreign, europe
+type: chart, areachart, small-multiple, interactive, map, flowmap
 ---
 
 A series of [small multiple charts](https://www.nytimes.com/interactive/2015/08/28/world/europe/countries-under-strain-from-european-migration-crisis.html#charts) showing monthly numbers of asylum applications in European countries, both as absolute numbers and normalized by population.

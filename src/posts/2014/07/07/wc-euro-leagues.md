@@ -6,5 +6,5 @@ image: euro-leagues.png
 coauthors: Kevin Quealy
 tags: sports,soccer
 publication: NYT
-type: static,table,slopechart,chart
+type: static,table,slopechart,chart,linechart
 ---

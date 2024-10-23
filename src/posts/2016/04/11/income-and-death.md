@@ -9,7 +9,8 @@ images:
     - income-and-death-4.png
     - income-and-death-5.png
 publication: NYT
-tags: chart,health,life expectancy,income,economy,d3,map,interactive,table
+tags: health,life expectancy,income,economy
+type: chart,d3,map,interactive,table,linechart,slopechart
 coauthors: <a href="https://twitter.com/amandacox">A. Cox</a>, <a href="https://kpq.github.io">K. Quealy</a> and <a href="https://twitter.com/qdbui">Q. Bui</a>
 ---
 

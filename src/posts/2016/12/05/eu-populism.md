@@ -7,7 +7,8 @@ images:
     - europop-1.png
     - europop-2.png
     - europop-print.jpg
-tags: europe,international,politics,table,static
+tags: europe
+type: international,politics,table,static
 classes:
 publication: NYT
 coauthors: Jeremy Ashkenas & Troy Griggs

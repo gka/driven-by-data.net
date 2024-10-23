@@ -7,7 +7,7 @@ images:
   - luckydraw-big.png
 coauthors: David Leonhardt
 tags: sports,soccer,
-type: static,simulation,table,areachart,minicharts,chart
+type: static,simulation,table,areachart,minicharts,chart,small-multiples
 publication: NYT
 ---
 

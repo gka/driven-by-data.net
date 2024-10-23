@@ -10,7 +10,8 @@ images:
     - 2nd-gop-debate-2.png
     - 2nd-gop-debate-3.png
 coauthors: <a href="https://aparlapiano.wordpress.com/">A.&nbsp;Parlapiano</a>, <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
-tags: breaking news, live, politics, elections
+tags: breaking news, politics, elections
+type: live-data,table,static,chart,barchart
 publication: NYT
 ---
 

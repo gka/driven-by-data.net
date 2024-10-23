@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 'The Move That Made Simone Biles Unbeatable'
-link: https://www.nytimes.com/interactive/2016/08/08/sports/olympics/history-olympic-dominance-charts.html
+link: https://www.nytimes.com/interactive/2016/08/11/sports/olympics/simone-biles-winning-moves.html
 image: biles.png
 images:
     - biles-swiper.png
 tags: sports
+type: swiper,interactive
 publication: NYT
 classes:
 coauthors: 

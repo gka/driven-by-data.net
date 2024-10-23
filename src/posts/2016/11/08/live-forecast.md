@@ -9,6 +9,7 @@ images:
     - forecast-3.png
     - forecast-4.png
 tags: us,politics,elections
+type: chart,live-data,animated,table,linechart,needle,dial
 publication: NYT
 classes:
 coauthors: Nate Cohn, Amanda Cox, Josh Katz, Adam Pearce and Kevin Quealy

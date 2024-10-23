@@ -7,7 +7,8 @@ images:
     - eu-swings-right-big.png
     - eu-swings-right-2.png
     - eu-swings-right-print.jpg
-tags: politics,elections,europe,right-wing,international,small-multiple,interactive,stackedcolumns
+tags: politics,elections,europe,right-wing,international
+type: small-multiple,static,stackedcolumns
 classes:
 publication: NYT
 nytprint: May 24, 2016, on page A8

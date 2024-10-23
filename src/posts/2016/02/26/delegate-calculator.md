@@ -9,7 +9,8 @@ images:
     - delegate-calc-1.png
     - delegate-calc-2.png
 publication: NYT
-tags: chart,politics,elections,d3,simulations,linechart,interactive
+tags: politics,elections
+type: chart,d3,simulations,linechart,interactive
 coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="https://larrybuch.com/">Larry Buchanan</a>
 ---
 

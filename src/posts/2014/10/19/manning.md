@@ -3,7 +3,8 @@ layout: post
 title: Peyton Manning Nears Touchdown Passing Record
 link: https://www.nytimes.com/interactive/2014/10/19/upshot/manning-nfl-touchdown-passes-charts.html
 image: manning.png
-tags: sports,football,interactive,linechart
+tags: sports,football
+type: interactive,chart,linechart
 publication: NYT
 images:
     - manning-big.png

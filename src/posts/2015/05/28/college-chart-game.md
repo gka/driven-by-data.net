@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-fami
 image: college-game.png
 coauthors: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="https://kpq.github.io/">Kevin Quealy</a>
 publication: NYT
-tags: interactive, game, education, social, chart, linechart
+tags: education, social
+type: interactive, game, chart, linechart
 images:
     - college-game-big.png
     - college-chart-game-1.png

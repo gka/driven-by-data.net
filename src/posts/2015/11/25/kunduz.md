@@ -6,7 +6,8 @@ image: kunduz.png
 images:
     - kunduz-big.jpg
     - kunduz-bigmap.jpg
-tags: map, breaking, foreign, war, ai2html,international, static
+tags: breaking news, foreign, war, ai2html,international
+type: static, map, locatormap
 nytprint: April 30, 2016, on page A1
 publication: NYT
 coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>

@@ -6,7 +6,8 @@ image: chinalend.png
 classes: border shadow
 coauthors: <a href="https://joshmkeller.com/">Josh Keller</a> and <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
 publication: NYT
-tags: map, interactive, economy, politics, environment, foreign, scrolly, bubbles
+tags: interactive, economy, politics, environment, foreign, 
+type: map, scrolly, symbolmap, animated
 images:
     - chinalend-big.png
     - chinalend-1.png

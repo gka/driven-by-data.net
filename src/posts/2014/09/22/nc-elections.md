@@ -5,6 +5,7 @@ link: https://www.nytimes.com/2014/09/23/us/north-carolina-in-political-flux-bat
 image: nc-elections.png
 screenshot: nc-elections-big.png
 coauthors: Haeyoun Park
-tags: static,elections,politics,linechart,timeline,vertical
+tags: elections,politics
+types: static,chart,linechart,timeline,vertical
 publication: NYT
 ---

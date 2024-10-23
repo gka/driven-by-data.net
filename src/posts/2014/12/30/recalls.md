@@ -9,7 +9,8 @@ images:
   - recalls-mobile.png
 publication: NYT
 classes: shadow border
-tags: animated, business, safety, custom, chart
+tags: business, safety
+type: animated,chart,waffle
 ---
 
 This piece was part of a submission that won a [Gerald Loeb Award](https://web.archive.org/web/20160111115225/https://www.anderson.ucla.edu/gerald-loeb-awards/2015-loeb-award-winners-press-release) by the UCLA Anderson School of Management.

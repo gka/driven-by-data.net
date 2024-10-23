@@ -148,7 +148,7 @@
 				{year}
 			</h2>
 			<div class="columns is-mobile is-multiline is-variable is-4-mobile is-5-desktop is-8-fullhd  ">
-				{#each posts as post}
+				{#each posts as post (post.permalink)}
 					<div class="column is-one-quarter-tablet is-one-fifth-widescreen is-half-mobile">
 						<PostPreview path={post.permalink} meta={post.meta} />
 					</div>

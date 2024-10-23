@@ -5,7 +5,8 @@ link: https://datawrapper.dwcdn.net/Wa2Ci/16/
 image: approval-ratings.png
 images:
     - approval-ratings-big.png
-tags: elections,static,chart,linechart
+tags: elections
+type: static,chart,linechart
 publication: Datawrapper
 classes: 
 ---

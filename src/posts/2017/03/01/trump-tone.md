@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2017/02/28/upshot/trump-sounds-differe
 image: trump-tone.png
 images:
     - trump-tone-1.png
-tags: us,politics,static,chart,scatter
+tags: us,politics
+type: static,chart,scatter
 classes:
 publication: NYT
 coauthors: Josh Katz

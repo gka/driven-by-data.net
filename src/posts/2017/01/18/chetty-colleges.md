@@ -7,7 +7,8 @@ images:
     - 2017/college-students-treemap.png
     - 2017/college-students-bars.png
     - 2017/college-student-table-mobile.png
-tags: us,static,treemap,table,stackedbars,interactive
+tags: us
+type: static,chart,treemap,table,stackedbars,interactive
 publication: NYT
 classes:
 coauthors: Larry Buchanan, Amanda Cox and Kevin Quealy

@@ -6,6 +6,7 @@ image: state-forecast.png
 images:
     - state-forecast-1.png
 tags: elections, politics
+type: static,live-data,chart,linechart,table
 classes:
 coauthors: Josh Katz
 publication: NYT

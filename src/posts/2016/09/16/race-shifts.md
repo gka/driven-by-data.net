@@ -7,6 +7,7 @@ images:
     - shifts-1.png
     - shifts-2.png
 tags: us,politics,elections
+type: chart,static,live-data,sparklines,linechart,small-multiple,table,heatmap,histogram
 publication: NYT
 classes:
 coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a>

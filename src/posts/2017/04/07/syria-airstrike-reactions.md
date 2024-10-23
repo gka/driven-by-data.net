@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2017/04/07/world/middleeast/world-reac
 image: syria-airstrike.png
 images:
     - syria-airstrike-big.png
-tags: international,breaking,static,map,choropleth
+tags: international,breaking news
+type: static,map,choropleth
 publication: NYT
 classes:
 coauthors: Yonette Joseph And Anjali Singhvi

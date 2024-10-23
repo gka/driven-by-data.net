@@ -20,7 +20,7 @@ export const tags = [
 ];
 
 export const publications = ['NYT', 'zon', 'WDR', 'taz', 'others'];
-export const nicePubNames = { NYT: 'The New York Times', zon: 'ZEIT ONLINE', DW: 'Deutsche Welle', vis4: 'vis4.net' };
+export const nicePubNames = { NYT: 'The New York Times', zon: 'ZEIT ONLINE', DW: 'Deutsche Welle', vis4: 'vis4.net', Datawrapper: 'Datawrapper Blog' };
 
 export const longNames: {[key: string]: string;} = {
 	'C. Endt': 'Christian Endt',

@@ -8,7 +8,8 @@ images:
     - euro2016-scenarios-4.png
     - euro2016-scenarios-2.png
     - euro2016-scenarios-3.png
-tags: sports,soccer,euro2016,europe,international,live-data,chart,heatmap,table
+tags: sports,soccer,euro2016,europe,international
+type: live-data,chart,heatmap,table
 publication: NYT
 classes:
 # nytprint: May 24, 2016, on page A8

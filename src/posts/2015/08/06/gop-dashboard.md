@@ -12,11 +12,8 @@ images:
 classes:
 publication: NYT
 coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="https://thescoop.org/">Derek Willis</a> & David Leonhardt
-tags: interactive, elections, politics, heatmap, table, dashboard
+tags: elections, politics
+type: heatmap, table, dashboard, static, live-data
 ---
 
-A page for The Upshot that combines information about Republican presidential candidates from various sources into a [single dashboard]({{ link }}) that is updated every day.
-
-The data sources include predictions, polls, campaign finance data and endorsement announcements. during the early stage of the presidential campaign.
-
-An update on Sept. 15 added Democratic candidates to the dashboard, which since then serves as home page for our election coverage.
+A page for The Upshot that combines information about Republican presidential candidates from various sources into a [single dashboard]({link}) that is updated every day. The data sources include predictions, polls, campaign finance data and endorsement announcements. during the early stage of the presidential campaign. An update on Sept. 15 added Democratic candidates to the dashboard, which since then serves as home page for our election coverage.

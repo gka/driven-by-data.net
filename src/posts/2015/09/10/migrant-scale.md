@@ -11,7 +11,8 @@ images:
     - migrant-scale-archieml.png
 coauthors: <a href="https://www.sarahalmukhtar.com/">Sarah Almukhtar</a>, <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="https://joshmkeller.com/">Josh Keller</a>
 publication: NYT
-tags: breaking news, migration, foreign, europe, static, treemap
+tags: breaking news, migration, foreign, europe
+type: static, chart, treemap
 ---
 
 Lots of numbers are being tossed around in the coverage of the migration crisis. So we thought it's time to put them on a scale to show proportions and allow better comparisons.

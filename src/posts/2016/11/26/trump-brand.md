@@ -5,7 +5,8 @@ link: https://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-
 image: trump-brand.png
 images:
     - trump-brand-1.png
-tags: international,us,politics,map,static,symbolmap
+tags: international
+type: us,politics,map,static,symbolmap
 classes:
 publication: NYT
 coauthors: Karen Yourish & K.K. Lai

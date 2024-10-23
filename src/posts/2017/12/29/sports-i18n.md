@@ -7,7 +7,9 @@ image: sports-i18n.png
 images:
     - sports-i18n-1.png
     - sports-i18n-2.png
-tags: sports,static,chart,areachart
+tags: sports
+type: static,chart,areachart
+tech: d3
 publication: NYT
 classes:
 ---

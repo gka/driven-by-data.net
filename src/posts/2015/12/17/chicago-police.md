@@ -7,7 +7,8 @@ images:
     - chicago-police.jpg
     - chicago-police-2.jpg
     - chicago-police-3.jpg
-tags: chart, police, criminal, crime/justice,d3,circles,packing, static,barchart
+tags: police, criminal, crime/justice
+type: chart,d3,circles,packing,static,barchart
 publication: NYT
 coauthors: <a href="https://twitter.com/haeyoun">Haeyoun Park</a>
 ---
