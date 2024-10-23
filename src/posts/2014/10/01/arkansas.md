@@ -6,7 +6,7 @@ image: arkansas.png
 screenshot: arkansas-big.png
 coauthors: Haeyoun Park
 nytprint: October 1, 2014, on page A14
-tags: elections,politics,elections
+tags: elections,politics,elections,cartogram,static,map,small-multiple
 publication: NYT
 images:
     - arkansas-big.png

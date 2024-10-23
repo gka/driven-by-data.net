@@ -5,7 +5,7 @@ link: https://vis4.net/drought-in-europe/
 image: eu-drought.png
 images:
     - eu-drought.png
-tags: climate/weather
+tags: climate/weather,map,animated,chart,areachart,linechart,static
 classes:
 publication: vis4.net
 ---

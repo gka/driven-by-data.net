@@ -9,12 +9,12 @@ images:
 tags: sports
 publication: NYT
 classes:
-coauthors: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
+coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, Sarah Almukhtar, Jasmine C. Lee and Anjali Singhvi
 ---
 
 Classic data journalism!
 
-We were matching a list of [athletes that have been suspended for doping](http://www.dopinglist.com/) against a list of athletes that participate in the 2016 Rio Olympics. Then matching that against a list of all athletes that have won medals in previous Olympic games, and another list of [athletes that have been stripped of medals](http://www.nytimes.com/interactive/2016/08/14/sports/olympics-medal-doping.html) for doping.
+We were matching a list of [athletes that have been suspended for doping](https://www.dopinglist.com/) against a list of athletes that participate in the 2016 Rio Olympics. Then matching that against a list of all athletes that have won medals in previous Olympic games, and another list of [athletes that have been stripped of medals](https://www.nytimes.com/interactive/2016/08/14/sports/olympics-medal-doping.html) for doping.
 
 Then every name and doping suspension in our spreadsheet got checked and double checked, and if possible, backed up by official documents such as newsletters from International Association of Athletics Federations.
 

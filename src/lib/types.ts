@@ -11,5 +11,6 @@ export type Post = {
 		published?: boolean;
 		featured?: boolean;
 		tags?: string[];
+		type?: string[];
 	};
 };

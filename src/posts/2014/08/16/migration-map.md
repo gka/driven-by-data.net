@@ -6,6 +6,6 @@ image: migration-map.png
 screenshot: migration-map-big.png
 coauthors: Robert Gebeloff
 justgraphics: false
-tags: migration, economy
+tags: migration, economy, map, voronoi, treemap, interactive
 publication: NYT
 ---

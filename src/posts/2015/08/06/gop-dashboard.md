@@ -11,8 +11,8 @@ images:
     - gop-dashboard-5.png
 classes:
 publication: NYT
-coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="http://thescoop.org/">Derek Willis</a> & David Leonhardt
-tags: interactive, elections, politics
+coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="https://thescoop.org/">Derek Willis</a> & David Leonhardt
+tags: interactive, elections, politics, heatmap, table, dashboard
 ---
 
 A page for The Upshot that combines information about Republican presidential candidates from various sources into a [single dashboard]({{ link }}) that is updated every day.

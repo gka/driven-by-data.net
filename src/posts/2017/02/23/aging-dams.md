@@ -6,7 +6,7 @@ image: dams.png
 images:
     - dams-1.png
     - dams-2.png
-tags: us,environment
+tags: us,environment,map,static,symbolmap,columnchart
 classes:
 publication: NYT
 coauthors: Troy Griggs and Sarah Almukhtar

@@ -6,12 +6,12 @@ image: kunduz.png
 images:
     - kunduz-big.jpg
     - kunduz-bigmap.jpg
-tags: map, breaking, foreign, war, ai2html,international
+tags: map, breaking, foreign, war, ai2html,international, static
 nytprint: April 30, 2016, on page A1
 publication: NYT
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>, Sergio Peçanha & <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
 ---
 
-The Pentagon released results of its internal investigation into the Oct. 3 U.S. bombing of a Doctors Without Borders hospital in Kunduz (see [video of press briefing](http://www.c-span.org/video/?401255-1/defense-department-briefing-kunduz-hospital-airstrike-investigation#)).
+The Pentagon released results of its internal investigation into the Oct. 3 U.S. bombing of a Doctors Without Borders hospital in Kunduz (see [video of press briefing](https://www.c-span.org/video/?401255-1/defense-department-briefing-kunduz-hospital-airstrike-investigation#)).
 
 We broke it down to the [six largest "errors"]({{ link }}) in a quick daily.

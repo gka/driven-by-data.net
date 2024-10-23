@@ -1,9 +1,10 @@
 ---
 layout: post
 title: German Energy Landscape
-link: https://web.archive.org/web/20120606040255/http://visualization.geblogs.com/visualization/germanenergy/
+link: https://web.archive.org/web/20120606040255/https://visualization.geblogs.com/visualization/germanenergy/
 image: german-energy.png
-tags: environment,energy,germany,climate/weather
+tags: environment,energy,germany,climate/weather,
+type: chart,streamgraph,animated,flash,interactive
 publication: GE
 images:
   - germanenergy-4.png

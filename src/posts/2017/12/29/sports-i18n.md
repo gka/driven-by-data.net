@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 'Where Athletes in the Premier League, the N.B.A. and Other Sports Leagues Come From, in 15 Charts'
-link: https://www.nytimes.com/interactive/2017/09/24/world/europe/merkel-germany-election-twelve-years.html
+link: https://www.nytimes.com/interactive/2017/12/29/upshot/internationalization-of-pro-sports-leagues-premier-league.html
 coauthors: Kevin Quealy and Rory Smith
 image: sports-i18n.png
 images:
     - sports-i18n-1.png
     - sports-i18n-2.png
-tags: sports
+tags: sports,static,chart,areachart
 publication: NYT
 classes:
 ---

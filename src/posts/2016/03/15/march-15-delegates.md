@@ -8,8 +8,8 @@ images:
     - march-15-delegate-calc-1.png
     - march-15-delegate-calc-2.png
 publication: NYT
-tags: chart,politics,elections,d3
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>, <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://kkrebeccalai.com/">K.K. Lai</a>
+tags: chart,politics,elections,d3,simulations,stackedbars,interactive
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>, <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a>, <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="https://kkrebeccalai.com/">K.K. Lai</a>
 ---
 
 Third installment of our favorite interactive delegate calculator. This time we decided to hide states that have voted already and to show each state individually rather than grouping by date.

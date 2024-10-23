@@ -7,6 +7,7 @@ images:
   - 2024/10-us-election-scenarios-big-light.png
   - 2024/10-us-election-scenarios-big-mobile.png
   - 2024/10-us-election-scenarios.mp4
+tags: elections,us,scrolly,interactive,static,map,cartogram,chart,waffle
 publication: zon
 coauthors:
     - name: C. Endt

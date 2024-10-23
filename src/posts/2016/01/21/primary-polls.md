@@ -11,8 +11,8 @@ images:
     - primary-polls-2.png
     - primary-polls-3.png
     - primary-polling-print.jpg
-tags: chart,politics,elections,polling,d3
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>
+tags: chart,politics,elections,polling,d3,live-data,dashboard,linechart,static
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>
 ---
 
 A look at the latest results for Iowa and New Hampshire, and how this year compares to previous election seasons.

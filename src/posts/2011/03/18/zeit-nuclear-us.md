@@ -4,7 +4,7 @@ title: Population near Nuclear Reactors in United States
 info: Why not try to repeat our success by porting the same idea to the U.S.?
 images: ['zeit-reactors-2.png', 'zeit-reactors-1.png']
 link: https://opendata.zeit.de/atomreaktoren/#/en/
-type: interactive
+type: interactive,map
 publication: zon
 image: nuclear-zeit-us.png
 screenshot: nuclear-zeit-us-big.png

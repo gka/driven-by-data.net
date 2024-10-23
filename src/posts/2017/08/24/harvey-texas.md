@@ -6,7 +6,7 @@ coauthors: many others
 image: harvey-sat-small.jpg
 images:
     - harvey-sat.jpg
-tags: environment, climate/weather
+tags: environment, climate/weather, map, animated
 publication: NYT
 classes:
 ---

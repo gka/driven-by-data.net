@@ -8,7 +8,7 @@ images:
     - trump-jobs-1.png
     - trump-jobs-2.png
     - trump-jobs-3.png
-tags: politics,us
+tags: politics,us,chart,static,waffle,linechart
 publication: NYT
 classes:
 ---

@@ -5,7 +5,7 @@ link: https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-pr
 image: budget-proposal.png
 images:
     - budget-proposal-1.png
-tags: us,politics
+tags: us,politics,static,table
 classes:
 publication: NYT
 coauthors: Alicia Parlapiano

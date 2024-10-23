@@ -3,6 +3,6 @@ layout: link
 link: https://blog.datawrapper.de/days-with-extreme-heat/
 title: Days with extreme heat are likely becoming more frequent
 image: extreme-heat.png
-tags: climate/weather
+tags: climate/weather,chart,static,linechart
 publication: Datawrapper
 ---

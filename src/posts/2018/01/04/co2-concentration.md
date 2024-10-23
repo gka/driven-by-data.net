@@ -5,7 +5,7 @@ link: https://blog.datawrapper.de/weekly-chart-carbon-dioxide/
 image: co2-concentration.png
 images:
     - co2-concentration-big.png
-tags: climate/weather
+tags: climate/weather,static,chart,linechart
 classes:
 ---
 

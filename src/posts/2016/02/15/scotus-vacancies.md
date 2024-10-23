@@ -10,6 +10,6 @@ images:
     - scotus-vacancies-1.png
     - scotus-vacancies-2.png
     - scotus-vacancies-print.png
-tags: chart,scotus,politics,crime/justice,breaking,d3
-coauthors: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, <a href="http://joshmkeller.com/">Josh Keller</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
+tags: chart,scotus,politics,crime/justice,breaking,d3,timeline,barchart,static
+coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, <a href="https://joshmkeller.com/">Josh Keller</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 ---

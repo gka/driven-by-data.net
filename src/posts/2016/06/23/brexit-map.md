@@ -5,9 +5,9 @@ link: https://www.nytimes.com/interactive/2016/06/24/world/europe/how-britain-vo
 image: brexit-map.png
 images:
     - brexit-map-1.png
-tags: europe,politics,elections,britain,international
+tags: europe,politics,elections,britain,international,map,static,choropleth
 publication: NYT
 classes:
 # nytprint: May 24, 2016, on page A8
-coauthors: <a href="http://roadtolarissa.com/">Adam Pearce</a> & Karl Russel
+coauthors: <a href="https://roadtolarissa.com/">Adam Pearce</a> & Karl Russel
 ---

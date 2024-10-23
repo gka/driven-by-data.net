@@ -10,9 +10,9 @@ images:
 tags: sports
 publication: NYT
 classes:
-coauthors: <a href="http://kkrebeccalai.com/">K.K. Lai</a>, Archie Tse, J. Ward, J. White, S. Peçanha, B. Saget & J. Huang
+coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, Archie Tse, J. Ward, J. White, S. Peçanha, B. Saget & J. Huang
 ---
 
 [Horizontal scrolling](https://gist.github.com/gka/e9145b123d57511646093bec3102563c) ftw!
 
-Entire graphic designed in one big Illustrator artboard and exported via [ai2html](http://ai2html.org).
+Entire graphic designed in one big Illustrator artboard and exported via [ai2html](https://ai2html.org).

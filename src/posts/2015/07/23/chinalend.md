@@ -4,9 +4,9 @@ title: 'The World According to China'
 link: https://www.nytimes.com/interactive/2015/07/24/business/international/the-world-according-to-china-investment-maps.html
 image: chinalend.png
 classes: border shadow
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a> and <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a> and <a href="https://twitter.com/kkrebeccalai">K.K. Lai</a>
 publication: NYT
-tags: map, scrollytelling, interactive, economy, politics, environment, foreign
+tags: map, interactive, economy, politics, environment, foreign, scrolly, bubbles
 images:
     - chinalend-big.png
     - chinalend-1.png

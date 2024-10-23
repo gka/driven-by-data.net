@@ -11,6 +11,7 @@ link: https://www.vis4.net/blog/shortest-distances-to-nuclear-reactors/
 image: nuclear-distance.png
 publication: vis4
 tags: environment,germany,sketches
+type: map,static
 ---
 
 Shortly after the Fukoshima catastrophy in March 2011 I was very interested in the geographic patterns of nuclear power. This map series simply divides the area of a country in regions that are closer than 100km to an active nuclear reactor (red) and those who are not (green).

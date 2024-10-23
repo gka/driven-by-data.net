@@ -11,7 +11,7 @@ publication: NYT
 tags: sports
 nytprint: Aug 18, 2016, on page B11
 classes:
-coauthors: <a href="http://larrybuch.com">Larry Buchanan</a>
+coauthors: <a href="https://larrybuch.com">Larry Buchanan</a>
 ---
 
 Streamgraphs!

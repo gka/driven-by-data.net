@@ -9,12 +9,12 @@ images:
     - gun-sales-2.png
     - gunsales-print.jpg
 publication: NYT
-tags: chart, economy, guns, business, d3
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>
+tags: chart, economy, guns, business, d3, linechart, static
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>
 ---
 
 Seasonal adjustment FTW!
 
 [Read more](https://github.com/nytimes/gun-sales) about the source data and how we analyzed the data.
 
-Tools we used: [Tabula](http://tabula.technology/), Excel, telephone, [R](https://www.r-project.org/), [X 13ARIMA SEATS](http://www.census.gov/srd/www/x13as/x13down_unix.html) by US Census, [ArchieML](https://archieml.org), and [d3.js](http://d3js.org/)
+Tools we used: [Tabula](https://tabula.technology/), Excel, telephone, [R](https://www.r-project.org/), [X 13ARIMA SEATS](https://www.census.gov/srd/www/x13as/x13down_unix.html) by US Census, [ArchieML](https://archieml.org), and [d3.js](https://d3js.org/)

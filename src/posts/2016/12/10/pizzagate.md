@@ -6,7 +6,7 @@ image: pizzagate.png
 images:
     - pizzagate-promo.gif
     - pizzagate-1.png
-tags: us
+tags: us,static,network
 classes:
 publication: NYT
 coauthors: Jon Huang and Cecilia Kang

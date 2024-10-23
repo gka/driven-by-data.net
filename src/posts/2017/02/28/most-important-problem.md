@@ -9,7 +9,7 @@ images:
     - gallup-2.png
     - gallup-3.png
     - gallup-4.png
-tags: us
+tags: us,static,treemap,chart
 classes:
 publication: NYT
 coauthors: Alicia Parlapiano

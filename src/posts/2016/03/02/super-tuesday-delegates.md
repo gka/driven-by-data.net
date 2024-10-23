@@ -10,8 +10,8 @@ images:
     - super-tuesday-delegates-app.png
     - super-tuesday-delegates-print.jpg
 publication: NYT
-tags: chart,politics,elections,d3
-coauthors: <a href="http://dwtkns.com/portfolio/">D. Watkins</a>, <a href="http://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
+tags: chart,politics,elections,d3,simulations,linechart,interactive
+coauthors: <a href="https://dwtkns.com/portfolio/">D. Watkins</a>, <a href="https://larrybuch.com">L. Buchanan</a>, <a href="https://twitter.com/karenyourish">K. Yourish</a>, <a href="https://aparlapiano.wordpress.com/">A. Parlapiano</a>, <a href="https://twitter.com/giratikanon">T. Giratikanon</a> & <a href="https://twitter.com/jshkatz">Josh Katz</a>
 ---
 
 This morning-after-Super-Tuesday update on our [delegate calculator](/2016/02/26/delegate-calculator) explores different scenarios of how the nomination race can unfold from March 1 on.

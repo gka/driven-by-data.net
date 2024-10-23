@@ -8,5 +8,6 @@ images:
 coauthors:
 justgraphics: true
 publication: NYT
-tags: sports,soccer,static
+tags: sports,soccer
+type: static,linechart,scatter,chart
 ---

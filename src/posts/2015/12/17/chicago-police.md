@@ -7,9 +7,9 @@ images:
     - chicago-police.jpg
     - chicago-police-2.jpg
     - chicago-police-3.jpg
-tags: chart, police, criminal, crime/justice, d3
+tags: chart, police, criminal, crime/justice,d3,circles,packing, static,barchart
 publication: NYT
 coauthors: <a href="https://twitter.com/haeyoun">Haeyoun Park</a>
 ---
 
-For showing all Chicago police officers that had civilian complaints against them, we used a slightly modified [circle packing algorithm](http://bl.ocks.org/mbostock/1893974) to represent each officer with a sized circle. The resulting layout was then [exported as SVG](), annotated in Illustrator and exported using [ai2html](http://ai2html.org/).
+For showing all Chicago police officers that had civilian complaints against them, we used a slightly modified [circle packing algorithm](https://bl.ocks.org/mbostock/1893974) to represent each officer with a sized circle. The resulting layout was then [exported as SVG](), annotated in Illustrator and exported using [ai2html](https://ai2html.org/).

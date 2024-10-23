@@ -7,7 +7,7 @@ image: irma-records.png
 images:
     - irma-records-big.png
     - irma-records-2.png
-tags: environment, climate/weather
+tags: environment, climate/weather, scrolly, map, chart, linechart
 publication: NYT
 classes:
 ---

@@ -6,5 +6,5 @@ image: nd-spills.png
 publication: NYT
 screenshot: nd-spills-big.png
 coauthors: Robert Gebeloff & Hannah Fairfield
-tags: map, animated, environment, climate/weather
+tags: map,animated,environment,climate/weather,static,stackedcolumns
 ---

@@ -9,11 +9,11 @@ images:
     - gunflow-2.png
     - gunflow-hp.png
 publication: NYT
-tags: map, edge bundling, guns, business, crime/justice, d3, ai2html
-coauthors: <a href="http://joshmkeller.com/">Josh Keller</a>
+tags: map, edge bundling, guns, business, crime/justice, d3, ai2html, static, flowmap
+coauthors: <a href="https://joshmkeller.com/">Josh Keller</a>
 ---
 
-[Force directed edge bundling!](http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)
+[Force directed edge bundling!](https://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)
 
 Easy to use thanks to [d3.forceBundle](https://github.com/upphiminn/d3.ForceBundle)!
 

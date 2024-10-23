@@ -8,11 +8,11 @@ images:
     - euro2016-scenarios-4.png
     - euro2016-scenarios-2.png
     - euro2016-scenarios-3.png
-tags: sports,soccer,euro2016,europe,international
+tags: sports,soccer,euro2016,europe,international,live-data,chart,heatmap,table
 publication: NYT
 classes:
 # nytprint: May 24, 2016, on page A8
-coauthors: <a href="http://roadtolarissa.com/">Adam Pearce</a> & Kevin Quealy
+coauthors: <a href="https://roadtolarissa.com/">Adam Pearce</a> & Kevin Quealy
 ---
 
 An overview of the scenarios describing how teams can advance to the knockout round of the Euro 2016 tournament.

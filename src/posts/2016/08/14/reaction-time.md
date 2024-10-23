@@ -7,9 +7,9 @@ images:
     - reaction-time-1.png
 tags: sports
 publication: NYTs
-coauthors: <a href="http://larrybuch.com">Larry Buchanan</a> and Derek Watkins
+coauthors: <a href="https://larrybuch.com">Larry Buchanan</a> and Derek Watkins
 ---
 
 A little HTML5 audio stop-watch game to illustrate reaction times.
 
-Apparently, we were [not the only](https://ig.ft.com/on-your-marks/) newsroom with [this idea](http://graphics.wsj.com/armchair-olympian/track/).
+Apparently, we were [not the only](https://ig.ft.com/on-your-marks/) newsroom with [this idea](https://graphics.wsj.com/armchair-olympian/track/).

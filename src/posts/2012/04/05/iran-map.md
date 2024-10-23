@@ -3,7 +3,7 @@ layout: link
 title: A globe centered on Iran, using Kartograph.js
 published: true
 type: stuff
-tags: sketches
+tags: sketches,map,static
 link: https://vis4.net/labs/iran/
 image: iran-globe.png
 images: 

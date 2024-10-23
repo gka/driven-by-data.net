@@ -5,6 +5,6 @@ title: 'Methane Concentrations'
 image: methane.png
 images:
     - methane-big.png
-tags: climate/weather
+tags: climate/weather,chart,static,linechart
 classes:
 ---

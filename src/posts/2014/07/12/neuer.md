@@ -7,7 +7,7 @@ images:
     - neuer-big.png
     - neuer-dotplot.png
 coauthors: Andrew Das and Joe Ward
-tags: sports,soccer,static
+tags: sports,soccer,static,heatmap,dotplot
 publication: NYT
 ---
 

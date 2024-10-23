@@ -8,5 +8,5 @@ images:
     - working-women-full.png
 publication: NYT
 screenshot: working-women-full.png
-tags: map, interactive, women, social, economy
+tags: map, interactive, women, social, economy, tilemap
 ---

@@ -21,11 +21,15 @@
 				<div class="address-bar">
 					<Icon icon="ion:lock-closed-outline" />
 					<div class="url">
-						{url.replace('https://www.', '').replace('https://', '').replace('http://')}
+						{url.replace('https://www.', '').replace('https://', '').replace('https://')}
 					</div>
 					<Icon icon="ion:reload" />
 				</div>
-				{@render children?.()}
+				<div class="page">
+					<div class="inner">
+					{@render children?.()}
+					</div>
+				</div>
 			</div>
 		</div>
 		
@@ -64,6 +68,19 @@
 				text-overflow: ellipsis;
 			}
 		}
+		.page {
+			background: #222;
+			position: relative;
+			.inner {
+				height: 713px;
+				background: #f9f9fb;
+				overflow: hidden;
+				border-bottom-left-radius: 30px;
+				border-bottom-right-radius: 30px;
+			}
+			
+		}
+		
 	}
 	.clock {
 		font-size: 15px;

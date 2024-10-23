@@ -7,9 +7,9 @@ images:
     - curry-chart-2.png
     - curry-chart-3.png
     - curry-chart-print.jpg
-tags: chart,sports,d3
+tags: chart,sports,d3,interactive,linechart
 publication: NYT
-coauthors: <a href="http://kpq.github.io">Kevin Quealy</a>
+coauthors: <a href="https://kpq.github.io">Kevin Quealy</a>
 nytprint: April 17 on cover of Sports Section
 ---
 

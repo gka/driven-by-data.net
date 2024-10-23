@@ -6,7 +6,7 @@ type: static
 link: https://vis4.net/labs/isolines/
 image: isolines.png
 screenshot: isolines.png
-tags: sketches
+tags: sketches,experiment
 ---
 
 Made

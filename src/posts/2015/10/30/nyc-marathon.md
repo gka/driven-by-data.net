@@ -10,6 +10,6 @@ images:
     - marathon-2.png
     - marathon-print.png
 publication: NYT
-tags: animated, sports, d3, ai2html
-coauthors: <a href="http://schwanksta.com/">Ken Schwencke</a>
+tags: animated, sports, d3, ai2html, chart, areachart, static, linechart, treemap, barchart, histogram
+coauthors: <a href="https://schwanksta.com/">Ken Schwencke</a>
 ---

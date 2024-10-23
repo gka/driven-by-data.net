@@ -5,7 +5,7 @@ link: https://www.nytimes.com/interactive/2017/03/16/us/politics/trump-budget-cu
 image: budget-charts.png
 images:
     - budget-charts-1.png
-tags: us,politics
+tags: us,politics,static,chart,columnchart
 classes:
 publication: NYT
 coauthors: Alicia Parlapiano

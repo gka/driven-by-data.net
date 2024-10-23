@@ -10,6 +10,7 @@ images:
 coauthors: Kevin Quealy
 publication: NYT
 tags: sports,soccer
+type: simulation,live-data,interactive,heatmap,chart
 ---
 
 At the end of the group round of the 2014 world cup, the United States men soccer team was not yet set to advance. But their fortune did not just depend on the outcome of the final group round match against Germany, but also on the Portugal–Ghana game that was being held at the same time.

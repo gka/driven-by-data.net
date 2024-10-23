@@ -3,9 +3,9 @@ layout: post
 title: 'You Draw It: How Family Income Affects Children’s College Chances'
 link: https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html
 image: college-game.png
-coauthors: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="http://kpq.github.io/">Kevin Quealy</a>
+coauthors: <a href="https://twitter.com/amandacox">Amanda Cox</a> & <a href="https://kpq.github.io/">Kevin Quealy</a>
 publication: NYT
-tags: interactive, game, education, social
+tags: interactive, game, education, social, chart, linechart
 images:
     - college-game-big.png
     - college-chart-game-1.png
@@ -19,6 +19,6 @@ So instead of just showing a chart, we [built a tool]({{ link }}) that did exact
 
 Finally, the piece also showed the aggregation of all reader submissions live on the page, as they were coming in.
 
-In a [follow-up piece](http://www.nytimes.com/interactive/2015/06/02/upshot/gauging-income-and-college-prospects-how-our-readers-did.html) on the next day Kevin analyzed how our readers did.
+In a [follow-up piece](https://www.nytimes.com/interactive/2015/06/02/upshot/gauging-income-and-college-prospects-how-our-readers-did.html) on the next day Kevin analyzed how our readers did.
 
-_Update:_ This piece won Gold and Best Of Show at [Malofjie 24](http://www.malofiejgraphics.com/wp-content/uploads/2016/03/M24_-AWARDS-LIST_OK.pdf).
+_Update:_ This piece won Gold and Best Of Show at [Malofjie 24](https://www.malofiejgraphics.com/wp-content/uploads/2016/03/M24_-AWARDS-LIST_OK.pdf).

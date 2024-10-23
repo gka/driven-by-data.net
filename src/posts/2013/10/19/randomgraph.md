@@ -7,4 +7,5 @@ coauthors:
 image: randomgraphjs.png
 screenshot: randomgraph-big.png
 tags: software
+type: network
 ---

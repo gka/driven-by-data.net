@@ -8,7 +8,7 @@ images:
     - 11senate-big.png
 screenshot: 11senate-big.png
 coauthors: Josh Katz
-tags: static, small multiple,elections,politics
+tags: static,polls,small-multiple,elections,politics,live-data,linechart
 ---
 
 sdsd

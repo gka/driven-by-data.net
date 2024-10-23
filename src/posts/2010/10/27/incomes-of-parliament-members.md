@@ -6,10 +6,10 @@ images:
     - nebeneinkuenfte-1.png
     - nebeneinkuenfte-2.png
 height: 700
-type: interactive
 link: https://vis4.net/labs/nebeneinkuenfte/
 image: nebeneinkuenfte.png
-tags: politics,germany
+tags: politics,germany,
+type: map,interactive,symbolmap
 ---
 
 This zoomable map shows the estimated additional income of all members of the German Bundestag. Each Member is represented by a circle at the location of his home constituency.

@@ -5,7 +5,7 @@ link: https://www.nytimes.com/interactive/2017/04/03/world/europe/st-petersburg-
 image: petersburg-metro-explosion.png
 images:
     - petersburg-metro-explosion-big.png
-tags: europe,terror
+tags: europe,terror,static,map,locatormap
 publication: NYT
 classes:
 coauthors: Anjali Singhvi

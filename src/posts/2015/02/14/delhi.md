@@ -8,5 +8,5 @@ images:
   - delhi-large.png
 publication: NYT
 classes:
-tags: static, map, environment, pollution, climate/weather
+tags: static, map, environment, pollution, climate/weather, linechart, areachart
 ---

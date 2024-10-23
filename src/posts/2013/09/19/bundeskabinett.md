@@ -11,7 +11,8 @@ images:
     - bundeskabinett-6.png
 coauthors: Markus Horeld and Sascha Venohr
 publication: zon
-tags: politics,germany,elections
+tags: politics,germany,elections,
+type: chart,timeline,animated,interactive
 ---
 
 After the German election of the Bundestag in 2013 Merkel announced the new ministers in her government.
@@ -22,4 +23,4 @@ It also showed the same views for previous cabinetts, going back to 1990.
 
 To make it easier entering the data I created a simple Django backend app.
 
-This piece won Silver for Features/Online at [Malofjie 22](http://www.malofiejgraphics.com/wp-content/uploads/2014/03/M22-Premios-OK3.pdf).
+This piece won Silver for Features/Online at [Malofjie 22](https://www.malofiejgraphics.com/wp-content/uploads/2014/03/M22-Premios-OK3.pdf).

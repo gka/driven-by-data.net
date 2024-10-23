@@ -3,9 +3,9 @@ layout: post
 title: German Election Districts
 published: true
 tagline: Comparing the shapes of election districts
-type: stuff
+type: map,static,small-multiple
 tags: politics,germany,elections,sketches
-link: https://vis4.net/blog/posts/wahlkreise/
+link: https://vis4.net/blog/wahlkreise/
 image: de-election-districts.png
 images:
     - de-election-districts-01.png

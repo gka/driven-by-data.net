@@ -3,7 +3,7 @@ import { dev } from '$app/environment';
 export const title = 'driven-by-data.net';
 export const description =
 	'Graphics portfolio of Gregor Aisch, a visual data journalist at ZEIT Online, former graphics editor at The New York Times and co-founder and former CTO of Datawrapper. Lives and works in Berlin.';
-export const url = dev ? 'http://localhost:5173/' : 'https://driven-by-data.net/';
+export const url = dev ? 'https://localhost:5173/' : 'https://driven-by-data.net/';
 
 export const tags = [
 	'politics',

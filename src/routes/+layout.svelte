@@ -10,7 +10,7 @@
 <footer class="container has-text-grey is-size-7 mt-6 mb-4">
 	Graphics portfolio of Gregor Aisch. Looking for my <a
 		class="has-text-grey"
-		href="http://vis4.net/">rarely updated blog</a
+		href="https://vis4.net/">rarely updated blog</a
 	>?
 </footer>
 

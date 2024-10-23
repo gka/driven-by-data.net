@@ -12,4 +12,4 @@ classes:
 coauthors: Karen Yourish & Adam Pearce
 ---
 
-We [updated](http://www.nytimes.com/interactive/2016/11/10/us/politics/red-blue-divide-grew-stronger-in-2016.html) the piece after the election.
+We [updated](https://www.nytimes.com/interactive/2016/11/10/us/politics/red-blue-divide-grew-stronger-in-2016.html) the piece after the election.

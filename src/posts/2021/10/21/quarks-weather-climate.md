@@ -9,7 +9,7 @@ images:
     - quarks-3.png
     - quarks-4.png
     - quarks-5.png
-tags: climate/weather
+tags: climate/weather,dashboard,live-data,chart,linechart,columnchart,static
 publication: WDR
 classes:
 coauthors: <a href="https://twitter.com/AcmWille">Andrea Wille</a>, <a href="https://twitter.com/LaraSchwenner">Lara Schwenner</a>, Saskia Gerhard & <a href="https://github.com/jh0ker">Jannes Höke</a>

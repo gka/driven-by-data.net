@@ -11,8 +11,8 @@ images:
     - delegate-calc-4.png
     - delegate-lead-2.png
 publication: NYT
-tags: chart,politics,elections,d3
-coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="http://kkrebeccalai.com/">K.K. Lai</a>
+tags: chart,politics,elections,d3,simulations,linechart,interactive
+coauthors: <a href="https://twitter.com/jshkatz">Josh Katz</a> & <a href="https://kkrebeccalai.com/">K.K. Lai</a>
 ---
 
 [Final update]({{ link }}) of our [delegate calculator](/2016/02/26/delegate-calculator), which will be updated until the end of the primary race.

@@ -17,4 +17,4 @@ _Update_
 
 ![Appeared in Visual Storytelling](/images/visual-storytelling.gif)
 
-The graphic is now featured in the book [Visual Storytelling](http://shop.gestalten.com/visual-storytelling.html) in Gestalten Verlag.
+The graphic is now featured in the book [Visual Storytelling](https://shop.gestalten.com/visual-storytelling.html) in Gestalten Verlag.

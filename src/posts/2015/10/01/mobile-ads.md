@@ -7,8 +7,8 @@ classes:
 images:
     - mobile-ads-1.png
     - mobile-ads-2.png
-coauthors: <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="http://joshmkeller.com/">Josh Keller</a>
-tags: investigation, business
+coauthors: <a href="https://twitter.com/wilsonandrews">Wilson Andrews</a> & <a href="https://joshmkeller.com/">Josh Keller</a>
+tags: investigation, business, stackedbars, chart, static, circle-packing
 publication: NYT
 ---
 

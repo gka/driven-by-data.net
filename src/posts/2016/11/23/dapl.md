@@ -5,7 +5,8 @@ link: https://www.nytimes.com/interactive/2016/11/23/us/dakota-access-pipeline-p
 image: dapl.jpg
 images:
     - dapl-1.jpg
-tags: us,environment,climate/weather
+    - dapl-mobile.png
+tags: us,environment,climate/weather,static,map,scrolly
 publication: NYT
 classes:
 coauthors: K.K. Rebecca Lai
