@@ -6,7 +6,7 @@ publication: zon
 coauthors: 
     - name: Laura Höring
       url: https://www.zeit.de/autoren/H/Laura-Marie_Hoering/index
-tags: elections,breaking news
+tags: elections
 type: chart,map,interactive,choropleth,scatter,scrolly,barchart,table,arrowplot
 image: 2024/09-speckguertel-light.png
 images:
