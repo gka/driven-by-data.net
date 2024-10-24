@@ -7,7 +7,7 @@ images:
     - trump-finances-big.png
 publication: NYT
 tags: politics,elections,breaking news
-type: text,table,static
+type: table,static
 classes: shadow border
 coauthors: <a href="https://aparlapiano.wordpress.com/">Alicia Parlapiano</a> & <a href="https://twitter.com/karenyourish">Karen Yourish</a>
 ---

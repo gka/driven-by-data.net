@@ -27,6 +27,7 @@
 
 	function warpTime(year: number) {
 		if (year > 2017 && year < 2024) return "2018-'23";
+		if (year <= 2010) return '2009-\'10';
 		return String(year);
 	}
 
@@ -125,7 +126,7 @@
 				{/each}
 			</div>
 			<!-- filter by year -->
-			<div class="column is-3-tablet is-2-desktop ">
+			<div class="column is-3-tablet is-2-widescreen ">
 				{#each allYears as year, i}
 					<a
 						class="has-text-grey-light"

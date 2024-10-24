@@ -8,7 +8,7 @@ images:
     - text-contrast-white.png
     - text-contrast-black.png
 tags: infovis, sketches
-type: text
+type: static,table,heatmap
 ---
 
 Experiment to measure text contrasts against white and black background with HSL and HSB color space.

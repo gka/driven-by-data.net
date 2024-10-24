@@ -8,7 +8,7 @@ images:
  - partg-big-2.png
  - partg-tooltip.png
 tags: politics,germany
-type: text,interactive,timeline
+type: chart,interactive,timeline,network
 ---
 
 For this piece I went through the archive of law announcements to get the full text of all revisions of a prticular law that regulates polical parties in Germany.

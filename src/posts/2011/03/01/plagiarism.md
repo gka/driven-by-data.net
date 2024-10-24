@@ -5,7 +5,7 @@ info: All text lines in the dissertation of Germany’s former Minister of Defen
 link: https://vis4.net/labs/guttenplag/guttenberg-diss-en.pdf
 image: guttenplag.png
 tags: politics,germany
-type: static,text
+type: static,chart,barcode
 coauthors: GuttenPlag Wiki
 images:
     - guttenplag-bigger.png

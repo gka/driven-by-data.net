@@ -14,7 +14,7 @@
 		return src.endsWith('.mov') || src.endsWith('.mp4');
 	}
 
-	const { title, link, summary, coauthors, image, images, layout, publication } = $derived(data.meta);
+	const { title, link, summary, coauthors, image, images, layout, publication, type: types } = $derived(data.meta);
 </script>
 
 <svelte:head>
@@ -47,9 +47,6 @@
 	<div class="container">
 		<div class="columns">
 			<div class="column is-one-third">
-				<a href="/">
-					<Icon icon="chevron-up" height={36} />
-				</a>
 				<h3 class="title is-3">{@html title}</h3>
 
 				<div class="block content">
@@ -72,6 +69,29 @@
 						<a target="_blank" href={link}>visit</a>
 					</div>
 				{/if}
+
+				<div class="post-tags">
+					<ul class="is-size-7 is-flex is-flex-wrap-wrap">
+						{#each (types ?? '').split(',').map(t => t.toUpperCase().trim()).filter(t => t) as t}
+							<li><span class="tag">{t}</span></li>
+						{/each}
+					</ul>
+				</div>
+				<nav class="nav-links">
+					{#if data.prevPost && data.prevPost.layout === 'post'}
+					<a href="/{data.prevPost.permalink}" title="Next project: {data.prevPost.title}">
+						<Icon height={30} icon="chevron-left" />
+					</a>
+				{/if}
+				<a href="/" title="Back to overview">
+					<Icon height={30} icon="chevron-up" />
+				</a>
+				{#if data.nextPost && data.nextPost.layout === 'post'}
+					<a href="/{data.nextPost.permalink}" title="Previous project: {data.nextPost.title}">
+						<Icon height={30} icon="chevron-right" />
+					</a>
+				{/if}
+				</nav>
 			</div>
 			<div class="column images">
 				{#each images as src}
@@ -107,5 +127,32 @@
 		flex-direction: column;
 		gap: 1rem;
 		align-items: center;
+	}
+	nav.nav-links {
+		display:flex;font-size: 15px;
+		a { opacity:0.3; }
+		a:hover, a:focus {
+			opacity: 1;
+		}
+	}
+	.post-tags {
+		opacity: 0.6;
+		margin-bottom: 1rem;
+		&:hover { opacity: 1; }
+		ul {
+			gap: 5px;
+		}
+		
+		li {
+			display: inline;
+			span.tag {
+				font-size: 10px;
+				font-weight: 500;
+			}
+			
+			& + li::before {
+				content: ' '
+			}
+		}
 	}
 </style>

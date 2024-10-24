@@ -7,7 +7,7 @@ images:
     - redblue-1.png
     - redblue-2.png
 tags: us,politics,elections
-type: map,small-multiple,choropleth,static,chart,animated,barcode,text
+type: map,small-multiple,choropleth,static,chart,animated,barcode
 publication: NYT
 classes:
 coauthors: Karen Yourish & Adam Pearce

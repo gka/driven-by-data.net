@@ -1,14 +1,17 @@
 ---
-layout: link
-title: Fraktion vs. Gewissen
+layout: post
+title: Fraction vs. Conscience
 info: Closeness of coalition parties at roll-call votes in the German Bundestag
-gallery: ['fraction-vs-conscience-1.png', 'fraction-vs-conscience-2.png']
 link: https://vis4.net/labs/fraktion-vs-gewissen
 height: 631
 image: fraktion.png
 tags: politics,germany
 type: chart,interactive,js,polar,lollipop
-screenshot: fraktion-big.png
+images: 
+  - fraktion-big.png
+  - fraktion-big-2.png
+  - fraktion-big-3.png
 ---
 
-The visualization shows the closeness of coalition parties at roll-call votes in the German Bundestag. The more closed a faction vote, the closer the symbols move to the center. This way one can quickly find votes, where members were freed from their party discipline, such as the CDU/CSU MPs on issues of genetic engineering.
+This polar [lollipop](https://datavizproject.com/data-type/lollipop-chart/) chart shows how the "close" members of coalition parties have voted in roll-call votes in the German Bundestag. The more closer the faction vote, the closer the symbols move to the center. This way one can quickly find votes, where members were freed from their party discipline, such as the CDU/CSU MPs on issues of genetic engineering.
+

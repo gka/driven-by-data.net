@@ -4,7 +4,7 @@ import { error } from '@sveltejs/kit';
 export async function load({ fetch, params: { year, month, day, slug } }) {
 	// find slug for permalink
 	const response = await fetch('/api/posts/all');
-	const posts: Post[] = await response.json();
+	const posts: Post[] = (await response.json()).filter(p => p.meta.layout === 'post');
 	// console.log({error})
 
 	if (!Array.isArray(posts)) error(500, { message: posts.message });
@@ -25,10 +25,10 @@ export async function load({ fetch, params: { year, month, day, slug } }) {
 		content: post.default,
 		meta: { ...post.metadata, slug },
 		prevPost: prevPost
-			? { permalink: prevPost.permalink, title: prevPost.shortTitle ?? prevPost.title }
+			? { permalink: prevPost.permalink, title: prevPost.meta.title, layout: prevPost.meta.layout }
 			: null,
 		nextPost: nextPost
-			? { permalink: nextPost.permalink, title: nextPost.shortTitle ?? nextPost.title }
+			? { permalink: nextPost.permalink, title: nextPost.meta.title, layout: nextPost.meta.layout }
 			: null
 	};
 }
