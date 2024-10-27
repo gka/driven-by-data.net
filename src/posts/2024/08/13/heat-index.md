@@ -1,7 +1,7 @@
 ---
 title: Summer heat in Germany
 layout: post
-tags: breaking news,climate
+tags: breaking news,climate/weather
 type: map,static,choropleth
 publication: zon
 link: https://www.zeit.de/wissen/2024-08/hitzetote-studie-hitze-anpassung-europa?freebie=d0572c75
