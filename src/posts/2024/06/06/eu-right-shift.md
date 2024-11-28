@@ -5,7 +5,7 @@ link: https://www.zeit.de/politik/ausland/2024-06/rechtsextremismus-eu-parlament
 publication: zon
 image: 2024/06-eu-right-shift.png
 images:
-  - 2024/06-eu-right-shift-big.png
+    - 2024/06-eu-right-shift-big.png
 tags: elections, politics
 type: static,small-multiple,columnchart,map,choropleth
 ---

@@ -8,7 +8,7 @@ images:
 tags: elections
 type: static,chart,linechart
 publication: Datawrapper
-classes: 
+classes:
 ---
 
 [Reddit discussion](https://www.reddit.com/r/dataisbeautiful/comments/88080t/presidential_approval_ratings_since_kenney_oc/dwgu8o6/)

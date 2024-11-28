@@ -1,5 +1,5 @@
 <script>
-	import PostList from "$lib/PostList.svelte";
+	import PostList from '$lib/PostList.svelte';
 
 	let { data } = $props();
 </script>

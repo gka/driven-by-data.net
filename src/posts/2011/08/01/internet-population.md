@@ -4,11 +4,11 @@ title: Mapping the Global Digital Divide
 link: https://driven-by-data.net/vis/internet_and_population.png
 image: 2011/internet.png
 images:
-  - 2011/internet-vs-pop-1.png
-  - 2011/internet-vs-pop-2.png
-  - 2011/internet-vs-pop-3.png
-  - 2011/internet-vs-pop-4.png
-  - 2011/internet-vs-pop-5.png
+    - 2011/internet-vs-pop-1.png
+    - 2011/internet-vs-pop-2.png
+    - 2011/internet-vs-pop-3.png
+    - 2011/internet-vs-pop-4.png
+    - 2011/internet-vs-pop-5.png
 tags: sketches
 type: map,static,dotmap
 ---

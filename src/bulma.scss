@@ -2,9 +2,7 @@ $title-color-dark: #ccc;
 
 @use 'bulma/sass' with (
 	$family-primary: '"Roboto", sans-serif'
-	
 );
-
 
 // @forward "bulma/sass/base";
 // @forward "bulma/sass/helpers";
@@ -40,11 +38,11 @@ $title-color-dark: #ccc;
 
 @media (prefers-color-scheme: light) {
 	.hide-in-light {
-		display: none!important;
+		display: none !important;
 	}
 }
-	@media (prefers-color-scheme: dark) {
-		.hide-in-dark {
-			display: none!important;
-		}
+@media (prefers-color-scheme: dark) {
+	.hide-in-dark {
+		display: none !important;
 	}
+}

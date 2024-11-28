@@ -54,7 +54,6 @@
 	}
 
 	:global {
-		
 		a {
 			color: black !important;
 			@media (prefers-color-scheme: dark) {

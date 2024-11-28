@@ -3,8 +3,8 @@ layout: link
 title: 'A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve'
 link: https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html
 image: yield-curve.png
-images: 
-  - yield-curve-big.png
+images:
+    - yield-curve-big.png
 coauthors: Amanda Cox
 publication: NYT
 tags: economy

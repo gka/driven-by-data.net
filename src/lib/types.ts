@@ -7,7 +7,7 @@ export type Post = {
 		shortTitle?: string;
 		description: string;
 		image: string;
-		layout: 'post'|'link';
+		layout: 'post' | 'link';
 		coauthors: string;
 		published?: boolean;
 		featured?: boolean;

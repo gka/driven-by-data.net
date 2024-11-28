@@ -13,4 +13,3 @@ publication: NYT
 classes:
 coauthors: Larry Buchanan, Amanda Cox and Kevin Quealy
 ---
-

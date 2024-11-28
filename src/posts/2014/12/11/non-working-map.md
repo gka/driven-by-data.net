@@ -7,8 +7,8 @@ image: nonworking.png
 tags: map, social, economy
 type: map, interactive, tilemap, choropleth
 publication: NYT
-images: 
-  - nonworking-big.png
+images:
+    - nonworking-big.png
 info: My first self-made tile map, and it's not using spherical mercator!
 ---
 

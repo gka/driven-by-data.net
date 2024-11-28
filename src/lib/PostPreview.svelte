@@ -13,7 +13,9 @@
 
 	let { path, meta }: { path: string; meta: Meta } = $props();
 
-	const url = $derived(meta.layout === 'link' && meta.link.startsWith('http') ? meta.link : path);
+	const url = $derived(
+		meta.layout === 'link' && meta.link.startsWith('http') ? meta.link : `/${path}`
+	);
 
 	const pubDate = $derived(new Date(path.split('/').slice(0, 3).join('-')));
 	const format = (d: Date) =>
@@ -24,10 +26,14 @@
 	<a href={url}
 		><figure class="image is-square">
 			{#if meta.image?.endsWith('-light.png')}
-			<img use:lazyLoad={`/images/${meta.image}`} class="hide-in-dark" alt={meta.title} />
-			<img use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`} class="hide-in-light" alt={meta.title} />
+				<img use:lazyLoad={`/images/${meta.image}`} class="hide-in-dark" alt={meta.title} />
+				<img
+					use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`}
+					class="hide-in-light"
+					alt={meta.title}
+				/>
 			{:else}
-			<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
+				<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
 			{/if}
 		</figure>
 	</a>

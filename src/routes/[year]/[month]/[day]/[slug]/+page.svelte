@@ -4,7 +4,6 @@
 	import Icon from '$lib/Icon.svelte';
 	import Phone from '$lib/Phone.svelte';
 	import VideoPlayer from '$lib/VideoPlayer.svelte';
-	import { includes } from 'es-toolkit/compat';
 	let { data } = $props();
 
 	let innerWidth = $state(500);
@@ -14,7 +13,17 @@
 		return src.endsWith('.mov') || src.endsWith('.mp4');
 	}
 
-	const { title, link, summary, coauthors, image, images, layout, publication, type: types } = $derived(data.meta);
+	const {
+		title,
+		link,
+		summary,
+		coauthors,
+		image,
+		images,
+		layout,
+		publication,
+		type: types
+	} = $derived(data.meta);
 </script>
 
 <svelte:head>
@@ -72,30 +81,38 @@
 
 				<div class="post-tags">
 					<ul class="is-size-7 is-flex is-flex-wrap-wrap">
-						{#each (types ?? '').split(',').map(t => t.toUpperCase().trim()).filter(t => t) as t}
-							<li><span class="tag">{t}</span></li>
+						{#each (types ?? '')
+							.split(',')
+							.map((t) => t.toUpperCase().trim())
+							.filter((t) => t) as t}
+							<li><a href="/type/{t.toLowerCase()}" class="tag">{t}</a></li>
 						{/each}
 					</ul>
 				</div>
 				<nav class="nav-links">
 					{#if data.prevPost && data.prevPost.layout === 'post'}
-					<a href="/{data.prevPost.permalink}" title="Next project: {data.prevPost.title}">
-						<Icon height={30} icon="chevron-left" />
+						<a
+							href="/{data.prevPost.permalink}"
+							title="Next project: {data.prevPost.title}"
+						>
+							<Icon height={30} icon="chevron-left" />
+						</a>
+					{/if}
+					<a href="/" title="Back to overview">
+						<Icon height={30} icon="chevron-up" />
 					</a>
-				{/if}
-				<a href="/" title="Back to overview">
-					<Icon height={30} icon="chevron-up" />
-				</a>
-				{#if data.nextPost && data.nextPost.layout === 'post'}
-					<a href="/{data.nextPost.permalink}" title="Previous project: {data.nextPost.title}">
-						<Icon height={30} icon="chevron-right" />
-					</a>
-				{/if}
+					{#if data.nextPost && data.nextPost.layout === 'post'}
+						<a
+							href="/{data.nextPost.permalink}"
+							title="Previous project: {data.nextPost.title}"
+						>
+							<Icon height={30} icon="chevron-right" />
+						</a>
+					{/if}
 				</nav>
 			</div>
 			<div class="column images">
 				{#each images as src}
-		
 					{#if isVideo(src)}
 						<VideoPlayer src="/images/{src}" />
 					{:else if src.includes('-mobile') && !isMobile}
@@ -106,7 +123,11 @@
 						<div class="block">
 							{#if src?.endsWith('-light.png')}
 								<img src="/images/{src}" class="hide-in-dark" alt={title} />
-								<img src="/images/{src.replace('-light.png', '-dark.png')}" class="hide-in-light" alt={title} />
+								<img
+									src="/images/{src.replace('-light.png', '-dark.png')}"
+									class="hide-in-light"
+									alt={title}
+								/>
 							{:else}
 								<img src="/images/{src}" alt={title} />
 							{/if}
@@ -129,29 +150,36 @@
 		align-items: center;
 	}
 	nav.nav-links {
-		display:flex;font-size: 15px;
-		a { opacity:0.3; }
-		a:hover, a:focus {
+		display: flex;
+		font-size: 15px;
+		a {
+			opacity: 0.3;
+		}
+		a:hover,
+		a:focus {
 			opacity: 1;
 		}
 	}
 	.post-tags {
 		opacity: 0.6;
 		margin-bottom: 1rem;
-		&:hover { opacity: 1; }
+		&:hover {
+			opacity: 1;
+		}
 		ul {
 			gap: 5px;
 		}
-		
+
 		li {
 			display: inline;
-			span.tag {
+			a.tag {
 				font-size: 10px;
 				font-weight: 500;
+
 			}
-			
+
 			& + li::before {
-				content: ' '
+				content: ' ';
 			}
 		}
 	}

@@ -9,6 +9,6 @@ image: 2024/08-heat-index-small.png
 images:
     - 2024/08-heat-index.png
 coauthors:
-  - name: Viola Kiel
-    url: https://www.zeit.de/autoren/K/VIola_Kiel/index
+    - name: Viola Kiel
+      url: https://www.zeit.de/autoren/K/VIola_Kiel/index
 ---

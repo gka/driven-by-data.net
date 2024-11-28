@@ -1,5 +1,5 @@
 <script>
-	import Icon from "@iconify/svelte";
+	import Icon from '@iconify/svelte';
 
 	let { url, children } = $props();
 </script>
@@ -8,9 +8,7 @@
 	<div class="device-frame">
 		<div class="ios">
 			<div class="header">
-				<div class="clock">
-					00:00	
-				</div>
+				<div class="clock">00:00</div>
 				<div class="widgets">
 					<div class="cell"><Icon icon="ion:cellular" /></div>
 					<div class="wifi"><Icon icon="ion:wifi" /></div>
@@ -21,18 +19,20 @@
 				<div class="address-bar">
 					<Icon icon="ion:lock-closed-outline" />
 					<div class="url">
-						{url.replace('https://www.', '').replace('https://', '').replace('https://')}
+						{url
+							.replace('https://www.', '')
+							.replace('https://', '')
+							.replace('https://')}
 					</div>
 					<Icon icon="ion:reload" />
 				</div>
 				<div class="page">
 					<div class="inner">
-					{@render children?.()}
+						{@render children?.()}
 					</div>
 				</div>
 			</div>
 		</div>
-		
 	</div>
 	<div class="device-stripe"></div>
 	<div class="device-header"></div>
@@ -78,9 +78,7 @@
 				border-bottom-left-radius: 30px;
 				border-bottom-right-radius: 30px;
 			}
-			
 		}
-		
 	}
 	.clock {
 		font-size: 15px;
@@ -91,7 +89,6 @@
 		background: #f9f9fb;
 		height: 100%;
 		border-radius: 30px;
-		
 	}
 	.ios .header {
 		padding: 10px;

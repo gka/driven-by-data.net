@@ -17,5 +17,5 @@ For the days after the first US Primaries and Caucusses we designed a mobile-fri
 
 Great opportunity for fun text effects and animated bar charts, so check it out on your phone.
 
-- [Iowa Caucus (Feb 1)](https://www.nytimes.com/interactive/2016/02/02/us/iowa-results-analysis.html)
-- [New Hampshire Primary (Feb 9)](https://www.nytimes.com/interactive/2016/02/10/us/politics/new-hampshire-primary-results-analysis.html)
+-   [Iowa Caucus (Feb 1)](https://www.nytimes.com/interactive/2016/02/02/us/iowa-results-analysis.html)
+-   [New Hampshire Primary (Feb 9)](https://www.nytimes.com/interactive/2016/02/10/us/politics/new-hampshire-primary-results-analysis.html)

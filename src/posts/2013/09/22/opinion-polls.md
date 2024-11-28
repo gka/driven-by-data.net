@@ -8,8 +8,8 @@ publication: zon
 tags: politics,germany,elections
 type: chart,polling,scatter,static
 images:
-  - poll-bias-1.png
-  - poll-bias-2.png
+    - poll-bias-1.png
+    - poll-bias-2.png
 ---
 
 A data-journalistic look into systemic biases of election polls in Germany. Also my first-ever article published on ZEIT ONLINE!

@@ -20,12 +20,50 @@ export const tags = [
 ];
 
 export const publications = ['NYT', 'zon', 'WDR', 'taz', 'others'];
-export const nicePubNames = { NYT: 'The New York Times', zon: 'ZEIT ONLINE', others: 'other media', DW: 'Deutsche Welle', vis4: 'vis4.net', Datawrapper: 'Datawrapper Blog' };
+export const nicePubNames = {
+	NYT: 'The New York Times',
+	zon: 'ZEIT ONLINE',
+	others: 'other media',
+	DW: 'Deutsche Welle',
+	vis4: 'vis4.net',
+	Datawrapper: 'Datawrapper Blog'
+};
 
-export const pubToPublication = { nyt: 'NYT', 'wdr': 'WDR' }; 
+export const pubToPublication = { nyt: 'NYT', wdr: 'WDR' };
 
-export const longNames: {[key: string]: string;} = {
+export const longNames: { [key: string]: string } = {
 	'C. Endt': 'Christian Endt',
 	'J. Tröger': 'Julius Tröger',
-	'J. Stahnke': 'Julian Stahnke',
+	'J. Stahnke': 'Julian Stahnke'
 };
+
+const niceTypes = {
+	map: 'Maps',
+	chart: 'Charts',
+	table: 'Tables',
+	dashboard: 'Dashboards',
+	interactive: 'Interactive visualizations',
+	static: 'Static visualizations',
+	choropleth: 'Choropleth maps',
+	animated: 'Animated visualizations',
+	'live-data': 'Visualizations with live data',
+	'small-multiple': 'Small multiples',
+	stackedbars: 'Stacked bar charts',
+	scatter: 'Scatter plots',
+	linechart: 'Line charts',
+	areachart: 'Area charts',
+	barchart: 'Bar charts',
+	heatmap: 'Heatmaps',
+	treemap: 'Treemaps',
+	network: 'Network diagrams',
+	scrolly: 'Scrolly articles',
+	locatormap: 'Locator Maps',
+	waffle: 'Waffle charts',
+	cartogram: 'Cartograms',
+	stackedcolumns: 'Stacked column charts',
+	// chro
+}
+
+export const niceTypeName = (type) => {
+	return niceTypes[type] || `Projects tagged with ${type}`;
+}

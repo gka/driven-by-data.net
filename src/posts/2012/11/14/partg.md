@@ -3,10 +3,10 @@ layout: post
 title: The Making of a Law
 link: https://visualisiert.net/parteiengesetz/index.en.html
 image: partg.png
-images: 
- - partg-big.png
- - partg-big-2.png
- - partg-tooltip.png
+images:
+    - partg-big.png
+    - partg-big-2.png
+    - partg-tooltip.png
 tags: politics,germany
 type: chart,interactive,timeline,network
 ---

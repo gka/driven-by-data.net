@@ -9,9 +9,9 @@ tags: sports
 type: swiper,interactive
 publication: NYT
 classes:
-coauthors: 
+coauthors:
     - name: K.K. Lai
-      url:  https://kkrebeccalai.com 
+      url: https://kkrebeccalai.com
     - name: Haeyoun Park
       url: https://twitter.com/haeyoun
     - name: Tom Giratikanon

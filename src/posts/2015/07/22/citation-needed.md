@@ -4,8 +4,8 @@ title: 'Citation Needed'
 subtitle: (a Chrome browser plugin that highlights anonymous sources)
 link: https://github.com/gka/citation-needed
 image: citation-needed.png
-images: 
-  - citation-needed-big.png
+images:
+    - citation-needed-big.png
 classes: border
 tags: software
 ---

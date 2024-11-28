@@ -23,9 +23,16 @@ export default async function ({ tag, limit, dev }: { tag: string; limit: number
 					month,
 					day
 				},
-				meta: { ...metadata, 
-					tags: metadata.tags?.split(',').map((s) => s.trim()).filter(d => d),
-					type: metadata.type?.split(',').map((s) => s.trim()).filter(d => d)
+				meta: {
+					...metadata,
+					tags: metadata.tags
+						?.split(',')
+						.map((s) => s.trim())
+						.filter((d) => d),
+					type: metadata.type
+						?.split(',')
+						.map((s) => s.trim())
+						.filter((d) => d)
 				}
 			} satisfies Post;
 			if (post.meta.published != false && (!tag || post.meta.tags?.includes(tag))) {

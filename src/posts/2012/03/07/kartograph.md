@@ -3,8 +3,8 @@ layout: post
 title: Kartograph mapping framework
 image: kartograph.png
 link: https://kartograph.org
-images: 
-  - kartograph-big.jpg
+images:
+    - kartograph-big.jpg
 tags: software,map,library,js
 ---
 

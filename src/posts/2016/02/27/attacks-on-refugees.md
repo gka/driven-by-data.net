@@ -3,7 +3,7 @@ layout: post
 title: 'Attacks on Refugees in Germany'
 link: 'https://www.nytimes.com/2016/02/27/world/europe/germany-migrant-arson-trial.html#attacks-on-refugees-in-germany'
 image: attacks-on-refugees.png
-images: 
+images:
     - attacks-on-refugees-big.png
 tags: crime/justice,foreign,international
 type: map,chart,linechart,static,symbolmap
