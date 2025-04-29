@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Das neue Bundeskabinett
-link: https://interactive.zeit.de/bundeskabinett/
+link: https://web.archive.org/web/20131031155000/http://interactive.zeit.de/bundeskabinett/#/
 image: bundeskabinett.png
 images:
     - bundeskabinett-1.png
