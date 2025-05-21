@@ -1,7 +1,7 @@
 $title-color-dark: #ccc;
 
 @use 'bulma/sass' with (
-	$family-primary: '"Roboto", sans-serif'
+	$family-primary: '"Roboto Variable", sans-serif'
 );
 
 // @forward "bulma/sass/base";
@@ -29,12 +29,6 @@ $title-color-dark: #ccc;
 // 	// @import "../node_modules/bulma/sass/layout/hero.sass";
 // 	@import '../node_modules/bulma/sass/layout/section.sass';
 // 	@import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass"; */
-
-@import '@fontsource/roboto';
-@import '@fontsource/roboto/100.css';
-@import '@fontsource/roboto/300.css';
-@import '@fontsource/roboto/500.css';
-@import '@fontsource/roboto/700.css';
 
 @media (prefers-color-scheme: light) {
 	.hide-in-light {

@@ -1,5 +1,8 @@
 <script>
 	import '../bulma.scss';
+	// Supports weights 100-900
+	import '@fontsource-variable/roboto';
+
 	let { children } = $props();
 </script>
 
@@ -26,7 +29,7 @@
 	$beige-lighter: #eff0eb;
 
 	$family-sans-serif:
-		'Roboto',
+		'Roboto Variable',
 		BlinkMacSystemFont,
 		-apple-system,
 		'Segoe UI',

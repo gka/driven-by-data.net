@@ -79,6 +79,7 @@
 	<meta name="description" content={description} />
 	<link rel="icon" href="/images/{posts[0].meta.image}" />
 	<link rel="me" href="https://vis.social/@gka" />
+	<link rel="icon" href={`/images/${groupedPosts[0][1][0].meta.image}`} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@driven_by_daya" />
 	<meta name="twitter:title" content="driven-by-da" />
@@ -170,6 +171,9 @@
 {/each}
 
 <style lang="scss">
+	h1.title {
+		font-weight: 250;
+	}
 	h2.title[id='2024'] {
 		display: none;
 	}

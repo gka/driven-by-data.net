@@ -2,11 +2,10 @@
 layout: post
 link: https://www.zeit.de/politik/ausland/2024-11/us-wahl-2024-ergebnisse-swing-states-live
 title: Live dashboard for US election
-image: 2024/10-us-election-scenarios-light.png
+image: 2024/11-us-election-live-thump-light.png
 images:
-    - 2024/10-us-election-scenarios-big-light.png
-    - 2024/10-us-election-scenarios-big-mobile.png
-    - 2024/10-us-election-scenarios.mp4
+    - 2024/11-us-election-live-map-light.png
+    - 2024/11-us-election-live-table-light.png
 tags: elections,us
 type: interactive,static,map,cartogram,chart,live-data,dashboard
 publication: zon
@@ -20,4 +19,3 @@ coauthors:
     - name: C. Endt
       url: https://www.zeit.de/autoren/E/Christian_Endt/index
 ---
-
