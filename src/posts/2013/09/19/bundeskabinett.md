@@ -10,7 +10,7 @@ images:
     - bundeskabinett-4.png
     - bundeskabinett-6.png
 coauthors: Markus Horeld and Sascha Venohr
-publication: zon
+publication: zeit
 tags: politics,germany,elections,
 type: chart,timeline,animated,interactive
 ---

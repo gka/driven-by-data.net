@@ -20,7 +20,6 @@
 		coauthors,
 		image,
 		images,
-		layout,
 		publication,
 		type: types
 	} = $derived(data.meta);
@@ -33,7 +32,7 @@
 	<meta name="twitter:site" content="@driven_by_daya" />
 	<meta name="twitter:title" content="{title} - driven-by-data.net" />
 	<meta name="twitter:description" content={summary} />
-	<meta name="twitter:image" content="https://driven-by-data.net/images/{images[0]}" />
+	<meta name="twitter:image" content="https://driven-by-data.net/images/{images?.[0]}" />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -175,7 +174,6 @@
 			a.tag {
 				font-size: 10px;
 				font-weight: 500;
-
 			}
 
 			& + li::before {

@@ -2,7 +2,7 @@
 layout: post
 link: https://www.zeit.de/politik/deutschland/2024-09/wahl-brandenburg-landtag-gemeinden-berlin-speckguertel
 title: Analysis of Brandenburg state election results
-publication: zon
+publication: zeit
 coauthors:
     - name: Laura Höring
       url: https://www.zeit.de/autoren/H/Laura-Marie_Hoering/index

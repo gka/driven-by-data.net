@@ -9,7 +9,7 @@ images:
     - 2024/10-us-election-scenarios.mp4
 tags: elections,us
 type: scrolly,interactive,static,map,cartogram,chart,waffle
-publication: zon
+publication: zeit
 coauthors:
     - name: C. Endt
       url: https://www.zeit.de/autoren/E/Christian_Endt/index

@@ -4,7 +4,7 @@ title: Thuringia local election results
 link: https://www.zeit.de/politik/deutschland/2024-05/kommunalwahl-thueringen-ergebnisse-karte
 tags: politics
 type: static,chart,columnchart,map,choropleth,interactive,small-multiple
-publication: zon
+publication: zeit
 image: thuringia-election-teaser.png
 images:
     - thuringia-election-1.png

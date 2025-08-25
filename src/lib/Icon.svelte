@@ -18,7 +18,7 @@
 		height,
 		style = '',
 		inline = true
-	}: { icon: string; height: number; style: string; inline: boolean } = $props();
+	}: { icon: string; height: number; style?: string; inline?: boolean } = $props();
 </script>
 
 <Icon {icon} {inline} {style} {height} />

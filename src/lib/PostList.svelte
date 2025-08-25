@@ -26,6 +26,7 @@
 
 	const filteredPosts = $derived(
 		posts
+			.filter((post) => post.meta.image) // only show posts with preview image
 			.filter((post) =>
 				typeof activeTag === 'string' ? post.meta.tags?.includes(activeTag) : true
 			)
@@ -174,7 +175,7 @@
 	h1.title {
 		font-weight: 250;
 	}
-	h2.title[id='2024'] {
+	h2.title[id='2025'] {
 		display: none;
 	}
 	.tagnav button,

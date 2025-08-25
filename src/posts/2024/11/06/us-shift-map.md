@@ -2,10 +2,10 @@
 title: A country turns red
 layout: post
 link: https://www.zeit.de/politik/ausland/2024-11/wahl-usa-ergebnisse-counties-wechselwaehler-swing-states-daten
-image: 2024/11-us-shift-map-thumb.png
+image: 2024/11-us-shift-map-thumb-light.png
 tags: elections,us
 type: interactive,static,map
-publication: zon
+publication: zeit
 coauthors:
     - name: T. Flemish
       url: https://www.zeit.de/autoren/F/Tamara_Flemisch/index

@@ -14,7 +14,7 @@ images:
     - 2024/10-us-election-polls-7.png
 tags: elections
 type: static,chart,stackedbars,linechart,dashboard,scatter,map,cartogram,table,interactive,heatmap,rangeplot
-publication: zon
+publication: zeit
 coauthors:
     - name: C. Endt
       url: https://www.zeit.de/autoren/E/Christian_Endt/index

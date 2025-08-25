@@ -25,15 +25,23 @@
 <div class="post">
 	<a href={url}
 		><figure class="image is-square">
-			{#if meta.image?.endsWith('-light.png')}
-				<img use:lazyLoad={`/images/${meta.image}`} class="hide-in-dark" alt={meta.title} />
-				<img
-					use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`}
-					class="hide-in-light"
-					alt={meta.title}
-				/>
+			{#if meta.image}
+				{#if meta.image?.endsWith('-light.png')}
+					<img
+						use:lazyLoad={`/images/${meta.image}`}
+						class="hide-in-dark"
+						alt={meta.title}
+					/>
+					<img
+						use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`}
+						class="hide-in-light"
+						alt={meta.title}
+					/>
+				{:else}
+					<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
+				{/if}
 			{:else}
-				<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
+				<img src="https://placehold.co/400x400" alt={meta.title} />
 			{/if}
 		</figure>
 	</a>
@@ -46,8 +54,8 @@
 		<span class="is-size-7 has-text-grey"
 			>{#if meta.coauthors}with <CoAuthors coauthors={meta.coauthors} />,
 			{/if}
-			{format(pubDate)}{#if meta.publication}&nbsp;[{meta.publication === 'zon'
-					? 'ZEIT ONLINE'
+			{format(pubDate)}{#if meta.publication}&nbsp;[{meta.publication === 'zeit'
+					? 'DIE ZEIT'
 					: meta.publication}]{/if}</span
 		>
 	</div>

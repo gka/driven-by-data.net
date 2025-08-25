@@ -10,7 +10,7 @@ images:
 coauthors: Sascha Venohr
 tags: environment,germany,climate/weather
 type: map,interactive
-publication: zon
+publication: zeit
 ---
 
 Created for ZEIT ONLINE, this interactive map shows how many people live within a changable radius around active nuclear power reactors. It is based on my previous static maps of [shortest distances to nuclear reactors](/2011/03/04/nuclear-distances).

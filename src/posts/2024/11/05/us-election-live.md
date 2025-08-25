@@ -8,7 +8,7 @@ images:
     - 2024/11-us-election-live-table-light.png
 tags: elections,us
 type: interactive,static,map,cartogram,chart,live-data,dashboard
-publication: zon
+publication: zeit
 coauthors:
     - name: J. Stahnke
       url: https://www.zeit.de/autoren/S/Julian_Stahnke/index

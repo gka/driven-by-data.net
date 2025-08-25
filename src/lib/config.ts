@@ -2,7 +2,7 @@ import { dev } from '$app/environment';
 
 export const title = 'driven-by-data.net';
 export const description =
-	'Graphics portfolio of Gregor Aisch, a visual data journalist at ZEIT Online, former graphics editor at The New York Times and co-founder and former CTO of Datawrapper. Lives and works in Berlin.';
+	'Graphics portfolio of Gregor Aisch, a visual data journalist at DIE ZEIT, former graphics editor at The New York Times and co-founder and former CTO of Datawrapper. Lives and works in Berlin.';
 export const url = dev ? 'https://localhost:5173/' : 'https://driven-by-data.net/';
 
 export const tags = [
@@ -19,10 +19,10 @@ export const tags = [
 	'sketches'
 ];
 
-export const publications = ['NYT', 'zon', 'WDR', 'taz', 'others'];
+export const publications = ['NYT', 'zeit', 'WDR', 'taz', 'others'];
 export const nicePubNames = {
 	NYT: 'The New York Times',
-	zon: 'ZEIT ONLINE',
+	zeit: 'DIE ZEIT',
 	others: 'other media',
 	DW: 'Deutsche Welle',
 	vis4: 'vis4.net',

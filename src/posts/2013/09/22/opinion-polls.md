@@ -4,7 +4,7 @@ title: Wie tendenziös sind Wahlumfragen?
 subtitle: (ZEIT ONLINE)
 link: https://www.zeit.de/politik/deutschland/2013-09/wahlumfragen-parteilichkeit-bundestagswahl
 image: german-opinion-polls.png
-publication: zon
+publication: zeit
 tags: politics,germany,elections
 type: chart,polling,scatter,static
 images:

@@ -4,7 +4,7 @@ title: 'Survey: Which CDU politicians would collaborate with AfD?'
 link: https://www.zeit.de/politik/deutschland/2024-08/landtagswahlen-ostdeutschland-afd-cdu-kandidaten
 tags: elections
 type: interactive,chart,waffle
-publication: zon
+publication: zeit
 coauthors:
     - name: C. Endt
       url: https://www.zeit.de/autoren/E/Christian_Endt/index

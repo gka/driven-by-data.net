@@ -1,5 +1,6 @@
 $title-color-dark: #ccc;
 
+
 @use 'bulma/sass' with (
 	$family-primary: '"Roboto Variable", sans-serif'
 );
@@ -36,6 +37,9 @@ $title-color-dark: #ccc;
 	}
 }
 @media (prefers-color-scheme: dark) {
+	html {
+		background: #121212;
+	}
 	.hide-in-dark {
 		display: none !important;
 	}

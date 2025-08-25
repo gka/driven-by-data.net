@@ -2,7 +2,7 @@
 layout: post
 title: Tracking the Right-wing Vote in European State Parliaments
 link: https://www.zeit.de/politik/ausland/2024-06/rechtsextremismus-eu-parlament-rechtsruck-europawahl-rechtspopulismus
-publication: zon
+publication: zeit
 image: 2024/06-eu-right-shift.png
 images:
     - 2024/06-eu-right-shift-big.png
