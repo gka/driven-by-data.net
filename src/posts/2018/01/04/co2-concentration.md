@@ -6,7 +6,7 @@ image: co2-concentration.png
 images:
     - co2-concentration-big.png
 tags: climate/weather
-type: static,chart,linechart
+type: static,chart,linechart,datawrapper
 classes:
 ---
 

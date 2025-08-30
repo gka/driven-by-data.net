@@ -8,7 +8,7 @@ gallery:
 height: 500
 type: streamgraph,chart
 image: streamgraph.png
-tags: software,library
+tags: software,library,code
 screenshot: streamgraph-big.png
 link: https://vis4.net/labs/as3streamgraph/
 ---

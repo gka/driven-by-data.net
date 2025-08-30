@@ -2,7 +2,7 @@
 title: Wildfires in Athens
 layout: post
 tags: breaking news,climate/weather
-type: map,static,maps,locatormap
+type: map,static,maps,locatormap,datawrapper
 publication: zeit
 link: https://www.zeit.de/wissen/2024-08/waldbraende-griechenland-feuerwehr-athen-attika-meltemi
 image: 2024/08-athens-fire-light.png

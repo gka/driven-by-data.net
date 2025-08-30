@@ -3,7 +3,7 @@ layout: post
 link: https://www.zeit.de/politik/deutschland/umfragen-bundestagswahl-neuwahl-wahltrend
 title: German Election poll tracker
 tags: elections,germany,data
-type: chart,table,analysis
+type: chart,table,svelteplot
 publication: zeit
 image: 2024/11-poll-tracker-light.png
 coauthors:

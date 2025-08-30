@@ -6,6 +6,6 @@ link: https://github.com/gka/randomgraph.js
 coauthors:
 image: randomgraphjs.png
 screenshot: randomgraph-big.png
-tags: software
+tags: software,code
 type: network
 ---

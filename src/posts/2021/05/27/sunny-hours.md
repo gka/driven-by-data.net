@@ -5,6 +5,6 @@ layout: link
 image: sunny-hours.png
 publication: Datawrapper
 tags: climate/weather
-type: static,table
+type: static,table,datawrapper
 publication: Datawrapper
 ---

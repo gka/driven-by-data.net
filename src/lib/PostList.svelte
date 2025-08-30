@@ -26,7 +26,6 @@
 
 	const filteredPosts = $derived(
 		posts
-			.filter((post) => post.meta.image) // only show posts with preview image
 			.filter((post) =>
 				typeof activeTag === 'string' ? post.meta.tags?.includes(activeTag) : true
 			)

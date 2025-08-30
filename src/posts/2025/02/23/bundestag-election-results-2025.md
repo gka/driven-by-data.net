@@ -3,7 +3,7 @@ layout: post
 link: https://www.zeit.de/politik/deutschland/2025-02/bundestagswahl-2025-wahlergebnisse-wahlkreise-live
 title: Live German Federal Election results
 tags: elections,germany
-type: live-data,map,chart,bars,cartogram,table
+type: live-data,map,chart,bars,cartogram,table,svelteplot
 publication: zeit
 image: 2025/02-election-results-light.png
 images:

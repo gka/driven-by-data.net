@@ -3,14 +3,16 @@ layout: post
 title: Datawrapper
 link: https://www.datawrapper.de
 image: datawrapper.png
-tags: software,js,
-type: linechart,barchart,piechart
+tags: software,js,code
+type: linechart,barchart,piechart,datawrapper
 screenshot: datawrapper-big.png
 images:
     - datawrapper-big.png
     - datawrapper-data.png
     - datawrapper-visualize.png
-coauthors: Mirko Lorenz and Nicolas Kayser-Bril
+coauthors: 
+  - Mirko Lorenz
+  - Nicolas Kayser-Bril
 ---
 
 Datawrapper is a tool that lets users create charts and maps they can embed into other websites.

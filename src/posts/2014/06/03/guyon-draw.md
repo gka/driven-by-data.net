@@ -6,5 +6,5 @@ image: guyon-draw.png
 coauthors: Kevin Quealy
 publication: NYT
 tags: sports,soccer
-type: interactive,simulation,areachart,chart
+type: interactive,simulation,areachart,chart,d3
 ---

@@ -5,5 +5,5 @@ publication: Datawrapper
 link: https://blog.datawrapper.de/global-carbon-emissions-what-to-do/
 image: kaya2.png
 tags: climate/weather
-type: static,chart,linechart,scatter
+type: static,chart,linechart,scatter,datawrapper
 ---

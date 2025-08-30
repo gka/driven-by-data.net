@@ -4,7 +4,7 @@ layout: post
 link: https://www.zeit.de/politik/ausland/2024-11/wahl-usa-ergebnisse-counties-wechselwaehler-swing-states-daten
 image: 2024/11-us-shift-map-thumb-light.png
 tags: elections,us
-type: interactive,static,map
+type: interactive,static,map,datawrapper
 publication: zeit
 coauthors:
     - name: T. Flemish

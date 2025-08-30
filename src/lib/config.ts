@@ -16,10 +16,11 @@ export const tags = [
 	'breaking news',
 	'business',
 	'crime/justice',
-	'sketches'
+	'sketches',
+	'code'
 ];
 
-export const publications = ['NYT', 'zeit', 'WDR', 'taz', 'others'];
+export const publications = ['NYT', 'zeit', 'others'];
 export const nicePubNames = {
 	NYT: 'The New York Times',
 	zeit: 'DIE ZEIT',
@@ -34,6 +35,7 @@ export const pubToPublication = { nyt: 'NYT', wdr: 'WDR' };
 export const longNames: { [key: string]: string } = {
 	'C. Endt': 'Christian Endt',
 	'J. Tröger': 'Julius Tröger',
+	'P. Blickle': 'Paul Blickle',
 	'J. Stahnke': 'Julian Stahnke'
 };
 

@@ -23,24 +23,36 @@ export async function load({ fetch, params: { year, month, day, slug } }) {
 
 	return {
 		content: post.default,
-		meta: { ...post.metadata, slug },
+		meta: {
+			...post.metadata,
+			images: (post.metadata.images ?? []).map(toImage),
+			slug
+		},
 		prevPost: prevPost
 			? {
-					permalink: prevPost.permalink,
-					title: prevPost.meta.title,
-					layout: prevPost.meta.layout
-				}
+				permalink: prevPost.permalink,
+				title: prevPost.meta.title,
+				layout: prevPost.meta.layout
+			}
 			: null,
 		nextPost: nextPost
 			? {
-					permalink: nextPost.permalink,
-					title: nextPost.meta.title,
-					layout: nextPost.meta.layout
-				}
+				permalink: nextPost.permalink,
+				title: nextPost.meta.title,
+				layout: nextPost.meta.layout
+			}
 			: null
 	};
 }
 
 function removeTrailingSlash(url: string) {
 	return url.endsWith('/') ? url.substring(0, url.length - 1) : url;
+}
+
+function toImage(image: string | { src: string; alt: string; title?: string }) {
+	if (typeof image === 'string') {
+		return { src: image, alt: '' };
+	} else {
+		return image;
+	}
 }

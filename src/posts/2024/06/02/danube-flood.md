@@ -3,7 +3,7 @@ layout: post
 title: Flood of the Danube river
 link: https://www.zeit.de/wissen/2024-06/hochwasser-gebiete-deutschland-unwetter-regen-karten
 tags: breaking news,climate
-type: map,static,maps,symbolmap
+type: map,static,maps,symbolmap,datawrapper
 publication: zeit
 image: 2024/06-hochwasser-small.png
 images:

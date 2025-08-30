@@ -6,6 +6,6 @@ image: methane.png
 images:
     - methane-big.png
 tags: climate/weather
-type: chart,static,linechart
+type: chart,static,linechart,datawrapper
 classes:
 ---

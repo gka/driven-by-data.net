@@ -23,6 +23,8 @@
 		publication,
 		type: types
 	} = $derived(data.meta);
+
+	$inspect({ images });
 </script>
 
 <svelte:head>
@@ -32,7 +34,7 @@
 	<meta name="twitter:site" content="@driven_by_daya" />
 	<meta name="twitter:title" content="{title} - driven-by-data.net" />
 	<meta name="twitter:description" content={summary} />
-	<meta name="twitter:image" content="https://driven-by-data.net/images/{images?.[0]}" />
+	<meta name="twitter:image" content="https://driven-by-data.net/images/{images?.[0].src}" />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -111,20 +113,26 @@
 				</nav>
 			</div>
 			<div class="column images">
-				{#each images as src}
+				{#each images as { src, maxWidth = 'auto', alt = title }}
 					{#if isVideo(src)}
 						<VideoPlayer src="/images/{src}" />
 					{:else if src.includes('-mobile') && !isMobile}
 						<Phone url={link}>
-							<img width="100%" src="/images/{src}" alt={title} />
+							<img width="100%" src="/images/{src}" {alt} />
 						</Phone>
 					{:else}
 						<div class="block">
 							{#if src?.endsWith('-light.png')}
-								<img src="/images/{src}" class="hide-in-dark" alt={title} />
+								<img
+									src="/images/{src}"
+									style:max-width={maxWidth}
+									class="hide-in-dark"
+									{alt}
+								/>
 								<img
 									src="/images/{src.replace('-light.png', '-dark.png')}"
 									class="hide-in-light"
+									style:max-width={maxWidth}
 									alt={title}
 								/>
 							{:else}

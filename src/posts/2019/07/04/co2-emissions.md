@@ -6,7 +6,7 @@ image: co2-emissions.png
 images:
     - co2-emissions-big.png
 tags: climate/weather
-type: static,chart,areachart,linechart
+type: static,chart,areachart,linechart,datawrapper
 publication: Datawrapper
 classes:
 ---

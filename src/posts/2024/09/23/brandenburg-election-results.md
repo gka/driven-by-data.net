@@ -7,7 +7,7 @@ coauthors:
     - name: Laura Höring
       url: https://www.zeit.de/autoren/H/Laura-Marie_Hoering/index
 tags: elections
-type: chart,map,interactive,choropleth,scatter,scrolly,barchart,table,arrowplot
+type: chart,map,interactive,choropleth,scatter,scrolly,barchart,table,arrowplot,datawrapper,svelteplot
 image: 2024/09-speckguertel-light.png
 images:
     - 2024/09-speckguertel-map-light.png

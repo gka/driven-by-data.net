@@ -5,7 +5,7 @@ subtitle: (in-house charting tool for The New York Times)
 link: https://vis4.net/blog/posts/seven-features-youll-wantin-your-next-charting-tool/
 image: chartmaker.png
 type: chart,linechart,scatter,barchart,columnchart,map,choropleth
-tags: software
+tags: software,code
 images:
     - chartmaker-big.png
     - chartmaker-big-2.gif

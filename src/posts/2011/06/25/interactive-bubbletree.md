@@ -13,7 +13,7 @@ type: chart,bubble,js,interactive,treemap
 image: bubbletree.png
 screenshot: bubbletree-big.png
 coauthors: David McCandless
-tags: software,library
+tags: software,library,code
 ---
 
 Based on the [original designs](https://www.flickr.com/photos/okfn/4624235540/in/set-72157623975681301/) by [David McCandless](https://www.informationisbeautiful.net/) I re-created the bubble visualization for the Open Knowledge Foundations project [Where Does My Money Go](https://wheredoesmymoneygo.org/bubbletree-map.html). The visualization is built on top of [RaphaelJS](https://raphaeljs.com/).

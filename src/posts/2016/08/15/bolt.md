@@ -10,7 +10,6 @@ images:
 tags: sports
 type: scrolly,static,photography
 publication: NYT
-classes:
 coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, Archie Tse, J. Ward, J. White, S. Peçanha, B. Saget & J. Huang
 ---
 

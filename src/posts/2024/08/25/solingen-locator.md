@@ -3,7 +3,7 @@ layout: post
 title: Knife Attack in Solingen
 tags: breaking news
 link: https://www.zeit.de/gesellschaft/zeitgeschehen/2024-08/solingen-messerangriff-anschlag-was-ist-bekannt
-type: map,static,locatormap
+type: map,static,locatormap,ai2html
 publication: zeit
 image: 2024/08-solingen-locator-small.jpg
 images:

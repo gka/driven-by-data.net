@@ -4,6 +4,6 @@ link: https://blog.datawrapper.de/climate-crisis-global-warming/
 layout: link
 image: degrees-of-warming.png
 tags: climate/weather
-type: static,chart,linechart
+type: static,chart,linechart,datawrapper
 publication: Datawrapper
 ---

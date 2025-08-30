@@ -25,6 +25,7 @@ export default async function ({ tag, limit, dev }: { tag: string; limit: number
 				},
 				meta: {
 					...metadata,
+					images: (metadata.images ?? []).map(toImage),
 					tags: metadata.tags
 						?.split(',')
 						.map((s) => s.trim())
@@ -35,11 +36,20 @@ export default async function ({ tag, limit, dev }: { tag: string; limit: number
 						.filter((d) => d)
 				}
 			} satisfies Post;
-			if (post.meta.published != false && (!tag || post.meta.tags?.includes(tag))) {
+			if (post.meta.published != false && (!tag || post.meta.tags?.includes(tag)) && post.meta.image) {
 				posts.push(post);
 			}
 		}
 	}
 
 	return limit ? posts.slice(0, limit) : posts;
+}
+
+function toImage(image: string | { src: string; alt: string; title?: string }) {
+
+	if (typeof image === 'string') {
+		return { src: image, alt: '' };
+	} else {
+		return image;
+	}
 }

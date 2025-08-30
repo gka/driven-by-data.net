@@ -4,6 +4,6 @@ layout: link
 image: thermopluvio.png
 link: https://blog.datawrapper.de/weekly-chart-thermopluvio/
 tags: climate/weather
-type: static,chart,scatter
+type: static,chart,scatter,datawrapper
 publication: Datawrapper
 ---
