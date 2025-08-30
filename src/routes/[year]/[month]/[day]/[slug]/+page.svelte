@@ -122,7 +122,7 @@
 						</Phone>
 					{:else}
 						<div class="block">
-							{#if src?.endsWith('-light.png')}
+							{#if src?.endsWith('-light.png') || src?.endsWith('-light.jpg')}
 								<img
 									src="/images/{src}"
 									style:max-width={maxWidth}
@@ -130,7 +130,7 @@
 									{alt}
 								/>
 								<img
-									src="/images/{src.replace('-light.png', '-dark.png')}"
+									src="/images/{src.replace('-light.', '-dark.')}"
 									class="hide-in-light"
 									style:max-width={maxWidth}
 									alt={title}
