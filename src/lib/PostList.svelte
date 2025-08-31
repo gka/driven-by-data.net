@@ -171,9 +171,6 @@
 {/each}
 
 <style lang="scss">
-	h1.title {
-		font-weight: 250;
-	}
 	h2.title[id='2025'] {
 		display: none;
 	}
@@ -193,9 +190,10 @@
 	}
 
 	h1.title {
-		font-weight: 300;
+		font-weight: 120;
+		font-stretch: 95%;
 		letter-spacing: -1px;
-		font-size: 2.4rem;
+		font-size: 3.2rem;
 	}
 	.subtitle {
 		max-width: 40em;

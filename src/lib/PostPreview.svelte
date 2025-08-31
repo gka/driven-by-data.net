@@ -26,14 +26,14 @@
 	<a href={url}
 		><figure class="image is-square">
 			{#if meta.image}
-				{#if meta.image?.endsWith('-light.png')}
+				{#if meta.image?.endsWith('-light.png') || meta.image?.endsWith('-light.jpg')}
 					<img
 						use:lazyLoad={`/images/${meta.image}`}
 						class="hide-in-dark"
 						alt={meta.title}
 					/>
 					<img
-						use:lazyLoad={`/images/${meta.image.replace('-light.png', '-dark.png')}`}
+						use:lazyLoad={`/images/${meta.image.replace('-light.', '-dark.')}`}
 						class="hide-in-light"
 						alt={meta.title}
 					/>
@@ -47,7 +47,7 @@
 	</a>
 	<div class="description mt-2">
 		<a href={url}
-			><span class="is-size-6 has-text-weight-bold"
+			><span class="is-size-6 has-text-weight-semibold"
 				>{@html (meta.title || '').replaceAll('<br />', '')}</span
 			></a
 		>

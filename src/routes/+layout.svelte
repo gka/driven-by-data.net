@@ -1,7 +1,7 @@
 <script>
 	import '../bulma.scss';
 	// Supports weights 100-900
-	import '@fontsource-variable/roboto';
+	// import '@fontsource-variable/roboto-flex/full.css';
 
 	let { children } = $props();
 </script>

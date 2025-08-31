@@ -2,7 +2,7 @@
 layout: post
 link: https://www.zeit.de/politik/deutschland/2024-12/magdeburg-weihnachtsmarkt-anschlag-karte-grafiken
 title: How the Magdeburg attacker used gaps in the security
-tags: politics,germany,security
+tags: politics,germany,security,breaking news
 type: map,static,analysis
 publication: zeit
 image: 2024/12-magdeburg.png

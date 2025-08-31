@@ -38,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/roboto": "^5.2.6",
+		"@fontsource-variable/roboto-flex": "^5.2.6",
 		"@fontsource/roboto": "^5.2.6",
 		"@iconify-icons/ion": "^1.2.10",
 		"@iconify-icons/mdi": "^1.2.48",
