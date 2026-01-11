@@ -8,7 +8,7 @@ images:
     - bolt-1.jpg
     - bolt-2.jpg
 tags: sports
-type: scrolly,static,photography
+type: scroller,static,photography
 publication: NYT
 coauthors: <a href="https://kkrebeccalai.com/">K.K. Lai</a>, Archie Tse, J. Ward, J. White, S. Peçanha, B. Saget & J. Huang
 ---

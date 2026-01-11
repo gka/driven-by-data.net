@@ -13,11 +13,20 @@
 <footer class="container has-text-grey is-size-7 mt-6 mb-4">
 	Graphics portfolio of Gregor Aisch. Looking for my <a
 		class="has-text-grey"
-		href="https://vis4.net/">rarely updated blog</a
+		href="https://vis4.net/blog/">blog</a
 	>?
 </footer>
 
 <style lang="scss">
+	@use 'bulma/sass/utilities/mixins';
+
+	@include mixins.mobile {
+		footer {
+			text-align: center;
+			padding: 0 1ex;
+		}
+	}
+
 	a {
 		font-weight: bold;
 	}

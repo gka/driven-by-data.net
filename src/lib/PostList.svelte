@@ -171,7 +171,7 @@
 {/each}
 
 <style lang="scss">
-	h2.title[id='2025'] {
+	h2.title[id='2026'] {
 		display: none;
 	}
 	.tagnav button,

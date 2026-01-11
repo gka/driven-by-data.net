@@ -7,7 +7,7 @@ export type Post = {
 		shortTitle?: string;
 		description: string;
 		image: string;
-		images?: string[];
+		images?: PostImage[];
 		layout: 'post' | 'link';
 		coauthors: string;
 		published?: boolean;
@@ -15,4 +15,13 @@ export type Post = {
 		tags?: string[];
 		type?: string[];
 	};
+};
+
+export type PostImage = {
+	src: string;
+	alt?: string;
+	title?: string;
+	caption?: string;
+	maxWidth?: string;
+	group?: string | number;
 };

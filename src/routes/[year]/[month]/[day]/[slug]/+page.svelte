@@ -2,15 +2,21 @@
 	import CoAuthors from '$lib/CoAuthors.svelte';
 	import { nicePubNames } from '$lib/config';
 	import Icon from '$lib/Icon.svelte';
-	import Phone from '$lib/Phone.svelte';
-	import VideoPlayer from '$lib/VideoPlayer.svelte';
+	import ImageSlider from '$lib/ImageSlider.svelte';
+	import PostImage from '$lib/PostImage.svelte';
+	import { goto } from '$app/navigation';
 	let { data } = $props();
 
 	let innerWidth = $state(500);
 	const isMobile = $derived(innerWidth < 500);
 
-	function isVideo(src) {
-		return src.endsWith('.mov') || src.endsWith('.mp4');
+	function formatDate({ year, month, day }) {
+		const date = new Date(Date.UTC(year, month - 1, day));
+		return date.toLocaleDateString('en-US', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		});
 	}
 
 	const {
@@ -24,7 +30,44 @@
 		type: types
 	} = $derived(data.meta);
 
-	$inspect({ images });
+	const groupedImages = $derived.by(() => {
+		const groups = new Map();
+		for (const image of images ?? []) {
+			const groupId = image.group ?? image.src;
+			if (!groups.has(groupId)) {
+				groups.set(groupId, { id: groupId, images: [] });
+			}
+			groups.get(groupId).images.push(image);
+		}
+		return Array.from(groups.values());
+	});
+
+	function handleKeydown(event) {
+		if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey) {
+			return;
+		}
+
+		const target = event.target;
+		if (
+			target instanceof HTMLElement &&
+			(target.isContentEditable ||
+				target.tagName === 'INPUT' ||
+				target.tagName === 'TEXTAREA' ||
+				target.tagName === 'SELECT')
+		) {
+			return;
+		}
+
+		if (event.key === 'ArrowLeft' && data.prevPost?.layout === 'post') {
+			event.preventDefault();
+			goto(`/${data.prevPost.permalink}`);
+		}
+
+		if (event.key === 'ArrowRight' && data.nextPost?.layout === 'post') {
+			event.preventDefault();
+			goto(`/${data.nextPost.permalink}`);
+		}
+	}
 </script>
 
 <svelte:head>
@@ -37,7 +80,7 @@
 	<meta name="twitter:image" content="https://driven-by-data.net/images/{images?.[0].src}" />
 </svelte:head>
 
-<svelte:window bind:innerWidth />
+<svelte:window bind:innerWidth on:keydown={handleKeydown} />
 
 <section class="section pb-2">
 	<div class="container">
@@ -71,7 +114,13 @@
 				{/if}
 
 				{#if publication}
-					<div class="block">Appeared on {nicePubNames[publication] ?? publication}</div>
+					<div class="block">
+						Appeared on {nicePubNames[publication] ?? publication}
+						{#if data.date}
+							on {formatDate(data.date)}.{/if}
+					</div>
+				{:else if data.date}
+					<div class="block">Published {formatDate(data.date)}.</div>
 				{/if}
 
 				{#if link}
@@ -113,33 +162,15 @@
 				</nav>
 			</div>
 			<div class="column images">
-				{#each images as { src, maxWidth = 'auto', alt = title }}
-					{#if isVideo(src)}
-						<VideoPlayer src="/images/{src}" />
-					{:else if src.includes('-mobile') && !isMobile}
-						<Phone url={link}>
-							<img width="100%" src="/images/{src}" {alt} />
-						</Phone>
-					{:else}
-						<div class="block">
-							{#if src?.endsWith('-light.png') || src?.endsWith('-light.jpg')}
-								<img
-									src="/images/{src}"
-									style:max-width={maxWidth}
-									class="hide-in-dark"
-									{alt}
-								/>
-								<img
-									src="/images/{src.replace('-light.', '-dark.')}"
-									class="hide-in-light"
-									style:max-width={maxWidth}
-									alt={title}
-								/>
-							{:else}
-								<img src="/images/{src}" alt={title} />
-							{/if}
-						</div>
-					{/if}
+				{#each groupedImages as group}
+					<div class="block">
+						{group.length}
+						{#if group.images.length > 1}
+							<ImageSlider images={group.images} {title} {link} {isMobile} />
+						{:else}
+							<PostImage image={group.images[0]} {title} {link} {isMobile} />
+						{/if}
+					</div>
 				{/each}
 			</div>
 		</div>

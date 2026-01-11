@@ -7,7 +7,7 @@ images:
     - dapl-1.jpg
     - dapl-mobile.png
 tags: us,environment,climate/weather
-type: static,map,scrolly
+type: static,map,scroller
 publication: NYT
 classes:
 coauthors: K.K. Rebecca Lai

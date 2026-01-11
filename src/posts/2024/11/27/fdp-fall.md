@@ -2,7 +2,7 @@
 layout: post
 link: https://www.zeit.de/politik/deutschland/2024-11/unbeliebtheit-fdp-ampelregierung-umfragen-daten
 title: "No party falls like the FDP"
-tags: politics,germany,data,svelteplot
+tags: politics,germany,data,svelteplot,scroller
 type: chart,analysis
 publication: zeit
 image: 2024/11-fdp-fall-light.png

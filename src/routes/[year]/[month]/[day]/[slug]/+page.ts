@@ -1,4 +1,4 @@
-import type { Post } from '$lib/types';
+import type { Post, PostImage } from '$lib/types';
 import { error } from '@sveltejs/kit';
 
 export async function load({ fetch, params: { year, month, day, slug } }) {
@@ -28,6 +28,11 @@ export async function load({ fetch, params: { year, month, day, slug } }) {
 			images: (post.metadata.images ?? []).map(toImage),
 			slug
 		},
+		date: {
+			year: Number(year),
+			month: Number(month),
+			day: Number(day)
+		},
 		prevPost: prevPost
 			? {
 				permalink: prevPost.permalink,
@@ -49,10 +54,16 @@ function removeTrailingSlash(url: string) {
 	return url.endsWith('/') ? url.substring(0, url.length - 1) : url;
 }
 
-function toImage(image: string | { src: string; alt: string; title?: string }) {
-	if (typeof image === 'string') {
-		return { src: image, alt: '' };
-	} else {
-		return image;
-	}
+function toImage(image: string | PostImage): PostImage {
+	const normalized = typeof image === 'string' ? { src: image } : image;
+
+	return {
+		alt: '',
+		...normalized,
+		group: normalized.group ?? randomGroupId()
+	};
+}
+
+function randomGroupId() {
+	return `group-${Math.random().toString(36).slice(2, 9)}`;
 }

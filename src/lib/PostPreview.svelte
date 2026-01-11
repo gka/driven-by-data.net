@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { lazyLoad } from './lazyLoad';
 	import CoAuthors from './CoAuthors.svelte';
+	import { getEnhancedImage } from './enhancedImages';
 
 	type Meta = {
 		title: string;
@@ -27,18 +27,27 @@
 		><figure class="image is-square">
 			{#if meta.image}
 				{#if meta.image?.endsWith('-light.png') || meta.image?.endsWith('-light.jpg')}
-					<img
-						use:lazyLoad={`/images/${meta.image}`}
+					<enhanced:img
+						src={getEnhancedImage(meta.image)}
 						class="hide-in-dark"
 						alt={meta.title}
+						loading="lazy"
+						decoding="async"
 					/>
-					<img
-						use:lazyLoad={`/images/${meta.image.replace('-light.', '-dark.')}`}
+					<enhanced:img
+						src={getEnhancedImage(meta.image.replace('-light.', '-dark.'))}
 						class="hide-in-light"
 						alt={meta.title}
+						loading="lazy"
+						decoding="async"
 					/>
 				{:else}
-					<img use:lazyLoad={`/images/${meta.image}`} alt={meta.title} />
+					<enhanced:img
+						src={getEnhancedImage(meta.image)}
+						alt={meta.title}
+						loading="lazy"
+						decoding="async"
+					/>
 				{/if}
 			{:else}
 				<img src="https://placehold.co/400x400" alt={meta.title} />

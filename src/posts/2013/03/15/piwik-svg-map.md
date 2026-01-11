@@ -1,9 +1,10 @@
 ---
 layout: post
+published: false
 title: Piwik Analytics Map Plugin
 link: https://matomo.org/faq/reports/visitors-maps-world-region-city/
-image: piwik-map.png
-tags: software, map, library,code
+image: 2013/03-pwk-map-plugin.jpg
+tags: software, map, library, code
 images:
   - 2013/03-piwik-world-locations-map.webp
   - 2013/03-piwik-cities.webp

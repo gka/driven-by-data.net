@@ -1,4 +1,4 @@
-import type { Post } from './types';
+import type { Post, PostImage } from './types';
 
 export default async function ({ tag, limit, dev }: { tag: string; limit: number; dev: boolean }) {
 	let posts: Post[] = [];
@@ -45,11 +45,13 @@ export default async function ({ tag, limit, dev }: { tag: string; limit: number
 	return limit ? posts.slice(0, limit) : posts;
 }
 
-function toImage(image: string | { src: string; alt: string; title?: string }) {
-
+function toImage(image: string | PostImage): PostImage {
 	if (typeof image === 'string') {
 		return { src: image, alt: '' };
-	} else {
-		return image;
 	}
+
+	return {
+		alt: '',
+		...image
+	};
 }

@@ -3,7 +3,7 @@ layout: post
 link: https://www.zeit.de/wissen/2025-07/hitze-europa-hoechsttemperaturen-vergleich-daten
 title: Tracking extreme heat across Europe
 tags: climate,weather,environment
-type: map,animated,chart,datawrapper
+type: map,animated,chart,datawrapper,svelteplot,scroller
 publication: zeit
 image: 2025/07-europe-heat.png
 images:

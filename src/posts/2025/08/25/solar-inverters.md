@@ -3,7 +3,7 @@ layout: post
 link: https://www.zeit.de/digital/2025-08/sicherheit-solaranlagen-wechselrichter-angriff-hacker
 title: How vulnerabilities in solar inverters could lead to national blackouts
 tags: environment
-type: 3d,threlte
+type: 3d,threlte,scroller
 publication: zeit
 image: 2025/08-inverters-light.jpg
 images:

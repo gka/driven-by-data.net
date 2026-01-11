@@ -1,9 +1,13 @@
 $title-color-dark: #ccc;
+$title-weight: 500;
 
 
 @use 'bulma/sass' with (
-	$family-primary: '"Roboto Flex Variable", sans-serif'
+	$family-primary: '"Roboto Flex Variable", sans-serif',
+	$title-weight: 550
 );
+
+
 
 @font-face {
 	font-family: 'Roboto Flex Variable';
