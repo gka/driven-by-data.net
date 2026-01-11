@@ -7,9 +7,12 @@ type: 3d,threlte,scroller
 publication: zeit
 image: 2025/08-inverters-light.jpg
 images:
-  - 2025/08-inverters-1-light.jpg
-  - 2025/08-inverters-2-light.jpg
-  - 2025/08-inverters-3-light.jpg
+  - src: 2025/08-inverters-1-light.jpg
+    group: scroller
+  - src: 2025/08-inverters-2-light.jpg
+    group: scroller
+  - src: 2025/08-inverters-3-light.jpg
+    group: scroller
   - src: 2025/08-inverters-4-light.jpg
     maxWidth: 550px
   - src: 2025/08-inverters-5-light.jpg

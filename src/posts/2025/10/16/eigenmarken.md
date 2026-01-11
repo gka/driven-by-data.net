@@ -6,6 +6,22 @@ tags: economy,consumers
 type: tool,analysis,figma,scroller
 publication: zeit
 image: 2025/10-eigenmarken-light.png
+images: 
+  - src: 2025/10-eigenmarken-scroller-0-light.png
+    group: scroller
+    maxWidth: 660px
+  - src: 2025/10-eigenmarken-scroller-1-light.png
+    group: scroller
+    maxWidth: 660px
+  - src: 2025/10-eigenmarken-scroller-2-light.png
+    group: scroller
+    maxWidth: 660px
+  - src: 2025/10-eigenmarken-scroller-3-light.png
+    group: scroller
+    maxWidth: 660px
+  - src: 2025/10-eigenmarken-scroller-4-light.png
+    group: scroller
+    maxWidth: 660px
 coauthors:
   - name: Johannes Gernert
   - name: Mia Janzen

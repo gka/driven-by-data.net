@@ -20,7 +20,7 @@
 		<Phone url={link}>
 			<enhanced:img
 				src={getEnhancedImage(src)}
-				style="width: 100%;"
+				style="width: 100%; padding: {image?.padding || '0'}"
 				{alt}
 				loading="lazy"
 				decoding="async"
