@@ -24,7 +24,7 @@ const enhancedModulesSmall = import.meta.glob(
 		query: {
 			enhanced: true,
 			url: true,
-			width: '500px'
+			w: 500
 		}
 	}
 ) as Record<string, Picture>;
