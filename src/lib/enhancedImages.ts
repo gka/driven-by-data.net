@@ -16,7 +16,27 @@ const enhancedImages = new Map(
 	])
 );
 
-export function getEnhancedImage(path?: string | null): string | Picture | undefined {
+const enhancedModulesSmall = import.meta.glob(
+	'/static/images/**/*.{png,jpg,jpeg,webp,gif}',
+	{
+		eager: true,
+		import: 'default',
+		query: {
+			enhanced: true,
+			url: true,
+			width: '500px'
+		}
+	}
+) as Record<string, Picture>;
+
+const enhancedImagesSmall = new Map(
+	Object.entries(enhancedModulesSmall).map(([path, picture]) => [
+		path.replace('/static/images/', ''),
+		picture
+	])
+);
+
+export function getEnhancedImage(path?: string | null, small: boolean = false): string | Picture | undefined {
 	if (!path) return path ?? undefined;
 	if (path.startsWith('http://') || path.startsWith('https://')) {
 		return path;
@@ -29,5 +49,5 @@ export function getEnhancedImage(path?: string | null): string | Picture | undef
 		normalized = normalized.slice('images/'.length);
 	}
 
-	return enhancedImages.get(normalized) ?? `/images/${normalized}`;
+	return (small ? enhancedImagesSmall : enhancedImages).get(normalized) ?? `/images/${normalized}`;
 }

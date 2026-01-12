@@ -28,14 +28,14 @@
 			{#if meta.image}
 				{#if meta.image?.endsWith('-light.png') || meta.image?.endsWith('-light.jpg')}
 					<enhanced:img
-						src={getEnhancedImage(meta.image)}
+						src={getEnhancedImage(meta.image, true)}
 						class="hide-in-dark"
 						alt={meta.title}
 						loading="lazy"
 						decoding="async"
 					/>
 					<enhanced:img
-						src={getEnhancedImage(meta.image.replace('-light.', '-dark.'))}
+						src={getEnhancedImage(meta.image.replace('-light.', '-dark.'), true)}
 						class="hide-in-light"
 						alt={meta.title}
 						loading="lazy"
@@ -43,7 +43,7 @@
 					/>
 				{:else}
 					<enhanced:img
-						src={getEnhancedImage(meta.image)}
+						src={getEnhancedImage(meta.image, true)}
 						alt={meta.title}
 						loading="lazy"
 						decoding="async"
